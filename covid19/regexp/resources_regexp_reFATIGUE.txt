@@ -1,0 +1,13 @@
+fatigue\w{0,2}
+tired
+tiredness
+fatigued
+energy loss
+(lack|loss) of energy
+no energy
+weariness
+exhausted
+malaise
+weakness
+impaired strength
+worn out

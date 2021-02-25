@@ -1,0 +1,15 @@
+blocked nose
+congested nose
+nose block
+nasal congestion
+stuffy nose
+runny nose
+running nose
+nasal blockage
+blockage of nose
+obstruction of nose
+nasal obstruction
+congestion of nose
+rhinorrhea
+nasal discharge
+stuff\w{0,5}(\s+\S+){0,2}\s*nose

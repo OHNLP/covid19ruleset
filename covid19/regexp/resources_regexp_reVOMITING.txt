@@ -1,0 +1,4 @@
+emesis
+throwing up
+throw up
+vomit\w{0,5}
