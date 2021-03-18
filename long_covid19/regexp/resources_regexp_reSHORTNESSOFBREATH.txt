@@ -1,0 +1,82 @@
+Shortness of breath:-:Point in time:^Patient:-
+Shortness of breath
+Shortness of breath:-:Pt:^Patient:-
+Have Shortness of Breath
+Have Been Short of Breath
+Were you short of breath
+Have Shortness of Breath question
+I have been short of breath
+Shortness of Breath Visual Analogue Scale
+Visual Analogue Shortness of Breath Scale
+How Much Distress Shortness of Breath
+Breathlessness
+shortness of breath; breath
+[D]Shortness of breath
+Breath shortness
+Dyspnoea NOS
+[D]Shortness of breath (situation)
+Difficulty breathing (finding)
+Dyspnea, NOS
+Breath Shortnesses
+Breathlessness NOS (finding)
+Difficulty breathing
+Breathlessness NOS
+breath; shortness of breath
+shortness of breath (SOB)
+Dyspnea - symptom
+difficult breathing
+[D]Breathlessness (situation)
+[D]Shortness of breath (context-dependent category)
+Shortness of breath dyspnea
+[D]Dyspnea (context-dependent category)
+Dyspneas
+difficulty breathing (symptom)
+SOB (SHORTNESS OF BREATH)
+Breathing difficult
+Trouble breathing
+Dyspnea (finding)
+Shortness of breath symptom
+Dyspnoea (finding)
+SOB - Shortness of breath
+shortness of breath (symptom)
+Breathing Difficulties
+Dyspnoea - symptom
+DIB - Difficulty in breathing
+tightness of breath
+Respiratory difficulties
+Breathlessnesses
+DYSPNOEA
+Breathless
+Difficulty;breathing
+Dyspnoeas
+[D]Breathlessness (context-dependent category)
+Shortness of breath/dyspnoea
+respiratory difficulty
+Difficulty breathing [Ambiguous]
+Breathlessness symptom
+Dyspnea (finding) [Ambiguous]
+Dyspnea [Disease/Finding]
+Short of breath symptom
+Dyspnoea, NOS
+Respiration difficult
+s.o.b.
+[D]Dyspnea
+[D]Dyspnoea (situation)
+[D]Dyspnoea
+(Symptom: [SOB] or [breathlessness] or [dyspnea]) or (breathlessness)
+sob
+Short of breath
+Shortness (of);breath
+(Symptom: [SOB] or [breathlessness] or [dyspnoea]) or (breathlessness)
+DYSPNEA
+breathing difficulty
+[D]Breathlessness
+Dyspnea, unspecified
+Dyspnea NOS
+breathing shortness
+(Symptom: [SOB] or [breathlessness] or [dyspnoea]) or (breathlessness) (finding)
+[D]Dyspnea (situation)
+How Often Shortness of Breath
+Shortness of Breath Frequency
+Frequency of Shortness of Breath
+Usual Severity Shortness of Breath

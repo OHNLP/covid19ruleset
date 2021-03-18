@@ -1,0 +1,48 @@
+pain
+Pain (finding)
+Pain observations
+Ache
+pain (symptom)
+Unspecified pain
+Pain symptoms
+Pain finding
+Pain, unspecified
+Part hurts
+Dolor
+rndx unspecified pain
+Pain NOS
+Pain [Disease/Finding]
+pains
+rndx unspecified pain (diagnosis)
+Pain, NOS
+Pain finding (finding)
+painful
+TYPES OF PAIN
+Pain (b280-b289)
+A26-A29 TYPES OF PAIN
+sense of pain
+Pain, CTCAE
+the frequency of your pain
+How Often Pain
+Pain Frequency
+Frequency of Pain Question
+Frequency of Pain
+Pain:-:Point in time:^Patient:-
+Pain:-:Pt:^Patient:-
+How Much Distress Pain
+Feel Pain
+Severity of Pain
+Pain Distress
+Pain Distress Question
+Pain Severity
+Pain Intensity
+Administration Method - Pain
+I have pain
+Have Any Pain
+Have Pain
+Did you have any pain yesterday or today
+Have you had pain
+Had Pain
+Adverse Event Associated with Pain
+Usual Severity Pain
+Pain by Anatomic Descriptor, CTCAE

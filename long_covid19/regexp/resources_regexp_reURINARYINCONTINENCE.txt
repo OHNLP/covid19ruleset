@@ -1,0 +1,63 @@
+Urinary Incontinence, CTCAE_5
+Urinary Incontinence, CTCAE 5.0
+Urinary incontinence
+URINATION INVOLUNTARY
+Bladder: incontinent (finding)
+Bladder incontinence
+Urinary incontinence (finding)
+urinary loss of control
+weak; bladder
+Urine Incontinence
+Unable prevent bladder emptyng
+urine; incontinence
+urine incontinent
+Loss of bladder control
+Incontinence of urine
+bladder incontinent
+unable to restrain urination
+Incontinence of urine NOS
+Incontinence, Urinary
+Incontinence;urine
+Urinary incontinence NOS
+Bladder continence, absence
+[D]Incontinence of urine NOS (situation)
+Unable to control bladder
+Unspecified urinary incontinence
+Unable (to);hold urine
+loss of control of urination (symptom)
+[D]Incontinence of urine NOS (context-dependent category)
+incontinent of urine
+Urinary incontinence, unspecified
+Incontinence (Urinary)
+loss of control of urination
+MICTURITION INVOLUNTARY
+Unable to hold urine
+INCONTINENCE URINARY
+URINARY BLADDER INCONTINENCE
+[D]Incontinence of urine
+urine leak
+UI - Urinary incontinence
+Involuntary urination
+Absence of bladder continence
+weak bladder
+bladder; weak
+urinary incontinences
+[D]Incontinence of urine (situation)
+Unable to hold fluids
+leaking urine
+unable to restrain urination (symptom)
+incontinent bladder
+urinary incontinence (diagnosis)
+Unable to prevent bladder emptying
+Urinary Incontinence [Disease/Finding]
+Leaking of urine
+Urination;involuntary
+urine leaking
+[D]Incontinence of urine (context-dependent category)
+[D]Incontinence of urine NOS
+incontinence; urinary
+Enuresis
+bladder control loss
+Bladder: incontinent
+Lack of bladder control
+Incontinence urine

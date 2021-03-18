@@ -1,0 +1,52 @@
+Fatigue, CTCAE 5.0
+Fatigue
+Fatigue, CTCAE_5
+CV surgery result: fatigue
+cardiovascular surgery result: fatigue
+cardiovascular surgery result: fatigue (treatment)
+WEARINESS
+Lack of energy (finding)
+[D]Fatigue
+Tiredness (finding)
+lack of energy
+energy loss
+tired time
+Fatigue extreme
+Fatigue NOS
+Feeling of total lack of energy
+fatigued
+Tired
+Fatigue (finding)
+[D]Tiredness (context-dependent category)
+time tired
+rndx fatigue (diagnosis)
+TIREDNESS
+Fatigue [Disease/Finding]
+Decrease in energy
+Energy decreased
+[D]Tiredness (situation)
+fatiguing
+Decreased energy
+[D]Tiredness
+fatigue (diagnosis)
+loss of energy
+Lacking in energy
+Lacking in energy (finding)
+Tired out
+tired all the time
+[D]Fatigue (context-dependent category)
+rndx fatigue
+[D]Fatigue (situation)
+fatigues
+tatt
+Lack (of);energy
+extreme fatigue
+lacking energy
+Fatigue Item Bank
+Fatigue Subordinate Domain
+I feel fatigued
+Feel Fatigue
+Frequency of Fatigue
+Feel Fatigued
+Fatigue Intensity
+Fatigue Distress

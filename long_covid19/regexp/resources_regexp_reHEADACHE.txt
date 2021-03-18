@@ -1,0 +1,44 @@
+Headache, CTCAE
+Headache
+Pain in head
+cephalalgia
+[D]Headache (situation)
+[D]Pain in head NOS
+Pain head
+HEAD PAIN CEPHALGIA
+cephalodynia
+[D]Headache (context-dependent category)
+headache (symptom)
+Cephalalgias
+Headache (excl N02 N89 R09)
+Head pain
+cephalgia
+HEAD ACHE
+Pain, Head
+Pains, Head
+Head Pains
+ache head
+Pain, Cranial
+HA - Headache
+Cephalgias
+Pain;head
+HA
+[D]Headache
+Headache [Disease/Finding]
+Headache (excluding N02 N89 R09)
+Cranial Pain
+[D]Pain in head NOS (situation)
+Pains, Cranial
+headache, cephalalgia
+headaches
+Headache, NOS
+head; pain
+Cranial Pains
+Cephalodynias
+Have headaches
+pain; head
+[D]Pain in head NOS (context-dependent category)
+Pain in head NOS
+Headache NOS
+Headache (finding)
+head pained

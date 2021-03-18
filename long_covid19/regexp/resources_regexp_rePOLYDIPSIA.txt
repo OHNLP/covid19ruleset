@@ -1,0 +1,41 @@
+polydypsia
+Always thirsty
+excessive thirst
+Cannot stop drinking
+Hydrodipsomania
+Excessive fluid intake
+[D]Polydipsia NOS (situation)
+[D]Polydipsia (context-dependent category)
+Excessive fluid intake (finding)
+THIRST EXCESSIVE
+[D]Excessive thirst (context-dependent category)
+[D]Polydipsia NOS (context-dependent category)
+POLYDIPSIA
+excessive thirst (symptom)
+excessive thirst / fluid intake (polydypsia)
+thirst; excess
+Excessive;thirst
+Keen for fluids
+thirst; excessive
+Drinks continuously
+excessive fluid intake (history)
+[D]Excessive thirst (situation)
+excessive fluid consumption (symptom)
+Drinks a lot - fluids
+excessive fluid consumption
+Desperate to drink
+Excessive fluid intake - finding
+polydipsia (symptom)
+[D]Polydipsia (situation)
+excessive thirst and fluid intake
+Finding of excessive fluid intake
+[D]Polydipsia
+excessive; thirst
+Excessive thirst (finding)
+Polydipsia NOS
+Finding of excessive fluid intake (finding)
+[D]Polydipsia NOS
+Drinking more water
+[D]Excessive thirst
+Polydipsia [Disease/Finding]
+Polydipsias

@@ -1,0 +1,52 @@
+Bothered by Nausea
+Nausea
+nauseated
+C/O - nausea
+queasy
+Feeling queasy
+nausea (symptom)
+Finding of nausea
+[D]Nausea (context-dependent category)
+rndx nausea (diagnosis)
+Nausea symptoms
+Feeling sick
+Nauseous
+symptom nausea
+Nausea (finding)
+nauseas
+Nausea NOS (finding)
+Nausea (disorder)
+sick feeling
+[D]Nausea
+[D]Nausea (situation)
+nauseating
+Nausea [Disease/Finding]
+nausea symptom
+Nausea NOS
+Observation of nausea
+Feeling bilious
+symptoms nausea
+rndx nausea
+Finding of nausea (finding)
+feel sick
+I have nausea
+Had Nausea
+Have you felt nauseated
+Have Nausea
+How Often Nausea
+Nausea Frequency
+Frequency of Nausea
+Nausea:Presence or Threshold:Point in time:^Patient:Ordinal
+Nausea [Presence]
+Nausea:PrThr:Pt:^Patient:Ord
+How Much Distress Nausea
+Nausea, CTCAE 3.0
+Nausea, CTCAE_3
+Feel Nausea
+Nausea Visual Analogue Scale
+Visual Analogue Nausea Scale
+Usual Severity Nausea
+How much nausea did you have during this period
+How Much Nausea During This Period
+Nausea, CTCAE 5.0
+Nausea, CTCAE_5

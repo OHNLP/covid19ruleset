@@ -1,0 +1,106 @@
+Other
+Other - Notify Clergy Code
+Sanitation - other
+Other location of complaint
+Income - other
+Other - Status of Evaluation
+Neglect - other
+Other - Action Taken in Response to the Event
+Other - Diagnosis Classification
+Spirituality - other
+Consciousness - other
+Vision - other
+Other - Mode of Arrival
+Other - Employment Status
+Other - Patient Condition Code
+Other - Risk Management Incident Code
+Other - HRSA Program
+Neuro-musculo-skeletal function - other
+Interpersonal relationship - other
+Other physical activity, specify
+Physical activity - other
+Other Physical Activity
+Other - Relationship
+Other activities involving preparation of compounded parenteral medications
+Other - Newborn Code
+Abuse - other
+Hearing - other
+Other Blood Form Product
+Other - Contact Role
+Neighborhood/workplace safety - other
+Other Intervention Target
+Respiration - other
+Other - Organization unit type
+Other - What subject filter
+Other Establishment Activity
+Other - Immunization Registry Status
+Caretaking/parenting - other
+Other - Precaution Code
+Skin - other
+Postpartum - other
+Other (qualifier in LNC)
+Other - Mail Claim Party
+Communication with community resources - other
+Other - Production Class Code
+Communicable/infectious condition - other
+Digestion-hydration - other
+Sexuality - other
+Family planning - other
+Other - Religion
+Other - Incident Type Code
+Bowel function - other
+Other pain
+Pain - other
+Other/Miscellaneous
+Other Route of Drug Administration
+Other Route of Administration
+Social contact - other
+Sleep and rest patterns - other
+Other activities involving preparation of compounded non-parenteral medications
+Other - Event Consequence
+Grief - other
+Other - Substance Type
+Urinary function - other
+other - No Information
+Except
+Other Than
+Other - Special Program Code
+Other - Living Dependency
+Other - Diagnostic Service Section ID
+Substance use - other
+Cognition - other
+Role change - other
+Speech and language - other
+Health care supervision - other
+Other - Indirect exposure mechanism
+Other - Triage Code
+Circulation - other
+Oral health - other
+Pregnancy - other
+Other - Publicity Code
+Other - Marital Status
+Mental health - other
+Other - Event Reason
+Personal care - other
+Other - Report Source
+Other - Job Status
+Other (qualifier value)
+Other or Miscellaneous
+Growth and development - other
+Other - Modality
+Reproductive function - other
+Residence - other
+Other - Administrative Gender
+Other activities involving preparation of a routine non-injectable drug product
+Other - Recreational Drug Use Code
+Other:-:Pt:^Patient:-
+Other:-:Point in time:^Patient:-
+Other License Status
+Other Specimen Source Code
+Other - Causality Observations
+Nutrition - other
+Other Health Professional
+OTHER HEALTH CARE PROFESSIONAL
+Other health professional (occupation)
+Medication regimen - other
+Other Growth

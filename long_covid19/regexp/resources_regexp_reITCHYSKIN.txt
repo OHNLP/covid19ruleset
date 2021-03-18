@@ -1,0 +1,54 @@
+PRURITIS
+PRURITUS
+Pruritus [Ambiguous]
+Pruritus, NOS
+Pruritus [Disease/Finding]
+Itchy
+Itch
+itch skin
+Pruritus [dup] (finding)
+Pruritic disorder
+Itch NOS
+Pruritus NOS
+Irritating sensation
+Scratching skin
+[X]Pruritus, unspecified
+Pruritus, unspecified
+Itch of skin
+Itching (finding)
+Skin Pruritus
+Pruritic disorders
+pruritus (symptom)
+Unspecified pruritic disorder
+Pruritis (excluding D05 X16)
+Pruritus - disorder
+Itching (pruritus)
+skin itch
+Itch of skin (observable entity)
+itching skin
+itching
+Pruritic dermatitis, NOS
+Pruritus (disorder)
+Pruritis (excl D05 X16)
+pruritis of skin
+Pruritic disorders (disorder)
+Pruritus NOS (disorder)
+Itching;skin
+Pruritus cutaneous
+Itch of skin, NOS
+Pruritic disorder NOS
+Pruritus of skin (finding) [Ambiguous]
+Pruritus;skin
+Pruritus of skin
+[X]Pruritus, unspecified (disorder)
+Itching of skin (finding)
+skin itching
+Pruritus of skin, NOS
+Pruritic dermatitis
+Pruritus (finding)
+Itching of skin
+pruritus (diagnosis)
+itchy skin
+Pruritus of skin (finding)
+Excessive scratching
+Irritation - sensation

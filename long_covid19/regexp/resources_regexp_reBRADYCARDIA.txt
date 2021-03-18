@@ -1,0 +1,47 @@
+Heart rate low
+slow; heart beat
+Heartbeat (pulse);slow
+heart rate slow
+Slow heartbeats
+Bradyarrhythmias
+Bradycardia (disorder)
+pulse slowing
+Bradycardia [Disease/Finding]
+heart rate slowing
+pulse slowed
+[X]Bradycardia, unspecified
+bradycardia
+slow heart beat
+slow heart rate (symptom)
+Decrease in heart rate
+decreased heart rate
+pulse rate low
+CARDIAC ARRHYTHMIA, BRADYCARDIA
+decreasing heart rate
+Bradycardia, NOS
+brachycardia
+Bradycardia NOS
+heart; slow
+[X]Bradycardia, unspecified (context-dependent category)
+Bradycardias
+Heart Rate, Decreased
+slow heartbeat
+PULSE RATE DECREASE MARKED
+Bradycardia, unspecified
+pulse slow
+low heart rate
+Bradyarrhythmia
+low pulse rates
+low pulse rate
+heart; frequency low
+slow; heart
+PULSE RATE DECREASE
+Heart rate decreased
+slow heart rate
+heart beat; slow
+[X]Bradycardia, unspecified (situation)
+[X]Bradycardia, unspecified (finding)
+Bradycardia (finding)
+slow pulse
+Bradycardia by ECG Finding
+Bradycardia by EKG Finding

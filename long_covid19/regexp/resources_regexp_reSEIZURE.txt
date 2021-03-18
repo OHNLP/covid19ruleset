@@ -1,0 +1,44 @@
+Seizure
+Seizure, CTCAE 5.0
+Seizure, CTCAE_5
+Seizure, CTCAE_3
+Seizure, CTCAE 3.0
+[D]Convulsion NOS (context-dependent category)
+Fit - convulsion (finding)
+Convulsion
+seizures
+Seizure, NOS
+CONVULSION (NOS)
+Convulsions
+Seizure (finding)
+fitted
+[D]Convulsions (situation)
+Convulsions NOS
+[D]Fit
+[D]Convulsions (context-dependent category)
+convulsions (symptom)
+fit
+seizure (physical finding)
+Fit - convulsion
+Convulsion (disorder)
+[D]Convulsion NOS
+Fit, NOS
+fits
+A70-A72 CONVULSIONS
+Fits NOS
+Seizures [Disease/Finding]
+seizure d
+Fits - convulsions
+sz
+[D]Fit (situation)
+[D]Seizure NOS
+Seizure NOS
+fit's
+[D]Fit (context-dependent category)
+Fit(s)
+Convulsion, NOS
+[D]Convulsion NOS (situation)
+[D]Convulsions
+Fits - convulsions (disorder)
+Fitting
+Convulsion NOS

@@ -1,0 +1,55 @@
+Edema
+Edema:Finding:Point in time:^Patient:Ordinal
+Edema:Find:Pt:^Patient:Ord
+Edema - lesion
+Edematous
+Oedema - symptom
+dropsy
+Oedema - lesion
+Oedema NOS (finding)
+Oedema
+Edemas
+Edema (finding)
+Edema (morphologic abnormality)
+SWELLING
+swelling due to excess fluid
+Hydrops, NOS
+[D]Oedema
+Interstitial oedema
+[D]Dropsy
+edema interstitial
+dropsies
+Edema NOS
+Edema, NOS
+Oedema NOS
+oedemas
+[D]Oedema NOS (situation)
+[D]Dropsy (situation)
+oedematous
+hydrops
+[D]Oedema NOS
+Interstitial edema
+Oedema, NOS
+[D]Edema NOS (context-dependent category)
+[D]Edema NOS (situation)
+[D]Edema NOS
+edema (diagnosis)
+Dropsy, NOS
+[D]Edema (situation)
+Oedema, unspecified
+edema (physical finding)
+363-364 EDEMAS
+excess fluid
+Edema (NOS)
+Waterlogged
+[D]Edema (context-dependent category)
+[D]Oedema (situation)
+Hydrops (morphologic abnormality)
+Edema NOS (finding)
+Edema (observable entity)
+[D]Edema
+Edema, unspecified
+[D]Dropsy (context-dependent category)
+Edema [Disease/Finding]
+watery swelling
+Edema - symptom

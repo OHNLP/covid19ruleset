@@ -1,0 +1,36 @@
+Cough
+Usual Severity Cough
+Cough, CTCAE
+How Much Distress Cough
+Frequency of Coughing
+Cough Distress
+How Often Cough
+Cough Frequency
+Have Been Coughing
+I have been coughing
+Cough (guaifenesin)
+C/O - cough
+[D]Cough (context-dependent category)
+Coughing - function (qualifier value)
+Complaining of cough (finding)
+Complaining of cough
+[D]Cough (situation)
+COUGHING
+C/O - cough (context-dependent category)
+Cough [Disease/Finding]
+cough (symptom)
+cough symptom
+cough symptoms
+241 COUGHS
+Cough, NOS
+COUGHS
+Finding of cough (finding)
+Finding of cough
+Cough (finding)
+Cough symptom NOS (finding)
+Observation of cough
+Coughing - function
+Cough symptom NOS
+[D]Cough
+coughing symptom
+Coughing (observable entity)

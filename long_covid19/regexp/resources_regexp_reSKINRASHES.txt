@@ -1,0 +1,50 @@
+Eruption (disorder)
+[D]Rash and other nonspecific skin eruption
+Efflorescence
+exanthemas
+Skin rashes
+[D]Spots
+Rash, Skin
+SKIN ERUPTION
+Rash and other nonspecific skin eruption
+Rash and other nonspecific skin eruption NOS
+[D]Rash and other nonspecific skin eruption NOS (context-dependent category)
+Rash
+skin rash
+exanthem
+exanthems
+Cutaneous eruption (morphologic abnormality)
+cutaneous eruption on skin
+rash (symptom)
+Exanthema [Disease/Finding]
+[D]Rash and other nonspecific skin eruption NOS (situation)
+Cutaneous eruption
+Exanthemata
+Rash (nonspecific)
+Rash/nonspec.skin erupt.NOS
+[D]Exanthem (situation)
+skin; eruption
+cutaneous eruptions
+[D]Rash/nonspec.skin erupt.NOS
+exanthem (diagnosis)
+exanthema
+[D]Exanthem
+Eruption of skin (disorder)
+eruption; skin
+Spots [D]
+ERUPTION
+rashes
+[D]Rash and other nonspecific skin eruption (situation)
+Breaking out - eruption
+Eruption, NOS
+spots
+Rash, NOS
+Nonspecif skin erupt NEC
+Eruption of skin
+Rash NOS
+Cutaneous eruption, NOS
+Rash/nonspec.skin eruption
+[D]Rash/nonspec.skin eruption
+[D]Rash and other nonspecific skin eruption NOS
+[D]Rash and other nonspecific skin eruption (context-dependent category)
+[D]Exanthem (context-dependent category)

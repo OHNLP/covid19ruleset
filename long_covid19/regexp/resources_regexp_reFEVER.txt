@@ -1,0 +1,73 @@
+symptoms fever
+fever as symptom
+Fever symptoms (finding)
+fever symptom
+Fever
+Pyrexia symptoms (finding)
+fever symptom (symptom)
+Pyrexia symptoms
+Fever symptoms
+Fever, CTCAE
+Increased body temperature (finding) [Ambiguous]
+pyrexial
+Febrile
+Temperature elevated
+Hyperthermias
+fevered
+[D]Fever NOS (situation)
+pyrexia (diagnosis)
+Pyrexias
+rndx hyperthermia
+increase temperature
+Body temperature above reference range
+Fever [Disease/Finding]
+fevers
+hyperthermia
+Increased body temperature (finding)
+High temperature
+TEMPERATURE INCREASE
+high; temperature
+Pyrexia (finding)
+Hyperthermic
+rndx hyperthermia (diagnosis)
+temperature; high
+BODY TEMPERATURE INCREASED
+Fever (finding)
+Temperature elevation
+Pyrexia [D] (finding)
+Feels feverish
+increased; body temperature
+high body temperature
+Has a temperature
+elevated temperature
+[D]Fever NOS (context-dependent category)
+pyrexia
+increases temperature
+[D]Fever NOS
+Pyrexia [D] (situation)
+Increase in body temperature
+Hyperthermia (finding)
+raised temperature
+hyperthermia (physical finding)
+Temperature raised
+Pyrexia [D]
+fever (physical finding)
+increased body temperature
+febris
+Hyperthermia [Ambiguous]
+Body temperature above normal
+Alteration in body temperature: hyperthermia, fever
+Body temperature above normal (finding)
+Fever, unspecified
+Body temperature, increased
+[D]Pyrexia (context-dependent category)
+[D]Pyrexia (situation)
+feverish
+Pyrexia NOS
+Body temperature above reference range (finding)
+Fever NOS
+Elevated Core Body Temperature
+[D]Pyrexia
+Hyperthermia - disorder
+Temperature;high
+body temperature; increased

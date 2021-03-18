@@ -1,0 +1,18 @@
+Myocarditis, CTCAE 5.0
+Myocarditis
+Myocarditis, CTCAE_5
+Myocarditis, CTCAE 3.0
+Myocarditis, CTCAE_3
+Myocarditis NOS (disorder)
+Myocarditis, NOS
+myocardium; inflammation
+3-26-27 MYOCARDITIDES
+Myocarditides
+myocarditis (diagnosis)
+Myocarditis [Disease/Finding]
+Myocarditis (disorder)
+Myocarditis, unspecified
+Myocardial inflammation
+Myocarditis NOS
+inflammation; myocardium
+Myocardial inflammation (finding)

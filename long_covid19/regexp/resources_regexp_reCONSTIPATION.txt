@@ -1,0 +1,40 @@
+Constipation [Disease/Finding]
+fecal; retention
+retention; fecal
+Constipation NOS (finding)
+constipation
+Difficulty passing stool
+CN - Constipation
+Unspecified Constipation
+Difficult passing motion
+Costiveness
+Difficulty opening bowels
+Costive symptom
+constipating
+Difficulty defecating
+Constipation (disorder)
+rndx unspecified constipation (diagnosis)
+Constipation NOS (disorder)
+Constipated
+Constipation (& symptom) (finding)
+rndx constipation (diagnosis)
+constipation (symptom)
+Constipation NOS
+Difficulty defaecating
+constipate
+Constipation (finding)
+constipation (diagnosis)
+rndx constipation
+Constipation symptom
+Constipation (& symptom)
+rndx unspecified constipation
+Constipation, unspecified
+How Much Distress Constipation
+Have you been constipated
+Have Constipation
+Have Been Constipated
+Usual Severity Constipation
+Constipation, CTCAE
+How Often Constipation
+Frequency of Constipation
+Constipation Frequency

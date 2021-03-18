@@ -1,0 +1,38 @@
+Hyperglycemia, CTCAE
+Hyperglycemia
+Hyperglycemic disorder (disorder)
+Hyperglycemic disorder
+[X]Hyperglycemia, unspecified (finding)
+[X]Hyperglycemia, unspecified (context-dependent category)
+Hyperglycaemic disorder
+High blood sugar
+blood; sugar, high
+Hyperglycaemia, NOS
+hyperglycemia (diagnosis)
+HYPERGLYCAEMIA
+Hyperglycaemia, unspecified
+[X]Hyperglycaemia, unspecified
+Hyperglycaemia (disorder)
+[X]Hyperglycemia, unspecified
+elevated blood sugar
+sugar; blood, high
+Hyperglycemia NOS
+[D]Hyperglycemia (context-dependent category)
+elevated glucose
+Elevated Blood Glucose
+high blood sugar level
+[D]Hyperglycemia (situation)
+Hyperglycemia (disorder)
+Hyperglycemia, unspecified
+Hyperglycemia [Disease/Finding]
+Blood Glucose, High
+Hyperglycaemia NOS
+High Blood Glucose
+blood sugar; high
+[D]Hyperglycaemia (situation)
+Glucose, High Blood
+high; blood sugar
+[D]Hyperglycemia
+Hyperglycemias
+[D]Hyperglycaemia
+Hyperglycemia, NOS

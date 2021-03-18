@@ -1,0 +1,42 @@
+Chest pain:Finding:Point in time:^Patient:Ordinal
+Chest pain:Find:Pt:^Patient:Ord
+Chest pain
+Thorax painful
+pain; chest
+thoracodynia
+Chest pain, unspecified
+chest pain or discomfort reported as pain
+Chest pain (finding)
+[D]Chest pain (situation)
+[D]Chest pain NOS (context-dependent category)
+[D]Chest pain, unspecified (context-dependent category)
+Chest pain, NOS
+thorax pain
+thorax; pain
+chest pain or discomfort (symptom)
+Thoracic pain
+Chest Pains
+chest pain or discomfort reported as pain (symptom)
+Pain;chest
+Chest pain NOS
+pain; thorax
+chest pain (diagnosis)
+[D]Chest pain, unspecified (situation)
+Chest Pain [Disease/Finding]
+[D]Chest pain, unspecified
+Chest pain NOS (finding)
+Thoracalgia
+chest pain or discomfort
+[D]Chest pain NOS (situation)
+Pain, Chest
+Nonspecific chest pain
+Pain chest
+Pains, Chest
+Unspecified chest pain
+chest; pain
+reported chest pain
+[D]Chest pain (context-dependent category)
+Pain in chest
+[D]Chest pain
+pain thoracic
+[D]Chest pain NOS
