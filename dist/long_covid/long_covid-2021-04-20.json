@@ -1,0 +1,2052 @@
+{
+  "name": "long_covid",
+  "matchrules": [
+    {
+      "rule_name": "cm_FATIGUE",
+      "regexp": "\\b(?i)(?:%reFATIGUE)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "FATIGUE"
+    },
+    {
+      "rule_name": "cm_POSTEXERTIONALMALAISE",
+      "regexp": "\\b(?i)(?:%rePOSTEXERTIONALMALAISE)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "POST_EXERTIONAL_MALAISE"
+    },
+    {
+      "rule_name": "cm_SHORTNESSOFBREATH",
+      "regexp": "\\b(?i)(?:%reSHORTNESSOFBREATH)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "SHORTNESS_OF_BREATH"
+    },
+    {
+      "rule_name": "cm_TIGHTNESSOFCHEST",
+      "regexp": "\\b(?i)(?:%reTIGHTNESSOFCHEST)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "TIGHTNESS_OF_CHEST"
+    },
+    {
+      "rule_name": "cm_MUSCLEACHES",
+      "regexp": "\\b(?i)(?:%reMUSCLEACHES)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "MUSCLE_ACHES"
+    },
+    {
+      "rule_name": "cm_INSOMNIA",
+      "regexp": "\\b(?i)(?:%reINSOMNIA)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "INSOMNIA"
+    },
+    {
+      "rule_name": "cm_HEARTPALPITATIONS",
+      "regexp": "\\b(?i)(?:%reHEARTPALPITATIONS)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "HEART_PALPITATIONS"
+    },
+    {
+      "rule_name": "cm_DRYCOUGH",
+      "regexp": "\\b(?i)(?:%reDRYCOUGH)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "DRY_COUGH"
+    },
+    {
+      "rule_name": "cm_DIFFICULTYTHINKING",
+      "regexp": "\\b(?i)(?:%reDIFFICULTYTHINKING)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "DIFFICULTY_THINKING"
+    },
+    {
+      "rule_name": "cm_TACHYCARDIA",
+      "regexp": "\\b(?i)(?:%reTACHYCARDIA)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "TACHYCARDIA"
+    },
+    {
+      "rule_name": "cm_DIARRHEA",
+      "regexp": "\\b(?i)(?:%reDIARRHEA)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "DIARRHEA"
+    },
+    {
+      "rule_name": "cm_SORETHROAT",
+      "regexp": "\\b(?i)(?:%reSORETHROAT)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "SORE_THROAT"
+    },
+    {
+      "rule_name": "cm_ANXIETY",
+      "regexp": "\\b(?i)(?:%reANXIETY)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "ANXIETY"
+    },
+    {
+      "rule_name": "cm_JOINTPAIN",
+      "regexp": "\\b(?i)(?:%reJOINTPAIN)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "JOINT_PAIN"
+    },
+    {
+      "rule_name": "cm_LOSSOFAPPETITE",
+      "regexp": "\\b(?i)(?:%reLOSSOFAPPETITE)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "LOSS_OF_APPETITE"
+    },
+    {
+      "rule_name": "cm_IRRITABILITY",
+      "regexp": "\\b(?i)(?:%reIRRITABILITY)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "IRRITABILITY"
+    },
+    {
+      "rule_name": "cm_NAUSEA",
+      "regexp": "\\b(?i)(?:%reNAUSEA)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "NAUSEA"
+    },
+    {
+      "rule_name": "cm_DEPRESSION",
+      "regexp": "\\b(?i)(?:%reDEPRESSION)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "DEPRESSION"
+    },
+    {
+      "rule_name": "cm_MOODLABILITY",
+      "regexp": "\\b(?i)(?:%reMOODLABILITY)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "MOOD_LABILITY"
+    },
+    {
+      "rule_name": "cm_WEAKNESS",
+      "regexp": "\\b(?i)(?:%reWEAKNESS)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "WEAKNESS"
+    },
+    {
+      "rule_name": "cm_TEARFULNESS",
+      "regexp": "\\b(?i)(?:%reTEARFULNESS)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "TEARFULNESS"
+    },
+    {
+      "rule_name": "cm_NIGHTSWEATS",
+      "regexp": "\\b(?i)(?:%reNIGHTSWEATS)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "NIGHT_SWEATS"
+    },
+    {
+      "rule_name": "cm_TREMORS",
+      "regexp": "\\b(?i)(?:%reTREMORS)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "TREMORS"
+    },
+    {
+      "rule_name": "cm_ABDOMINALPAIN",
+      "regexp": "\\b(?i)(?:%reABDOMINALPAIN)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "ABDOMINAL_PAIN"
+    },
+    {
+      "rule_name": "cm_DIFFICULTYFALLINGASLEEP",
+      "regexp": "\\b(?i)(?:%reDIFFICULTYFALLINGASLEEP)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "DIFFICULTY_FALLING_ASLEEP"
+    },
+    {
+      "rule_name": "cm_STIFFNECK",
+      "regexp": "\\b(?i)(?:%reSTIFFNECK)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "STIFF_NECK"
+    },
+    {
+      "rule_name": "cm_LOSSOFSMELL",
+      "regexp": "\\b(?i)(?:%reLOSSOFSMELL)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "LOSS_OF_SMELL"
+    },
+    {
+      "rule_name": "cm_BLURREDVISION",
+      "regexp": "\\b(?i)(?:%reBLURREDVISION)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "BLURRED_VISION"
+    },
+    {
+      "rule_name": "cm_SENSITIVITYTONOISE",
+      "regexp": "\\b(?i)(?:%reSENSITIVITYTONOISE)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "SENSITIVITY_TO_NOISE"
+    },
+    {
+      "rule_name": "cm_TINNITUS",
+      "regexp": "\\b(?i)(?:%reTINNITUS)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "TINNITUS"
+    },
+    {
+      "rule_name": "cm_LOSSOFTASTE",
+      "regexp": "\\b(?i)(?:%reLOSSOFTASTE)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "LOSS_OF_TASTE"
+    },
+    {
+      "rule_name": "cm_COLDNESS",
+      "regexp": "\\b(?i)(?:%reCOLDNESS)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "COLDNESS"
+    },
+    {
+      "rule_name": "cm_VIVIDDREAMS",
+      "regexp": "\\b(?i)(?:%reVIVIDDREAMS)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "VIVID_DREAMS"
+    },
+    {
+      "rule_name": "cm_MUSCLESPASMS",
+      "regexp": "\\b(?i)(?:%reMUSCLESPASMS)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "MUSCLE_SPASMS"
+    },
+    {
+      "rule_name": "cm_ITCHYSKIN",
+      "regexp": "\\b(?i)(?:%reITCHYSKIN)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "ITCHY_SKIN"
+    },
+    {
+      "rule_name": "cm_SENSITIVITYTOLIGHT",
+      "regexp": "\\b(?i)(?:%reSENSITIVITYTOLIGHT)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "SENSITIVITY_TO_LIGHT"
+    },
+    {
+      "rule_name": "cm_RUNNYNOSE",
+      "regexp": "\\b(?i)(?:%reRUNNYNOSE)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "RUNNY_NOSE"
+    },
+    {
+      "rule_name": "cm_DRYEYES",
+      "regexp": "\\b(?i)(?:%reDRYEYES)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "DRY_EYES"
+    },
+    {
+      "rule_name": "cm_SKINRASHES",
+      "regexp": "\\b(?i)(?:%reSKINRASHES)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "SKIN_RASHES"
+    },
+    {
+      "rule_name": "cm_HEATINTOLERANCE",
+      "regexp": "\\b(?i)(?:%reHEATINTOLERANCE)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "HEAT_INTOLERANCE"
+    },
+    {
+      "rule_name": "cm_SNEEZING",
+      "regexp": "\\b(?i)(?:%reSNEEZING)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "SNEEZING"
+    },
+    {
+      "rule_name": "cm_EARPAIN",
+      "regexp": "\\b(?i)(?:%reEARPAIN)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "EAR_PAIN"
+    },
+    {
+      "rule_name": "cm_NIGHTMARES",
+      "regexp": "\\b(?i)(?:%reNIGHTMARES)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "NIGHTMARES"
+    },
+    {
+      "rule_name": "cm_CONSTIPATION",
+      "regexp": "\\b(?i)(?:%reCONSTIPATION)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "CONSTIPATION"
+    },
+    {
+      "rule_name": "cm_ANGER",
+      "regexp": "\\b(?i)(?:%reANGER)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "ANGER"
+    },
+    {
+      "rule_name": "cm_ITCHYEYES",
+      "regexp": "\\b(?i)(?:%reITCHYEYES)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "ITCHY_EYES"
+    },
+    {
+      "rule_name": "cm_MIGRAINES",
+      "regexp": "\\b(?i)(?:%reMIGRAINES)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "MIGRAINES"
+    },
+    {
+      "rule_name": "cm_LOWTEMPERATURE",
+      "regexp": "\\b(?i)(?:%reLOWTEMPERATURE)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "LOW_TEMPERATURE"
+    },
+    {
+      "rule_name": "cm_FLOATERS",
+      "regexp": "\\b(?i)(?:%reFLOATERS)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "FLOATERS"
+    },
+    {
+      "rule_name": "cm_ALTEREDSENSEOFSMELL",
+      "regexp": "\\b(?i)(?:%reALTEREDSENSEOFSMELL)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "ALTERED_SENSE_OF_SMELL"
+    },
+    {
+      "rule_name": "cm_RESTLESSLEGSYNDROME",
+      "regexp": "\\b(?i)(?:%reRESTLESSLEGSYNDROME)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "RESTLESS_LEG_SYNDROME"
+    },
+    {
+      "rule_name": "cm_BLOODSHOTEYES",
+      "regexp": "\\b(?i)(?:%reBLOODSHOTEYES)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "BLOODSHOT_EYES"
+    },
+    {
+      "rule_name": "cm_VOMITING",
+      "regexp": "\\b(?i)(?:%reVOMITING)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "VOMITING"
+    },
+    {
+      "rule_name": "cm_PEELINGSKIN",
+      "regexp": "\\b(?i)(?:%rePEELINGSKIN)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "PEELING_SKIN"
+    },
+    {
+      "rule_name": "cm_FAINTING",
+      "regexp": "\\b(?i)(?:%reFAINTING)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "FAINTING"
+    },
+    {
+      "rule_name": "cm_SUICIDALITY",
+      "regexp": "\\b(?i)(?:%reSUICIDALITY)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "SUICIDALITY"
+    },
+    {
+      "rule_name": "cm_OTHER",
+      "regexp": "\\b(?i)(?:%reOTHER)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "OTHER"
+    },
+    {
+      "rule_name": "cm_HEARINGLOSS",
+      "regexp": "\\b(?i)(?:%reHEARINGLOSS)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "HEARING_LOSS"
+    },
+    {
+      "rule_name": "cm_AGGRESSION",
+      "regexp": "\\b(?i)(?:%reAGGRESSION)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "AGGRESSION"
+    },
+    {
+      "rule_name": "cm_SLEEPAPNEA",
+      "regexp": "\\b(?i)(?:%reSLEEPAPNEA)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "SLEEP_APNEA"
+    },
+    {
+      "rule_name": "cm_DOUBLEVISION",
+      "regexp": "\\b(?i)(?:%reDOUBLEVISION)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "DOUBLE_VISION"
+    },
+    {
+      "rule_name": "cm_COUGHINGUPBLOOD",
+      "regexp": "\\b(?i)(?:%reCOUGHINGUPBLOOD)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "COUGHING_UP_BLOOD"
+    },
+    {
+      "rule_name": "cm_FACIALPARALYSIS",
+      "regexp": "\\b(?i)(?:%reFACIALPARALYSIS)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "FACIAL_PARALYSIS"
+    },
+    {
+      "rule_name": "cm_TUNNELVISION",
+      "regexp": "\\b(?i)(?:%reTUNNELVISION)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "TUNNEL_VISION"
+    },
+    {
+      "rule_name": "cm_DELUSIONS",
+      "regexp": "\\b(?i)(?:%reDELUSIONS)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "DELUSIONS"
+    },
+    {
+      "rule_name": "cm_SHINGLES",
+      "regexp": "\\b(?i)(?:%reSHINGLES)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "SHINGLES"
+    },
+    {
+      "rule_name": "cm_TOTALLOSSOFVISION",
+      "regexp": "\\b(?i)(?:%reTOTALLOSSOFVISION)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "TOTAL_LOSS_OF_VISION"
+    },
+    {
+      "rule_name": "cm_DYSPNEA",
+      "regexp": "\\b(?i)(?:%reDYSPNEA)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "DYSPNEA"
+    },
+    {
+      "rule_name": "cm_ANOSMIA",
+      "regexp": "\\b(?i)(?:%reANOSMIA)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "ANOSMIA"
+    },
+    {
+      "rule_name": "cm_COUGH",
+      "regexp": "\\b(?i)(?:%reCOUGH)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "COUGH"
+    },
+    {
+      "rule_name": "cm_MYALGIA",
+      "regexp": "\\b(?i)(?:%reMYALGIA)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "MYALGIA"
+    },
+    {
+      "rule_name": "cm_HEADACHE",
+      "regexp": "\\b(?i)(?:%reHEADACHE)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "HEADACHE"
+    },
+    {
+      "rule_name": "cm_ARTHRALGIA",
+      "regexp": "\\b(?i)(?:%reARTHRALGIA)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "ARTHRALGIA"
+    },
+    {
+      "rule_name": "cm_FEVER",
+      "regexp": "\\b(?i)(?:%reFEVER)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "FEVER"
+    },
+    {
+      "rule_name": "cm_CHESTPAIN",
+      "regexp": "\\b(?i)(?:%reCHESTPAIN)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "CHEST_PAIN"
+    },
+    {
+      "rule_name": "cm_PHARYNGALGIA",
+      "regexp": "\\b(?i)(?:%rePHARYNGALGIA)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "PHARYNGALGIA"
+    },
+    {
+      "rule_name": "cm_AGEUSIA",
+      "regexp": "\\b(?i)(?:%reAGEUSIA)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "AGEUSIA"
+    },
+    {
+      "rule_name": "cm_PALPITATIONS",
+      "regexp": "\\b(?i)(?:%rePALPITATIONS)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "PALPITATIONS"
+    },
+    {
+      "rule_name": "cm_SKINRASH",
+      "regexp": "\\b(?i)(?:%reSKINRASH)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "SKIN_RASH"
+    },
+    {
+      "rule_name": "cm_DIMINISHEDABILITYTOCONCENTRATE",
+      "regexp": "\\b(?i)(?:%reDIMINISHEDABILITYTOCONCENTRATE)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "DIMINISHED_ABILITY_TO_CONCENTRATE"
+    },
+    {
+      "rule_name": "cm_VERTIGO",
+      "regexp": "\\b(?i)(?:%reVERTIGO)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "VERTIGO"
+    },
+    {
+      "rule_name": "cm_CHILLS",
+      "regexp": "\\b(?i)(?:%reCHILLS)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "CHILLS"
+    },
+    {
+      "rule_name": "cm_SLEEPDISTURBANCE",
+      "regexp": "\\b(?i)(?:%reSLEEPDISTURBANCE)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "SLEEP_DISTURBANCE"
+    },
+    {
+      "rule_name": "cm_CHESTTIGHTNESS",
+      "regexp": "\\b(?i)(?:%reCHESTTIGHTNESS)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "CHEST_TIGHTNESS"
+    },
+    {
+      "rule_name": "cm_MEMORYIMPAIRMENT",
+      "regexp": "\\b(?i)(?:%reMEMORYIMPAIRMENT)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "MEMORY_IMPAIRMENT"
+    },
+    {
+      "rule_name": "cm_PARAGEUSIA",
+      "regexp": "\\b(?i)(?:%rePARAGEUSIA)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "PARAGEUSIA"
+    },
+    {
+      "rule_name": "cm_DECREASEDDLCO",
+      "regexp": "\\b(?i)(?:%reDECREASEDDLCO)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "DECREASED_DLCO"
+    },
+    {
+      "rule_name": "cm_POORAPPETITE",
+      "regexp": "\\b(?i)(?:%rePOORAPPETITE)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "POOR_APPETITE"
+    },
+    {
+      "rule_name": "cm_DEPRESSIVITY",
+      "regexp": "\\b(?i)(?:%reDEPRESSIVITY)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "DEPRESSIVITY"
+    },
+    {
+      "rule_name": "cm_GROUNDGLASSOPACIFICATIONONPULMONARYHRCT",
+      "regexp": "\\b(?i)(?:%reGROUNDGLASSOPACIFICATIONONPULMONARYHRCT)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "GROUND_GLASS_OPACIFICATION_ON_PULMONARY_HRCT"
+    },
+    {
+      "rule_name": "cm_ALOPECIA",
+      "regexp": "\\b(?i)(?:%reALOPECIA)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "ALOPECIA"
+    },
+    {
+      "rule_name": "cm_RHINORRHEA",
+      "regexp": "\\b(?i)(?:%reRHINORRHEA)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "RHINORRHEA"
+    },
+    {
+      "rule_name": "cm_HYPERHIDROSIS",
+      "regexp": "\\b(?i)(?:%reHYPERHIDROSIS)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "HYPERHIDROSIS"
+    },
+    {
+      "rule_name": "cm_WEIGHTLOSS",
+      "regexp": "\\b(?i)(?:%reWEIGHTLOSS)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "WEIGHT_LOSS"
+    },
+    {
+      "rule_name": "cm_DYSPHAGIA",
+      "regexp": "\\b(?i)(?:%reDYSPHAGIA)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "DYSPHAGIA"
+    },
+    {
+      "rule_name": "cm_RESTRICTIVEVENTILATORYDEFECT",
+      "regexp": "\\b(?i)(?:%reRESTRICTIVEVENTILATORYDEFECT)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "RESTRICTIVE_VENTILATORY_DEFECT"
+    },
+    {
+      "rule_name": "cm_ABNORMALITYOFTHEVOICE",
+      "regexp": "\\b(?i)(?:%reABNORMALITYOFTHEVOICE)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "ABNORMALITY_OF_THE_VOICE"
+    },
+    {
+      "rule_name": "cm_PARESTHESIA",
+      "regexp": "\\b(?i)(?:%rePARESTHESIA)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "PARESTHESIA"
+    },
+    {
+      "rule_name": "cm_SNEEZE",
+      "regexp": "\\b(?i)(?:%reSNEEZE)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "SNEEZE"
+    },
+    {
+      "rule_name": "cm_LOWGRADEFEVER",
+      "regexp": "\\b(?i)(?:%reLOWGRADEFEVER)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "LOW_GRADE_FEVER"
+    },
+    {
+      "rule_name": "cm_FLUSHING",
+      "regexp": "\\b(?i)(?:%reFLUSHING)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "FLUSHING"
+    },
+    {
+      "rule_name": "cm_ABNORMALSPUTUM",
+      "regexp": "\\b(?i)(?:%reABNORMALSPUTUM)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "ABNORMAL_SPUTUM"
+    },
+    {
+      "rule_name": "cm_INTERLOBULARSEPTALTHICKENINGONPULMONARYHRCT",
+      "regexp": "\\b(?i)(?:%reINTERLOBULARSEPTALTHICKENINGONPULMONARYHRCT)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "INTERLOBULAR_SEPTAL_THICKENING_ON_PULMONARY_HRCT"
+    },
+    {
+      "rule_name": "cm_EXERTIONALDYSPNEA",
+      "regexp": "\\b(?i)(?:%reEXERTIONALDYSPNEA)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "EXERTIONAL_DYSPNEA"
+    },
+    {
+      "rule_name": "cm_CONFUSION",
+      "regexp": "\\b(?i)(?:%reCONFUSION)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "CONFUSION"
+    },
+    {
+      "rule_name": "cm_ELEVATEDCREACTIVEPROTEINLEVEL",
+      "regexp": "\\b(?i)(?:%reELEVATEDCREACTIVEPROTEINLEVEL)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "ELEVATED_C_REACTIVE_PROTEIN_LEVEL"
+    },
+    {
+      "rule_name": "cm_REDEYE",
+      "regexp": "\\b(?i)(?:%reREDEYE)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "RED_EYE"
+    },
+    {
+      "rule_name": "cm_DIFFICULTYWALKING",
+      "regexp": "\\b(?i)(?:%reDIFFICULTYWALKING)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "DIFFICULTY_WALKING"
+    },
+    {
+      "rule_name": "cm_URINARYINCONTINENCE",
+      "regexp": "\\b(?i)(?:%reURINARYINCONTINENCE)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "URINARY_INCONTINENCE"
+    },
+    {
+      "rule_name": "cm_PRODUCTIVECOUGH",
+      "regexp": "\\b(?i)(?:%rePRODUCTIVECOUGH)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "PRODUCTIVE_COUGH"
+    },
+    {
+      "rule_name": "cm_NONPRODUCTIVECOUGH",
+      "regexp": "\\b(?i)(?:%reNONPRODUCTIVECOUGH)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "NONPRODUCTIVE_COUGH"
+    },
+    {
+      "rule_name": "cm_RETICULARPATTERNONPULMONARYHRCT",
+      "regexp": "\\b(?i)(?:%reRETICULARPATTERNONPULMONARYHRCT)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "RETICULAR_PATTERN_ON_PULMONARY_HRCT"
+    },
+    {
+      "rule_name": "cm_BOWELINCONTINENCE",
+      "regexp": "\\b(?i)(?:%reBOWELINCONTINENCE)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "BOWEL_INCONTINENCE"
+    },
+    {
+      "rule_name": "cm_ELEVATEDSERUMCREATINEKINASE",
+      "regexp": "\\b(?i)(?:%reELEVATEDSERUMCREATINEKINASE)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "ELEVATED_SERUM_CREATINE_KINASE"
+    },
+    {
+      "rule_name": "cm_POSTEXERTIONALMALAISE",
+      "regexp": "\\b(?i)(?:%rePOSTEXERTIONALMALAISE)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "POSTEXERTIONAL_MALAISE"
+    },
+    {
+      "rule_name": "cm_MOODCHANGES",
+      "regexp": "\\b(?i)(?:%reMOODCHANGES)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "MOOD_CHANGES"
+    },
+    {
+      "rule_name": "cm_SENSORYIMPAIRMENT",
+      "regexp": "\\b(?i)(?:%reSENSORYIMPAIRMENT)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "SENSORY_IMPAIRMENT"
+    },
+    {
+      "rule_name": "cm_GASTROESOPHAGEALREFLUX",
+      "regexp": "\\b(?i)(?:%reGASTROESOPHAGEALREFLUX)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "GASTROESOPHAGEAL_REFLUX"
+    },
+    {
+      "rule_name": "cm_BODYACHE",
+      "regexp": "\\b(?i)(?:%reBODYACHE)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "BODY_ACHE"
+    },
+    {
+      "rule_name": "cm_HYPERGLYCEMIA",
+      "regexp": "\\b(?i)(?:%reHYPERGLYCEMIA)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "HYPERGLYCEMIA"
+    },
+    {
+      "rule_name": "cm_IMPAIREDEXECUTIVEFUNCTIONING",
+      "regexp": "\\b(?i)(?:%reIMPAIREDEXECUTIVEFUNCTIONING)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "IMPAIRED_EXECUTIVE_FUNCTIONING"
+    },
+    {
+      "rule_name": "cm_PHANTOSMIA",
+      "regexp": "\\b(?i)(?:%rePHANTOSMIA)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "PHANTOSMIA"
+    },
+    {
+      "rule_name": "cm_TACTILEHALLUCINATION",
+      "regexp": "\\b(?i)(?:%reTACTILEHALLUCINATION)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "TACTILE_HALLUCINATION"
+    },
+    {
+      "rule_name": "cm_OCULARPAIN",
+      "regexp": "\\b(?i)(?:%reOCULARPAIN)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "OCULAR_PAIN"
+    },
+    {
+      "rule_name": "cm_MUSCLEWEAKNESS",
+      "regexp": "\\b(?i)(?:%reMUSCLEWEAKNESS)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "MUSCLE_WEAKNESS"
+    },
+    {
+      "rule_name": "cm_DIPLOPIA",
+      "regexp": "\\b(?i)(?:%reDIPLOPIA)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "DIPLOPIA"
+    },
+    {
+      "rule_name": "cm_DECREASEDGLOMERULARFILTRATIONRATE",
+      "regexp": "\\b(?i)(?:%reDECREASEDGLOMERULARFILTRATIONRATE)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "DECREASED_GLOMERULAR_FILTRATION_RATE"
+    },
+    {
+      "rule_name": "cm_AUDITORYHALLUCINATIONS",
+      "regexp": "\\b(?i)(?:%reAUDITORYHALLUCINATIONS)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "AUDITORY_HALLUCINATIONS"
+    },
+    {
+      "rule_name": "cm_TREMOR",
+      "regexp": "\\b(?i)(?:%reTREMOR)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "TREMOR"
+    },
+    {
+      "rule_name": "cm_ASTHENIA",
+      "regexp": "\\b(?i)(?:%reASTHENIA)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "ASTHENIA"
+    },
+    {
+      "rule_name": "cm_HYPERKINETICMOVEMENTS",
+      "regexp": "\\b(?i)(?:%reHYPERKINETICMOVEMENTS)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "HYPERKINETIC_MOVEMENTS"
+    },
+    {
+      "rule_name": "cm_VISUALHALLUCINATIONS",
+      "regexp": "\\b(?i)(?:%reVISUALHALLUCINATIONS)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "VISUAL_HALLUCINATIONS"
+    },
+    {
+      "rule_name": "cm_NEURALGIA",
+      "regexp": "\\b(?i)(?:%reNEURALGIA)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "NEURALGIA"
+    },
+    {
+      "rule_name": "cm_BRADYPHRENIA",
+      "regexp": "\\b(?i)(?:%reBRADYPHRENIA)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "BRADYPHRENIA"
+    },
+    {
+      "rule_name": "cm_EUPHORIA",
+      "regexp": "\\b(?i)(?:%reEUPHORIA)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "EUPHORIA"
+    },
+    {
+      "rule_name": "cm_RESTLESSLEGS",
+      "regexp": "\\b(?i)(?:%reRESTLESSLEGS)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "RESTLESS_LEGS"
+    },
+    {
+      "rule_name": "cm_COGNITIVEIMPAIRMENT",
+      "regexp": "\\b(?i)(?:%reCOGNITIVEIMPAIRMENT)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "COGNITIVE_IMPAIRMENT"
+    },
+    {
+      "rule_name": "cm_HALLUCINATIONS",
+      "regexp": "\\b(?i)(?:%reHALLUCINATIONS)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "HALLUCINATIONS"
+    },
+    {
+      "rule_name": "cm_BLINDNESS",
+      "regexp": "\\b(?i)(?:%reBLINDNESS)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "BLINDNESS"
+    },
+    {
+      "rule_name": "cm_XEROSTOMIA",
+      "regexp": "\\b(?i)(?:%reXEROSTOMIA)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "XEROSTOMIA"
+    },
+    {
+      "rule_name": "cm_PHOTOPHOBIA",
+      "regexp": "\\b(?i)(?:%rePHOTOPHOBIA)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "PHOTOPHOBIA"
+    },
+    {
+      "rule_name": "cm_VENOUSTHROMBOSIS",
+      "regexp": "\\b(?i)(?:%reVENOUSTHROMBOSIS)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "VENOUS_THROMBOSIS"
+    },
+    {
+      "rule_name": "cm_BONEPAIN",
+      "regexp": "\\b(?i)(?:%reBONEPAIN)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "BONE_PAIN"
+    },
+    {
+      "rule_name": "cm_IMPULSIVITY",
+      "regexp": "\\b(?i)(?:%reIMPULSIVITY)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "IMPULSIVITY"
+    },
+    {
+      "rule_name": "cm_VITREOUSFLOATERS",
+      "regexp": "\\b(?i)(?:%reVITREOUSFLOATERS)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "VITREOUS_FLOATERS"
+    },
+    {
+      "rule_name": "cm_POLYDIPSIA",
+      "regexp": "\\b(?i)(?:%rePOLYDIPSIA)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "POLYDIPSIA"
+    },
+    {
+      "rule_name": "cm_CONJUNCTIVITIS",
+      "regexp": "\\b(?i)(?:%reCONJUNCTIVITIS)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "CONJUNCTIVITIS"
+    },
+    {
+      "rule_name": "cm_PRURITUS",
+      "regexp": "\\b(?i)(?:%rePRURITUS)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "PRURITUS"
+    },
+    {
+      "rule_name": "cm_CHILBLAINS",
+      "regexp": "\\b(?i)(?:%reCHILBLAINS)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "CHILBLAINS"
+    },
+    {
+      "rule_name": "cm_APATHY",
+      "regexp": "\\b(?i)(?:%reAPATHY)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "APATHY"
+    },
+    {
+      "rule_name": "cm_SYNCOPE",
+      "regexp": "\\b(?i)(?:%reSYNCOPE)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "SYNCOPE"
+    },
+    {
+      "rule_name": "cm_SEIZURE",
+      "regexp": "\\b(?i)(?:%reSEIZURE)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "SEIZURE"
+    },
+    {
+      "rule_name": "cm_KERATOCONJUNCTIVITISSICCA",
+      "regexp": "\\b(?i)(?:%reKERATOCONJUNCTIVITISSICCA)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "KERATOCONJUNCTIVITIS_SICCA"
+    },
+    {
+      "rule_name": "cm_PHONOPHOBIA",
+      "regexp": "\\b(?i)(?:%rePHONOPHOBIA)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "PHONOPHOBIA"
+    },
+    {
+      "rule_name": "cm_DERMATOGRAPHICURTICARIA",
+      "regexp": "\\b(?i)(?:%reDERMATOGRAPHICURTICARIA)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "DERMATOGRAPHIC_URTICARIA"
+    },
+    {
+      "rule_name": "cm_SUICIDALIDEATION",
+      "regexp": "\\b(?i)(?:%reSUICIDALIDEATION)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "SUICIDAL_IDEATION"
+    },
+    {
+      "rule_name": "cm_AGNOSIA",
+      "regexp": "\\b(?i)(?:%reAGNOSIA)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "AGNOSIA"
+    },
+    {
+      "rule_name": "cm_FRAGILENAILS",
+      "regexp": "\\b(?i)(?:%reFRAGILENAILS)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "FRAGILE_NAILS"
+    },
+    {
+      "rule_name": "cm_HYPOGLYCINEMIA",
+      "regexp": "\\b(?i)(?:%reHYPOGLYCINEMIA)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "HYPOGLYCINEMIA"
+    },
+    {
+      "rule_name": "cm_AGGRESSIVEBEHAVIOR",
+      "regexp": "\\b(?i)(?:%reAGGRESSIVEBEHAVIOR)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "AGGRESSIVE_BEHAVIOR"
+    },
+    {
+      "rule_name": "cm_ANAPHYLACTICSHOCK",
+      "regexp": "\\b(?i)(?:%reANAPHYLACTICSHOCK)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "ANAPHYLACTIC_SHOCK"
+    },
+    {
+      "rule_name": "cm_EMOTIONALLABILITY",
+      "regexp": "\\b(?i)(?:%reEMOTIONALLABILITY)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "EMOTIONAL_LABILITY"
+    },
+    {
+      "rule_name": "cm_LYMPHOPENIA",
+      "regexp": "\\b(?i)(?:%reLYMPHOPENIA)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "LYMPHOPENIA"
+    },
+    {
+      "rule_name": "cm_HYPOTENSION",
+      "regexp": "\\b(?i)(?:%reHYPOTENSION)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "HYPOTENSION"
+    },
+    {
+      "rule_name": "cm_TEMPERATUREINSTABILITY",
+      "regexp": "\\b(?i)(?:%reTEMPERATUREINSTABILITY)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "TEMPERATURE_INSTABILITY"
+    },
+    {
+      "rule_name": "cm_EXERCISEINTOLERANCE",
+      "regexp": "\\b(?i)(?:%reEXERCISEINTOLERANCE)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "EXERCISE_INTOLERANCE"
+    },
+    {
+      "rule_name": "cm_VISUALLOSS",
+      "regexp": "\\b(?i)(?:%reVISUALLOSS)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "VISUAL_LOSS"
+    },
+    {
+      "rule_name": "cm_BRADYCARDIA",
+      "regexp": "\\b(?i)(?:%reBRADYCARDIA)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "BRADYCARDIA"
+    },
+    {
+      "rule_name": "cm_MIGRAINE",
+      "regexp": "\\b(?i)(?:%reMIGRAINE)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "MIGRAINE"
+    },
+    {
+      "rule_name": "cm_BRONCHIECTASIS",
+      "regexp": "\\b(?i)(?:%reBRONCHIECTASIS)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "BRONCHIECTASIS"
+    },
+    {
+      "rule_name": "cm_SLEEPONSETINSOMNIA",
+      "regexp": "\\b(?i)(?:%reSLEEPONSETINSOMNIA)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "SLEEP_ONSET_INSOMNIA"
+    },
+    {
+      "rule_name": "cm_MAINTENANCEINSOMNIA",
+      "regexp": "\\b(?i)(?:%reMAINTENANCEINSOMNIA)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "MAINTENANCE_INSOMNIA"
+    },
+    {
+      "rule_name": "cm_TERMINALINSOMNIA",
+      "regexp": "\\b(?i)(?:%reTERMINALINSOMNIA)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "TERMINAL_INSOMNIA"
+    },
+    {
+      "rule_name": "cm_EDEMA",
+      "regexp": "\\b(?i)(?:%reEDEMA)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "EDEMA"
+    },
+    {
+      "rule_name": "cm_SCALINGSKIN",
+      "regexp": "\\b(?i)(?:%reSCALINGSKIN)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "SCALING_SKIN"
+    },
+    {
+      "rule_name": "cm_RHINITIS",
+      "regexp": "\\b(?i)(?:%reRHINITIS)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "RHINITIS"
+    },
+    {
+      "rule_name": "cm_PERIPHERALVISUALFIELDLOSS",
+      "regexp": "\\b(?i)(?:%rePERIPHERALVISUALFIELDLOSS)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "PERIPHERAL_VISUAL_FIELD_LOSS"
+    },
+    {
+      "rule_name": "cm_PETECHIAE",
+      "regexp": "\\b(?i)(?:%rePETECHIAE)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "PETECHIAE"
+    },
+    {
+      "rule_name": "cm_HEMOPTYSIS",
+      "regexp": "\\b(?i)(?:%reHEMOPTYSIS)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "HEMOPTYSIS"
+    },
+    {
+      "rule_name": "cm_RHONCHI",
+      "regexp": "\\b(?i)(?:%reRHONCHI)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "RHONCHI"
+    },
+    {
+      "rule_name": "cm_HYPOTHERMIA",
+      "regexp": "\\b(?i)(?:%reHYPOTHERMIA)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "HYPOTHERMIA"
+    },
+    {
+      "rule_name": "cm_INCREASEDTROPONINTLEVELINBLOOD",
+      "regexp": "\\b(?i)(?:%reINCREASEDTROPONINTLEVELINBLOOD)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "INCREASED_TROPONIN_T_LEVEL_IN_BLOOD"
+    },
+    {
+      "rule_name": "cm_SLURREDSPEECH",
+      "regexp": "\\b(?i)(?:%reSLURREDSPEECH)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "SLURRED_SPEECH"
+    },
+    {
+      "rule_name": "cm_PAIN",
+      "regexp": "\\b(?i)(?:%rePAIN)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "PAIN"
+    },
+    {
+      "rule_name": "cm_REDUCEDFORCEDVITALCAPACITY",
+      "regexp": "\\b(?i)(?:%reREDUCEDFORCEDVITALCAPACITY)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "REDUCED_FORCED_VITAL_CAPACITY"
+    },
+    {
+      "rule_name": "cm_NASALOBSTRUCTION",
+      "regexp": "\\b(?i)(?:%reNASALOBSTRUCTION)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "NASAL_OBSTRUCTION"
+    },
+    {
+      "rule_name": "cm_ANOREXIA",
+      "regexp": "\\b(?i)(?:%reANOREXIA)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "ANOREXIA"
+    },
+    {
+      "rule_name": "cm_MANIA",
+      "regexp": "\\b(?i)(?:%reMANIA)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "MANIA"
+    },
+    {
+      "rule_name": "cm_HYPERTENSION",
+      "regexp": "\\b(?i)(?:%reHYPERTENSION)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "HYPERTENSION"
+    },
+    {
+      "rule_name": "cm_MYOCARDITIS",
+      "regexp": "\\b(?i)(?:%reMYOCARDITIS)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "MYOCARDITIS"
+    },
+    {
+      "rule_name": "cm_PERICARDITIS",
+      "regexp": "\\b(?i)(?:%rePERICARDITIS)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "PERICARDITIS"
+    },
+    {
+      "rule_name": "cm_DYSAUTONOMIA",
+      "regexp": "\\b(?i)(?:%reDYSAUTONOMIA)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "DYSAUTONOMIA"
+    },
+    {
+      "rule_name": "cm_THROMBOEMBOLISM",
+      "regexp": "\\b(?i)(?:%reTHROMBOEMBOLISM)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "THROMBOEMBOLISM"
+    },
+    {
+      "rule_name": "cm_CEREBRALVENOUSTHROMBOSIS",
+      "regexp": "\\b(?i)(?:%reCEREBRALVENOUSTHROMBOSIS)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "CEREBRAL_VENOUS_THROMBOSIS"
+    },
+    {
+      "rule_name": "cm_PULMONARYEMBOLISM",
+      "regexp": "\\b(?i)(?:%rePULMONARYEMBOLISM)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "PULMONARY_EMBOLISM"
+    },
+    {
+      "rule_name": "cm_MYELOPATHY",
+      "regexp": "\\b(?i)(?:%reMYELOPATHY)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "MYELOPATHY"
+    },
+    {
+      "rule_name": "cm_NEUROPATHY",
+      "regexp": "\\b(?i)(?:%reNEUROPATHY)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "NEUROPATHY"
+    },
+    {
+      "rule_name": "cm_ACUTEKIDNEYINJURY",
+      "regexp": "\\b(?i)(?:%reACUTEKIDNEYINJURY)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "ACUTE_KIDNEY_INJURY"
+    },
+    {
+      "rule_name": "cm_CHRONICKIDNEYDISEASE",
+      "regexp": "\\b(?i)(?:%reCHRONICKIDNEYDISEASE)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "CHRONIC_KIDNEY_DISEASE"
+    },
+    {
+      "rule_name": "cm_THYROIDITIS",
+      "regexp": "\\b(?i)(?:%reTHYROIDITIS)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "THYROIDITIS"
+    },
+    {
+      "rule_name": "cm_HEPATITIS",
+      "regexp": "\\b(?i)(?:%reHEPATITIS)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "HEPATITIS"
+    },
+    {
+      "rule_name": "cm_DYSPHONIA",
+      "regexp": "\\b(?i)(?:%reDYSPHONIA)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "DYSPHONIA"
+    },
+    {
+      "rule_name": "cm_ANAPHYLAXIS",
+      "regexp": "\\b(?i)(?:%reANAPHYLAXIS)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "ANAPHYLAXIS"
+    },
+    {
+      "rule_name": "cm_MICROVASCULARANGINA",
+      "regexp": "\\b(?i)(?:%reMICROVASCULARANGINA)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "MICROVASCULAR_ANGINA"
+    },
+    {
+      "rule_name": "cm_MASTCELLACTIVATIONSYNDROME",
+      "regexp": "\\b(?i)(?:%reMASTCELLACTIVATIONSYNDROME)\\b",
+      "location": "NA",
+      "enabled": true,
+      "ignore_case": true,
+      "norm": "MAST_CELL_ACTIVATION_SYNDROME"
+    }
+  ],
+  "rsregexps": [
+    {
+      "name": "SLURREDSPEECH",
+      "text": "[D]Slurred speech\nSlurring (finding) [Ambiguous]\nslurs\n[D]Slurred speech (situation)\nslurred speech\nSlurring\nSpeech slurred\nSpeech-slurring\nClipped speech\nSlurred\nScamping speech\nslurred speech (symptom)\nspeech slur\nslur speech\nSlurring (finding)\nslurring speech\nslur\nSlurred speech (finding)\n[D]Slurred speech (context-dependent category)"
+    },
+    {
+      "name": "AUDITORYHALLUCINATIONS",
+      "text": "auditory hallucination\n[D]Hallucinations, auditory\nauditory; hallucination\nauditory hallucination (physical finding)\nHALLUCINATION AUDITORY\n[D]Hallucinations, auditory (context-dependent category)\nAuditory Hallucinations\nHallucinations, auditory\nHallucinations of sound\nhallucination; auditory\nAuditory hallucinations (finding)\nHallucination, auditory\nHearing sounds\n[D]Hallucinations, auditory (situation)\nHallucinations Auditory"
+    },
+    {
+      "name": "TERMINALINSOMNIA",
+      "text": "Matutinal awakening\nawakening early morning\nEarly morning awakening\nInsomnia, matutinal\nWakes and cannot sleep again (finding)\nAwakening early\nWakes early\nearly awakening\nterminal insomnia\nTerminal insomnia (disorder)\nearly morning awakening (symptom)\nEarly waking\nMatutinal insomnia\nEarly morning waking\nWakes and cannot sleep again\nEarly morning waking (disorder)\nEarly waking (disorder)\nAwakening, Early"
+    },
+    {
+      "name": "TREMORS",
+      "text": "motor exam involuntary movements tremor trembles\nd tremors\nThe shakes\nHas a tremor\ntremors as symptom\n[D]Tremor NOS\nShakes\nTremor symptom\ninvoluntary shaking or trembling movements\nTremor [D] (situation)\nTremors/Shaking\ninvoluntary shaking or trembling movements (tremor)\nTremor [D]\n[D]Tremor NOS (situation)\nTremor\nTremor (finding)\ntremors\nTremor, NOS\n(Has a tremor) or (tremor symptom) or (shaking) (finding)\ninvoluntary shaking or trembling movements (symptom)\ntrembles (physical finding)\nquivers\nshaking\nShaking/Tremors\nTremor [D] (finding)\nshake\nquiver\ntremor (physical finding)\ntrembles\nShaking all over\ntremor (diagnosis)\n[D]Tremor (context-dependent category)\n(Has a tremor) or (tremor symptom) or (shaking)\nTremor NOS\nTrembling\nA46-A47 TREMORS\nInvoluntary shaking\nTremor [Disease/Finding]\nTrembled\n[D]Tremor\n[D]Tremor NOS (context-dependent category)\nTremor, unspecified\n[D]Tremor (situation)\nquivering"
+    },
+    {
+      "name": "ANAPHYLACTICSHOCK",
+      "text": "ANAPHYLACTIC REACTION\nSystemic anaphylactic reaction\nAnaphylactic Shock\nReaction, Anaphylactic\nAnaphylaxis\nSystemic anaphylaxis\nGeneralized anaphylaxis\nANAPHYLAXIS, GENERALIZED\nShock, Anaphylactic\nAnaphylactic syndrome\nReactions, Anaphylactic\nanaphylaxis (diagnosis)\nAllergic shock\nGeneralised anaphylaxis\nSystemic anaphylaxis (disorder)\nAnaphylaxis [Disease/Finding]\nAnaphylaxis (disorder)\nobsolete anaphylaxis\nGeneralized anaphylaxis (disorder)\nAnaphylactic Reactions\nshock; allergy\nShock co-occurrent and due to anaphylaxis\nallergy; shock\nshock; anaphylactic\nAnaphylactic shock, unspecified\nShock co-occurrent and due to anaphylaxis (disorder)\nShock;anaphylactic\nanaphylactic; shock"
+    },
+    {
+      "name": "MUSCLESPASMS",
+      "text": "[D]Spasms NOS (context-dependent category)\nSpasms, Muscular\nmuscle spasm\nmuscle spasms\nSpasm;muscle(s)\nSPASM MUSCLE\nSpasm of muscle\n[D]Spasms (context-dependent category)\nSpasm [Disease/Finding]\nMuscular Spasm\nSpasms, Muscle\nspasms\n[D]Spasms NOS\nSkeletal muscle spasm (finding)\nSpasm\nspasms (diagnosis)\nMuscular Spasms\nSpasm (finding)\nMuscle spasm (finding)\nSpasms [D] (situation)\n[D]Spasms NOS (situation)\nreported muscle spasms\nMuscle spasm (disorder)\nSpasm, NOS\nMuscle Spasm(s)\nSpasms [D]\nmuscle spasms (physical finding)\nSpasms [D] (finding)\nSpasm, Muscle\nmuscle spasm (diagnosis)\nSpasm, Muscular\nSpasm(s), Muscle\n[D]Spasms (situation)\nMyospasm\n[D]Spasms\nSpasms NOS\nreported muscle spasms (symptom)"
+    },
+    {
+      "name": "DIFFICULTYFALLINGASLEEP",
+      "text": "Difficulty Falling Asleep\nDifficulty Falling Asleep question\nI had difficulty falling asleep\nHave Difficulty Falling Asleep\nInitial Insomnia\nInitial insomnia (disorder)\ndifficulty falling asleep (symptom)\nDifficulty getting to sleep\nDifficulty in sleep initiation\nTrouble falling asleep\nCannot get off to sleep\nInitial insomnia (finding)\nVesperal insomnia\nInsomnia, vesperal"
+    },
+    {
+      "name": "TOTALLOSSOFVISION",
+      "text": "total visual impairment of both eyes\ntotal blindness\ntotal vision loss in both eyes\nBlind both eyes\nComplete Blindness\ntotal visual impairment of both eyes (diagnosis)\ntotal blindness in both eyes\ntotal loss of vision in both eyes (symptom)\nBlindness - both eyes\nBlindness, total\nBlindness - both eyes (disorder)\nBlindness both eyes unspecif.\nBilateral blindness\ntotal vision loss\nUnspecified blindness both eyes\nBlindness both eyes NOS (disorder)\nBlindness, Complete\ntotal loss of vision in both eyes\nBlindness both eyes NOS\nBoth eyes total visual impairment (disorder)\nBlindness of both eyes, impairment level not further specified\nBlindness, both eyes\nBoth eyes total visual impairment\ntotal loss of vision\ntotally blind\nUnspecified blindness both eyes (disorder)\ntotal loss of vision (symptom)\nBoth eyes blind-who def\nBlindness, bilateral\nProfound impairment, both eyes, impairment level not further specified\nvision; loss, both eyes\nBLINDNESS TOTAL\ntotal vision loss binocular\nloss; vision, both eyes"
+    },
+    {
+      "name": "PARESTHESIA",
+      "text": "Pins and needles feeling\nparaesthesias\n[D]Paraesthesia (situation)\nparasthesias\nParaesthesia (numbness/tingling)\nParaesthesia\nParesthesias\n[D]Paresthesia (context-dependent category)\nabnormal sensation\nParasthesia\n[D]Paresthesia\nParesthesia (numbness/tingling)\n[D]Paraesthesia\nParesthesia [Disease/Finding]\n[D]Paresthesia (situation)\nparesthesia\nParesthesia (finding)\nTingling\nParesthesia, CTCAE\ntingling (paresthesia)\nHas tingling sensation (finding)\nsense; tingling\ntingling; sensation\nTingling: [sensation] or [has sensation] (finding)\nTingling sensation\nhas tingling sensation\nsensations tingling\ntingling (symptom)\nTingling: [sensation] or [has sensation]"
+    },
+    {
+      "name": "OTHER",
+      "text": "Other\nOther - Notify Clergy Code\nSanitation - other\nOther location of complaint\nIncome - other\nOther - Status of Evaluation\nNeglect - other\nOther - Action Taken in Response to the Event\nOther - Diagnosis Classification\nSpirituality - other\nConsciousness - other\nVision - other\nOther - Mode of Arrival\nOther - Employment Status\nOther - Patient Condition Code\nOther - Risk Management Incident Code\nOther - HRSA Program\nNeuro-musculo-skeletal function - other\nInterpersonal relationship - other\nOther physical activity, specify\nPhysical activity - other\nOther Physical Activity\nOther - Relationship\nOther activities involving preparation of compounded parenteral medications\nOther - Newborn Code\nAbuse - other\nHearing - other\nOther Blood Form Product\nOther - Contact Role\nNeighborhood/workplace safety - other\nOther Intervention Target\nRespiration - other\nOther - Organization unit type\nOther - What subject filter\nOther Establishment Activity\nOther - Immunization Registry Status\nCaretaking/parenting - other\nOther - Precaution Code\nSkin - other\nPostpartum - other\nOther (qualifier in LNC)\nOther - Mail Claim Party\nCommunication with community resources - other\nOther - Production Class Code\nCommunicable/infectious condition - other\nDigestion-hydration - other\nSexuality - other\nFamily planning - other\nOther - Religion\nOther - Incident Type Code\nBowel function - other\nOther pain\nPain - other\nOther/Miscellaneous\nOther Route of Drug Administration\nOther Route of Administration\nSocial contact - other\nSleep and rest patterns - other\nOther activities involving preparation of compounded non-parenteral medications\nOther - Event Consequence\nGrief - other\nOther - Substance Type\nUrinary function - other\nother - No Information\nExcept\nOther Than\nOther - Special Program Code\nOther - Living Dependency\nOther - Diagnostic Service Section ID\nSubstance use - other\nCognition - other\nRole change - other\nSpeech and language - other\nHealth care supervision - other\nOther - Indirect exposure mechanism\nOther - Triage Code\nCirculation - other\nOral health - other\nPregnancy - other\nOther - Publicity Code\nOther - Marital Status\nMental health - other\nOther - Event Reason\nPersonal care - other\nOther - Report Source\nOther - Job Status\nOther (qualifier value)\nOther or Miscellaneous\nGrowth and development - other\nOther - Modality\nReproductive function - other\nResidence - other\nOther - Administrative Gender\nOther activities involving preparation of a routine non-injectable drug product\nOther - Recreational Drug Use Code\nOther:-:Pt:^Patient:-\nOther:-:Point in time:^Patient:-\nOther License Status\nOther Specimen Source Code\nOther - Causality Observations\nNutrition - other\nOther Health Professional\nOTHER HEALTH CARE PROFESSIONAL\nOther health professional (occupation)\nMedication regimen - other\nOther Growth"
+    },
+    {
+      "name": "SLEEPDISTURBANCE",
+      "text": "Sleep Disturbance Subordinate Domain\nSleep Disturbance\ndyssomnia\nDyssomnia, NOS\ndyssomnias\nSleep problem\nDyssomnia NOS\nDyssomnia (disorder)\nDyssomnias [Disease/Finding]\n[D]Sleep disturbances (context-dependent category)\n[D]Sleep disturbance, unspecified\n[D]Sleep disturbances\nSleep dysfunction\nDisturbance in sleep behaviour\nDisturbed;sleep\nSleeping disturbances\nDisturbance in sleep behavior (finding)\nSleep disturbances (incl subtypes)\nsleep disturbances\n[D]Sleep disturbance, unspecif\n[D]Sleep disturbances (situation)\nSleep disturbances [D]\nDifficulty sleeping\nSleep disturbance, unspecif\nSleep disturbed\nSleep disturbances (including subtypes)\ndisturbed sleep\nsleep disturbances (symptom)\ndisturbances, sleep\nDisturbance in sleep behavior\nSleep disturbance NOS\n[D]Sleep disturbance, unspecified (context-dependent category)\nUnspecified sleep disturbance\nDisturbance in sleep behaviour, NOS\n[D]Sleep disturbance, unspecified (situation)\nDisturbance in sleep behavior, NOS\nproblems with sleeping\nSleep disturbance, unspecified\nTrouble sleeping\nSleep disorders\nDisorder sleep\nSleep disorder, unspecified\ndisorders, sleep\nProblem;sleep\n[D]Sleep dysfunction NOS (context-dependent category)\nDisorder, Sleep\nSleep disorder (disorder)\nSleep-wake disorder\nSleep disorders and disturbances\nSLEEP DISORDER (NOS)\n9-74 SLEEP DISORDERS\nsleeping disorders\nSLEEP DISORDER\nSleep disorder NOS\nSleep dysfunction NOS\nSleep disorder, NOS\nSleep Wake Disorders\nsleep disorder (diagnosis)\nSLEEP DIS\nDisorder;sleep\n[D]Sleep dysfunction NOS\nSleep Wake Disorders [Disease/Finding]\nSleep-wake disorder (disorder)\n[D]Sleep dysfunction NOS (situation)\nparasomnia"
+    },
+    {
+      "name": "JOINTPAIN",
+      "text": "Level of Joint Pain\nYour level of joint pain is\nJoint Pain\nJoint Pain, CTCAE 3\nJoint Pain, CTCAE\nAche in joint\nJoint: [pain - arthralgia] or [ache]\ndiffuse joint pains\nArthrodynia\nARTHRITIC-LIKE PAIN\ndiffuse joint pains (symptom)\nPainful joints\nPain in a joint, site unspecified\nJoint pains\narthralgia (diagnosis)\njoint ache\nPain, Joint\nPain in joint\naching joints\npainful joint\njoints pain\nPAIN JOINT\naching joint\nJoint pain-unspec\nArthralgia\nPain;joint(s)\nArthralgia NOS\nPain in joint, site unspecified\nARTHRALGIAS\ndiffuse arthralgia\nDiscomfort in joints\nPain in joint - arthralgia\narticular pain\nPain in joints\nArthralgia NOS (finding)\nJoint: [pain - arthralgia] or [ache] (disorder)\nArthralgia [Disease/Finding]\nJoint pain (finding)\nPains, Joint"
+    },
+    {
+      "name": "MAINTENANCEINSOMNIA",
+      "text": "Maintenance insomnia"
+    },
+    {
+      "name": "CONFUSION",
+      "text": "Dazed state\nMuddled\nDazed\nConfusion\nMuzzy headed\nClouded consciousness (finding)\nclouding of sensorium\nClouded consciousness\nConfused\nClouding of consciousness\nWooziness\nDullness of senses\nConsciousness clouding\nConfusional State\nMental disorientation\nConfusion NOS\nStates, Confusional\nconfusion (physical finding)\ncognitive functions confusion\nConfusion state\nMental confusion\nconfusion was observed\ndisorientation confusion\nbewilderment\nDisorientation/Confusion\nState, Confusional\nconfusion (symptom)\nConfusional state (disorder)\nConfusional state (diagnosis)\ndisorientation\nConfusional States\nConfusion (Mental)\nconfusion; mental\nConfusion [Disease/Finding]\nEasily confused\n[D]Confusion\ndaze\nConfused (finding)\nrndx confusion (diagnosis)\nconfusional; state\nconfusion disorientation\ndelirium confusional state\nconfusion and disorientation\nstate; confusional\n[D]Confusion (context-dependent category)\nFeeling dazed\n[D]Confusion (situation)\nConfusion/Disorientation\nrndx confusion\ndazing\nConfusion, CTCAE_5\nConfusion, CTCAE 5.0\nConfusion, CTCAE 3.0\nConfusion, CTCAE_3"
+    },
+    {
+      "name": "PEELINGSKIN",
+      "text": "exfoliation (physical finding)\nExfoliation, NOS\nPeeling of skin\nDesquamation, NOS\nSKIN PEELING\nDropping of scales\n415 DESQUAMATION\nExfoliation NOS\nskin peel\nskin appearance peeling\nScaling skin\nscaling of skin (symptom)\nScaling -RETIRED-\nPeeling of skin (finding)\nFlaking of skin\nSKIN DESQUAMATION\ndesquamation was seen\nskin scaling\ndesquamation\nscaling of skin\nscaling\nSKIN EXFOLIATION\nskin scales (physical finding)\nDesquamation, function (observable entity)\ndesquamation; skin\nskin flaking\nDesquamation (function)\npeels\ndesquamation (physical finding)\nflaking skin\nexfoliation\nscales\nexfoliation was seen\nExfoliation of skin\npeel\nskin scales\nDesquamation, function\nscaly skin\npeeling skins\nexfoliating\nexfoliated\nScaling (observable entity)\npeeling skin\nShedding of scales\nDesquamation of skin\nScaling of skin, NOS\nskin appearance peeling (physical finding)\nSkin desquamation NOS\nexfoliate\nscales were seen\nScaling of the skin\nPeeling;skin\nDesquamative state\nskin peeling (symptom)\npeeling"
+    },
+    {
+      "name": "BRADYPHRENIA",
+      "text": "Bradyphrenia (finding)\nbradyphrenia"
+    },
+    {
+      "name": "VENOUSTHROMBOSIS",
+      "text": "Venous thrombosis after immobility\nVenous thrombosis\nPhlebothrombosis, NOS\nVenous thrombosis, NOS\nBlood clot in vein\nVenous thrombosis NOS\nThrombosis venous\nThrombosis of vein NOS (disorder)\nVenous thrombosis (disorder)\nPhlebothrombosis\nThrombosis (vein) NOS\nPhlebothrombosis (disorder)\nThrombosis of vein NOS\nThrombosis, Venous\nThromboses, Venous\nVenous Thromboses\nclot (blood); vein\nvenous thrombosis (diagnosis)\nThrombosis;venous\nvein; clot (blood)\nVenous Thrombosis [Disease/Finding]\nPhlebothromboses\na blood clot in the vein\nvein thrombosis"
+    },
+    {
+      "name": "WEIGHTLOSS",
+      "text": "Usual Severity Weight Loss\nWeight loss\nHow Often Weight Loss\nWeight Loss Frequency\nFrequency of Weight Loss\nWeight Loss, CTCAE\nDecreased weight\nLoss (of);weight\nLosses, Weight\nweightloss\nWeight Loss [Disease/Finding]\nWeight decreasing (finding)\nloss; weight\nAbnormal loss of weight\nloss wt\nloss weight\nweight loss (on exam)\nWeight decreased\nWeight loss, progressive\nlost weight\nProgressive weight loss\nweight decrease\nWeight decreasing\nreduction weight\ndecreases weight\nWeight decreased (observable entity)\nlose weight\nloses weight\nDecreased body weight\nlosing weight\nWeight loss finding\nloss of weight\nWeight Reductions\nLoss, Weight\nweight reduction\nWt loss\nweight loss on exam\nReductions, Weight\nReduction, Weight\nweight; loss\nweight loss on exam (physical finding)\ndecrease weight\nWeight loss (finding)\nDecreased;weight\nWeight Losses\nWeight loss finding (finding)\nWeight decreased (finding)\nLosing wt\nHave you lost weight\nHave Weight Loss\nHow Much Distress Weight Loss"
+    },
+    {
+      "name": "INSOMNIA",
+      "text": "Insomnia, CTCAE 5.0\nInsomnia\nInsomnia, CTCAE_5\n[D]Insomnia\nInsomnia [Ambiguous] (disorder)\nInsomnia NOS\ninsomnia disorder\n[D]Insomnia (situation)\nInsomnia [D]\nInsomnia, NOS\n[D]Insomnia - symptom\nINSOMNIA DIS\nInsomnia NOS (disorder)\nInsomnia (disorder)\nSLEEPLESSNESS\nInsomnia, unspecified\nDisturbances of sleep/insomnia\nInsomnia symptom\nInsomnia (disorder) [Ambiguous]\n[D]Insomnia NOS (situation)\nInsomnia Disorders\nCannot sleep - insomnia\n[D]Insomnia NOS\ninsomnia (symptom)\nInsomnia: [transient] or [NOS] (disorder)\ninsomnia disorder (diagnosis)\nInsomnia - symptom\nInsomnias\n[D]Insomnia (context-dependent category)\nSLEEP DISORDER INSOMNIA\n[D]Insomnia NOS (context-dependent category)\nInsomnia: [transient] or [NOS]\nInsomnia, CTCAE 3.0\nInsomnia, CTCAE_3\nInsomnia homeopathic medication\nMy sleep quality was\nInsomnia Distress\nSleep Quality Question\nSleep Quality"
+    },
+    {
+      "name": "SKINRASHES",
+      "text": "Eruption (disorder)\n[D]Rash and other nonspecific skin eruption\nEfflorescence\nexanthemas\nSkin rashes\n[D]Spots\nRash, Skin\nSKIN ERUPTION\nRash and other nonspecific skin eruption\nRash and other nonspecific skin eruption NOS\n[D]Rash and other nonspecific skin eruption NOS (context-dependent category)\nRash\nskin rash\nexanthem\nexanthems\nCutaneous eruption (morphologic abnormality)\ncutaneous eruption on skin\nrash (symptom)\nExanthema [Disease/Finding]\n[D]Rash and other nonspecific skin eruption NOS (situation)\nCutaneous eruption\nExanthemata\nRash (nonspecific)\nRash/nonspec.skin erupt.NOS\n[D]Exanthem (situation)\nskin; eruption\ncutaneous eruptions\n[D]Rash/nonspec.skin erupt.NOS\nexanthem (diagnosis)\nexanthema\n[D]Exanthem\nEruption of skin (disorder)\neruption; skin\nSpots [D]\nERUPTION\nrashes\n[D]Rash and other nonspecific skin eruption (situation)\nBreaking out - eruption\nEruption, NOS\nspots\nRash, NOS\nNonspecif skin erupt NEC\nEruption of skin\nRash NOS\nCutaneous eruption, NOS\nRash/nonspec.skin eruption\n[D]Rash/nonspec.skin eruption\n[D]Rash and other nonspecific skin eruption NOS\n[D]Rash and other nonspecific skin eruption (context-dependent category)\n[D]Exanthem (context-dependent category)"
+    },
+    {
+      "name": "TEMPERATUREINSTABILITY",
+      "text": "Temperature instability"
+    },
+    {
+      "name": "PHARYNGALGIA",
+      "text": "Pharyngalgia"
+    },
+    {
+      "name": "DYSAUTONOMIA",
+      "text": "Dysautonomias\nAutonomic dysregulation\nDYSAUTONOMIA\nDysautonomias, Primary\nDysautonomia, NOS\nPrimary Dysautonomias\nAutonomic dysfunction\nPrimary Dysautonomias [Disease/Finding]\nobsolete Autonomic dysregulation\nobsolete Dysautonomia\nDysautonomia, Primary\nAbnormal autonomic nervous system physiology\nPrimary Dysautonomia"
+    },
+    {
+      "name": "PARAGEUSIA",
+      "text": "Parageusias\naltered tastes\nTaste altered\nAltered Taste\nParageusia\nTaste, Altered\nrndx gustatory alteration (diagnosis)\ntaste disturbances (symptom)\nDysgensia\ndisturbances taste\nTaste changed\ntaste abnormality\nTASTE IMPAIRMENT\nGustatory Alteration\nTASTE PERVERSION\nTaste perversion of\ndisturbance of taste (diagnosis)\n[D]Parageusia\ntaste alteration\nThings taste different\nDysgeusia\n[D]Parageusia (context-dependent category)\n[D]Parageusia (situation)\nAdverse taste perception\nabnormalities taste\nSensory perceptual alteration: gustatory\nPerversion of sense of taste\nAlteration in taste\nDisordered taste\nThings taste peculiar\ndisturbance of taste\nTaste changes\nTaste sense altered\ndisorder; taste\nThings taste abnormal\nTaste disturbance\nTaste, Distorted\ntaste disturbances\nparageusia (diagnosis)\nalterations taste\nDistorted Taste\nDysgeusias\nTaste sense altered (finding)\nDysgeusia [Disease/Finding]\nDisturbance;taste\ntaste; disorder\nImpaired Sense Of Taste\nrndx gustatory alteration\ndistort taste"
+    },
+    {
+      "name": "HEADACHE",
+      "text": "Headache, CTCAE\nHeadache\nPain in head\ncephalalgia\n[D]Headache (situation)\n[D]Pain in head NOS\nPain head\nHEAD PAIN CEPHALGIA\ncephalodynia\n[D]Headache (context-dependent category)\nheadache (symptom)\nCephalalgias\nHeadache (excl N02 N89 R09)\nHead pain\ncephalgia\nHEAD ACHE\nPain, Head\nPains, Head\nHead Pains\nache head\nPain, Cranial\nHA - Headache\nCephalgias\nPain;head\nHA\n[D]Headache\nHeadache [Disease/Finding]\nHeadache (excluding N02 N89 R09)\nCranial Pain\n[D]Pain in head NOS (situation)\nPains, Cranial\nheadache, cephalalgia\nheadaches\nHeadache, NOS\nhead; pain\nCranial Pains\nCephalodynias\nHave headaches\npain; head\n[D]Pain in head NOS (context-dependent category)\nPain in head NOS\nHeadache NOS\nHeadache (finding)\nhead pained"
+    },
+    {
+      "name": "PETECHIAE",
+      "text": "Hemorrhage, petechial\nPetechiae (disorder)\npetechiae\nPetechial haemorrhage\nPetechia (morphologic abnormality)\npetechia\nPetechiae (finding)\n[D]Petechiae (situation)\nPetechial hemorrhage\nRASH PETECHIAL\n[D]Petechiae\nhemorrhage; petechial\nPetechial rash\n[D]Petechiae (context-dependent category)\npetechial; hemorrhage\nPetechial eruption\nSkin Petechiae\npetechial hemorrhages\nSKIN PETECHIA\npetechiae (diagnosis)\nPetechiae of skin\npetechial hemorrhages (physical finding)\nPetechiae of skin (disorder)\npetechial hemorrhages (___cm)"
+    },
+    {
+      "name": "KERATOCONJUNCTIVITISSICCA",
+      "text": "syndrome; dry eye\ndry eye syndrome (diagnosis)\ndry eye; syndrome\ndry eyes syndrome\ndry eye syndromes\nDry eye syndrome (disorder)\nDry Eye\nSyndromes, Dry Eye\nKeratoconjunctivitis Sicca\nDry eye syndrome\nSyndrome, Dry Eye\nsyndrome dry eye\nTear film deficiency\nDRY EYES\nDry Eye Syndromes [Disease/Finding]\nkerato conjunctivitis sicca\nkc\nKCS\nKeratoconjunctivitis sicca (disorder)\nKCS - Keratoconjunctivitis sicca\nKeratoconjunctivitis Sicca [Disease/Finding]\nKCS - Keratoconjunctivit sicca\nKeraconjunctivitis sicca\nSicca, Keratoconjunctivitis"
+    },
+    {
+      "name": "MYOCARDITIS",
+      "text": "Myocarditis, CTCAE 5.0\nMyocarditis\nMyocarditis, CTCAE_5\nMyocarditis, CTCAE 3.0\nMyocarditis, CTCAE_3\nMyocarditis NOS (disorder)\nMyocarditis, NOS\nmyocardium; inflammation\n3-26-27 MYOCARDITIDES\nMyocarditides\nmyocarditis (diagnosis)\nMyocarditis [Disease/Finding]\nMyocarditis (disorder)\nMyocarditis, unspecified\nMyocardial inflammation\nMyocarditis NOS\ninflammation; myocardium\nMyocardial inflammation (finding)"
+    },
+    {
+      "name": "HYPOGLYCINEMIA",
+      "text": "Low blood glycine levels\nHypoglycinemia"
+    },
+    {
+      "name": "EMOTIONALLABILITY",
+      "text": "Mood lability\nlabile mood\nmood labile\nMood swings\nEMOTIONAL INSTABILITY\nemotional; instability\nVariable mood\nINSTABILITY EMOTIONAL\naltered moods\nLabile in mood\nAltered mood\nMood altered\nMood variable\nMood alterations\nemotionally labile\nmood change\nMood swing\nMood changes\nEmotional Lability\nChange in mood\ninstability; emotional\nInstability (Emotional)\nMoody\nLABILITY EMOTIONAL\nLabile Moods\nLabile mood (finding)\nemotional lability (symptom)\nlabile mood (physical finding)\nMood swings (finding)\nUnstable mood\nChangeable mood\nUnstable mood (finding)"
+    },
+    {
+      "name": "VISUALLOSS",
+      "text": "Cannot see properly\nVision abnormal\nVision, abnormal\nVision problem\nproblems with eyesight\nvisual loss\nproblem; sight\nAbnormal vision NOS\nProblem sight\nsubnormal vision\nAbnormal vision (finding)\nAbnormal Vision\nvisual problems (symptom)\neyesight problems\nvisual problems\nProblem seeing\nVision abnormal NOS\nLoss of vision\nVision loss\nCan't see properly\nsight; problem\nPartial sight\nLoss (of);sight\nVisual loss NOS\nVisual loss NOS (finding)\nVisual loss, NOS\nUnspecified visual loss\nsight loss\nloss (of) sight\nloss of sight\nVision, Loss Of\nvision; loss\nloss sight\nloss; vision\nVision, Impaired\nVision impairment\nDifficulty;vision\nReduced ability to see\ndecreased vision\ndisturbance; vision\ndefective; vision\nvisual impairment (diagnosis)\nVision problem (finding)\nvision impaired\nVision problems\nVision problem (disorder)\nPoor vision\nImpaired Vision\nImpairment, Visual\nlow; vision\nvision; defect\nvision disturbances\ndefect; vision\nSight impaired\nDisturbed;vision\nvision; low\nvisual defect\nproblem with vision\nVISUAL IMPAIRMENT\ndifficulty with vision\nvision disturbance\nImpairments, Visual\nvision; disturbance\nVisual difficulty\nImpaired vision (finding)\npartially sighted\nPartial blindness\nVisual impairment (disorder)\nVISION DECREASED\nProblem;vision\nVisual Impairments\nDifficulty seeing\ndisturbed vision\nDecreased vision, NOS\ndefects visual\nVisual defects\nImpaired vision (disorder)\nDefect;vision\nVisual deficit\nImpairment;visual"
+    },
+    {
+      "name": "FACIALPARALYSIS",
+      "text": "facial paralyses\nparalysis; facial nerve\nPalsies, Facial\nFacial Nerve Paralysis\nseventh nerve palsy\nParalyses, Facial\nPalsy;VII nerve\nFACIAL PARALYSIS\nFacial Nerve Palsy\nSeventh nerve paralysis\nparalysis; facial\nfacial palsy\nFacial Paralysis [Disease/Finding]\nFacial nerve palsy (cranial nerve VII)\nPalsy, Facial\nnerve disorders facial\nFacial nerve paralysis, NOS\npalsy facial nerve\nVII nerve palsy\nParalysis Of Facial Nerve\nBell's Palsy\npalsy facial\nfacial; paralysis\nparalysis facial nerve\nFacial nerve paralysis (disorder)\nFacial palsy (disorder)\nFacial Palsies\nVII th nerve palsy\nNerve Paralysis, Facial\nPalsy;facial\nParalysis facial\nFacial nerve palsies\nParalysis, Facial"
+    },
+    {
+      "name": "BONEPAIN",
+      "text": "Bone Pain, CTCAE_3\nBone pain\nBone Pain, CTCAE 3.0\nBone Pain, CTCAE_5\nBone Pain, CTCAE 5.0\nPain;bone\npain; bone\nostalgia\nSkeletal pain\nbone pain (symptom)\nOstealgia\nOsteodynia\nPain bone\nBone pain (diffuse not joint pain or arthritis)\nBone pain (finding)\nbone; pain"
+    },
+    {
+      "name": "INTERLOBULARSEPTALTHICKENINGONPULMONARYHRCT",
+      "text": "Interlobular septal thickening on pulmonary HRCT"
+    },
+    {
+      "name": "GROUNDGLASSOPACIFICATIONONPULMONARYHRCT",
+      "text": "Ground-glass opacification on pulmonary HRCT"
+    },
+    {
+      "name": "FAINTING",
+      "text": "swoons\nFALLING OUT\nSyncope and collapse (disorder)\n[D]Syncope and collapse\nFainting spells\n[D]Syncope and collapse (context-dependent category)\nFainting (finding)\nsyncope fainting\nfalls out\nFainting/syncope\nSyncope (disorder)\nloss of consciousness; attack\nCollapse transient\nattack; syncope\n[D]Syncope and collapse NOS (context-dependent category)\nout pass\nFainted\nFaint symptom\ngeneral; collapse\nFainting\npass out\nsyncope / fainting\nswoon\nswooning\ncollapse syncope\nfit; fainting\nfainting episodes\n[D]Syncope and collapse (situation)\nout passed\nA faint\nFainting [D]\nSYNCOPE\nFAINTNESS\nattacks fainting\n[D]Syncope\n[D]Fainting\nAttack(s);fainting\n[D]Fainting (situation)\nattack; unconsciousness\nSyncope, NOS\nfainting syncope\nSyncope [Disease/Finding]\ndisorders syncope\nCOLLAPSE FLEETING\nPassed out\nfainting (syncope)\nSyncope and collapse\nfaints\nBlackout\nSyncope (finding)\nSyncope symptom (disorder)\nSyncope and collapse NOS\nSyncopes\nfainting attacks\nunconsciousness; attack\nFaint\nattacks syncopal\n[D]Syncope and collapse NOS\n[D]: [fainting] or [collapse] (situation)\nsyncope collapse\n[D]Syncope and collapse NOS (situation)\nfainting; fit\nsyncope attack\n[D]: [fainting] or [collapse] (disorder)\nSyncope symptom (finding)\nFainting spell\nsyncope; syncope\n[D]Fainting (context-dependent category)\ncollapse; general\nSyncopal attack\n[D]: [fainting] or [collapse]\nfainting (symptom)\nout passes\nCollapse [D]\nSyncope symptom"
+    },
+    {
+      "name": "ANXIETY",
+      "text": "Anxiety\nVisual Analogue Anxiety Scale\nAnxiety Visual Analogue Scale\nAnxiety, CTCAE 5.0\nAnxiety, CTCAE_5\nAnxiety, CTCAE_3\nAnxiety, CTCAE 3.0\nanxiety; complaint\nsymptoms anxiety\nanxiety symptoms\nanxiety symptom\nanxiety (symptom)\nAnxiety symptoms NOS\nAnxiety Scale\nAnxiety Scale (BASC-2)\nAnxiety disorder [Ambiguous]\nUnspecified anxiety disorder\nanxiety disorder (diagnosis)\n[X]Anxiety disorder, unspecified\nanxiety disorder nos\nanxiety disorders\nDisorder;anxiety\nDisorder, Anxiety\n[X]Anxiety disorder, unspecified (disorder)\nAnxiety disord unspecified\nAnxiety disorder\n[X]Anxiety disord unspecified\nAnxiety disorder, unspecified\nAnxiety disorder, NOS\nAnxiety disorder (disorder)\nANXIETY DIS\nAnxiety Disorders [Disease/Finding]\n9-81 ANXIETY DISORDERS\nDisorders, Anxiety\nAnxiety NOS\nFeel anxious\nAnxiousness (& symptom) (finding)\nAnxiety (finding)\nREACTION ANXIETY\nfeeling anxious\nAnxious\nanxious; sensation\nunfocused anxiety\nAnxiety reaction\nangst\nanxieties\nAnxiousness (& symptom)\nrndx anxiety\nAnxiousness\nFeeling;anxious\nrndx anxiety (diagnosis)\nExcessive, persistent worry and fear\nAnxiousness - symptom\nAnxious behavior"
+    },
+    {
+      "name": "AGNOSIA",
+      "text": "Agnosia Rothschild & Jordan, 1903\nAgnosia <Eukaryote>\nAgnosia\nsymbolic dysfunction agnosia\n[D]Agnosia\nAGNOSIAS\nAgnosia [Disease/Finding]\nAgnosia, NOS\nA64-A65 AGNOSIAS\n[D]Agnosia (situation)\nagnosia (diagnosis)\nLoss of perception of sensory stimuli\nAgnosia (finding)\n[D]Agnosia (context-dependent category)"
+    },
+    {
+      "name": "SENSITIVITYTOLIGHT",
+      "text": "Eyes sensitive to light\nLight affects eyes\neye sensitivity to light (photophobia)\nPhotophobia\nLight hurts eyes\nOcular Photosensitivity\nintolerance to light\nPhotophobia [Disease/Finding]\nSensitivity, Light\nlight sensitivity\nLight hurts eyes (disorder)\nLight intolerance\nEyes sensitive to light (finding)\nsensitiveness to light\nSensitivities, Light\nLight intolerance (finding)\nSensitivity to light\nLight hypersensitivity\nLight Sensitivities\nPhotophobia (finding)\neyes photosensitivity\nPhotophobias\nExtreme sensitivity of the eyes to light\nlight sensitive eye\nphotophobia (symptom)\nDoes not like light\neye light sensitive\neyes light sensitive"
+    },
+    {
+      "name": "IRRITABILITY",
+      "text": "Irritability\nIrritability, CTCAE\nIrritation\nIrritable\nIrritation - emotion\nIrritable (& symptom)\nIrritable symptom\nMood, Irritable\nFeeling;irritable\nIrritable mood\nIrritable (& symptom) (finding)\nMoods, Irritable\nIrritable - symptom\nfeeling irritable\nirritability; abnormal\nirritable mood (physical finding)\nFussiness\nabnormal; irritability\nmood irritable\nIrritibility\nFeeling irritable (finding)\nFeeling irritated\nIrritable Moods"
+    },
+    {
+      "name": "SYNCOPE",
+      "text": "swoons\nFALLING OUT\nSyncope and collapse (disorder)\n[D]Syncope and collapse\nFainting spells\n[D]Syncope and collapse (context-dependent category)\nFainting (finding)\nsyncope fainting\nfalls out\nFainting/syncope\nSyncope (disorder)\nloss of consciousness; attack\nCollapse transient\nattack; syncope\n[D]Syncope and collapse NOS (context-dependent category)\nout pass\nFainted\nFaint symptom\ngeneral; collapse\nFainting\npass out\nsyncope / fainting\nswoon\nswooning\ncollapse syncope\nfit; fainting\nfainting episodes\n[D]Syncope and collapse (situation)\nout passed\nA faint\nFainting [D]\nSYNCOPE\nFAINTNESS\nattacks fainting\n[D]Syncope\n[D]Fainting\nAttack(s);fainting\n[D]Fainting (situation)\nattack; unconsciousness\nSyncope, NOS\nfainting syncope\nSyncope [Disease/Finding]\ndisorders syncope\nCOLLAPSE FLEETING\nPassed out\nfainting (syncope)\nSyncope and collapse\nfaints\nBlackout\nSyncope (finding)\nSyncope symptom (disorder)\nSyncope and collapse NOS\nSyncopes\nfainting attacks\nunconsciousness; attack\nFaint\nattacks syncopal\n[D]Syncope and collapse NOS\n[D]: [fainting] or [collapse] (situation)\nsyncope collapse\n[D]Syncope and collapse NOS (situation)\nfainting; fit\nsyncope attack\n[D]: [fainting] or [collapse] (disorder)\nSyncope symptom (finding)\nFainting spell\nsyncope; syncope\n[D]Fainting (context-dependent category)\ncollapse; general\nSyncopal attack\n[D]: [fainting] or [collapse]\nfainting (symptom)\nout passes\nCollapse [D]\nSyncope symptom\nSyncope, CTCAE_5\nSyncope, CTCAE 5.0\nSyncope (amphibian)"
+    },
+    {
+      "name": "FLOATERS",
+      "text": "Floaters, CTCAE\nFloaters\nFloating bodies in vitreous\nfloaters in visual field\nobjects moving within the field of view (floaters)\nEYE FLOATERS\nvitreous floaters\nMyodesopsia\nMuscae volitantes\nvitreous floater\nMouches volantes\nfloaters in eye\nFloaters in visual field (finding)\nfloaters in field of vision\nFLOATER\nMyodeopsia\nvitreous floaters (physical finding)\nfloating; vitreous floater\nFloaters, Vitreous\nvitreous; floater\nVitreous opacities\nFloaters vitreous\nFlitting flies\nvitreous floaters (diagnosis)\neyes floater\nVitreous floater (disorder)\nfloaters in visual field (symptom)\nShowers of floaters\nVitreous floaters (disorder)\nobjects moving within the field of vision (floaters)\nVitreous condensations\nMusca volitans\neye floater"
+    },
+    {
+      "name": "HEATINTOLERANCE",
+      "text": "Intolerant of heat\nIntolerant of heat (finding)\nHeat intolerance\nHeat sensitivity\nheat sensitive\nGets overheated\nIntolerance to heat and fevers\nSensitive to heat\nconsistent heat intolerance\ntemperature intolerance to heat (consistent)\nconsistent heat intolerance (symptom)"
+    },
+    {
+      "name": "AGGRESSION",
+      "text": "Aggression\nAggression Scale\nAggression Scale (BASC-2)\nAggressiveness\naggressive behaviour\naggressive behaviours\nviolent aggressive behavior\naggressive\nAggressive behaviors\nAggressions\nAggressive behavior (finding)\nAggressive/violent behavior\nAggressive behavior\nBEHAVIOR AGGRESSIVE\naggressive and violent behavior"
+    },
+    {
+      "name": "DIMINISHEDABILITYTOCONCENTRATE",
+      "text": "Poor concentration (observable entity)\nDiminished ability to concentrate\nPoor concentration (finding)\nPoor Concentration"
+    },
+    {
+      "name": "CONJUNCTIVITIS",
+      "text": "Conjunctivitis, CTCAE\nConjunctivitis\nConjunctivitis, unspecified\nConjunctivitis [Disease/Finding]\ninflammation of conjunctiva\nConjunctivitides\nPink Eye\nConjunctivitis, NOS\nConjunctivitis NOS\nConjunctiva inflamed\nConjunctivitis (disorder)\nconjunctivitis (diagnosis)\nUnspecified conjunctivitis (disorder)\nconjunctiva inflammation\nUnspecified conjunctivitis"
+    },
+    {
+      "name": "WEAKNESS",
+      "text": "STRENGTH DECREASED\nGeneralized weakness\nWEAKNESS, GENERALIZED\nWeakness;generalized\nweak feeling\nDEBILITY\nfeels weak\nWeakness generalised\n([D]Debility, unspecified) or ([D] Self neglect) (situation)\nEnfeebled\n([D]Debility, unspecified) or ([D] Self neglect)\nfeeling weakness\nunspecified debility\nof strength loss\nDebility NOS\nweak\nGeneral debility\nFeeling;weak\nWeakness - general\n[D]Debility, unspecified\nfeel weak\nWeakness;generalised\nWeakness\ngeneral weakness\nStrength loss of\nfeelings of weakness\nfeelings of weakness (symptom)\nWEAKNESS GENERALIZED\nloss of strength\nstrength loss\ngeneralised weakness\nasthenic\nunspecified debility (diagnosis)\nLassitude\n[D]Debility, unspecified (context-dependent category)\nweaknesses\nFeeling weak\n[D]Debility, unspecified (situation)\nDebility, unspecified\nloss strength"
+    },
+    {
+      "name": "CHILBLAINS",
+      "text": "chillblains\nChilblains\nIdiopathic Perniosis\nperniosis\nerythema; pernio\nPernios\nPerniosis, Idiopathic\nErythema pernio\npernio; erythema\nChilblain\nPernioses\nadverse effect; cold, chilblains\npernio\nChilblain lesions\ncold; adverse effect, chilblains\nchilblain disorder\nChilblains (disorder)\nIdiopathic Pernioses\nChilblains [Disease/Finding]\nPernioses, Idiopathic\nchilblained\nchilblains (diagnosis)\nEffects of chilblains"
+    },
+    {
+      "name": "HYPERKINETICMOVEMENTS",
+      "text": "hyperkinesias\nHyperkinesia\nMOTOR HYPERACTIVITY\nHyperkinesis\nMovements, Hyperkinetic\nHyperkinesis [Disease/Finding]\nHyperactivity, Motor\nHyperkinetic Movements\nHyperkinesia, NOS\nHyperkinesis, NOS\nHyperkinetic Movement\nMovement, Hyperkinetic"
+    },
+    {
+      "name": "NEUROPATHY",
+      "text": "Neuropathy (disorder)\nNEUROPATHY\nNeuropathy - (NOS)\nNeuropathy NOS\ndisorders neuropathy\nNeuropathy, NOS\nnerve disorders (diagnosis)\nnerve disorders\nneuropathy (diagnosis)\nneuropathies\nnerve; disorder\nNeuropathy (nerve damage)"
+    },
+    {
+      "name": "COGNITIVEIMPAIRMENT",
+      "text": "Neurocognitive Dysfunction\nCOGNITIVE DISTURBANCE\nCognitive Dysfunctions\nCognitive defects\nDysfunctions, Cognitive\nImpairment, Cognitive\ncognitive dysfunction\nImpaired cognition\nImpairment;cognitive\ncognitive impairments\nCognitive Dysfunction [Disease/Finding]\nImpaired cognition (finding)\nCognitive deficits\nCognitive decline\nCognitive deficit\nNeurocognitive Disturbance\nCognitive impairment\nCognitive function abnormal\nDisturbance in cognition\nImpairments, Cognitive\nDysfunction, Cognitive"
+    },
+    {
+      "name": "ELEVATEDSERUMCREATINEKINASE",
+      "text": "CREATINE PHOSPHOKINASE SERUM INC\nCreatine kinase, serum, elevated\nSerum creatine phosphokinase increased\nPHOSPHOKINASE CREATINE SERUM INCREASED\nElevated serum creatine kinase\nCreatine phosphokinase serum increased\nHigh serum creatine kinase\nHYPERCKEMIA, IDIOPATHIC\nIncreased serum creatine kinase\nSERUM CREATINE PHOSPHOKINASE ELEVATED\nIncreased serum creatine phosphokinase\nElevated serum creatine phosphokinase\nCPK, ELEVATED SERUM\nElevated serum CPK\nCREATINE PHOSPHOKINASE, ELEVATED SERUM\nIncreased serum CK"
+    },
+    {
+      "name": "ITCHYEYES",
+      "text": "pruritus of eye\neye itching\npruritus of eye (symptom)\nItching of eye\nItchy eyes\neye itch\neye; itchy\nItching eyes\nOcular itching\nEYE PRURITUS\nItching;eye\nitchy eye\nItching of eye (finding)\neyes itch\nocular pruritus\neyes itching\nitch; eye\neyes itchy\nitching eye"
+    },
+    {
+      "name": "SHORTNESSOFBREATH",
+      "text": "Shortness of breath:-:Point in time:^Patient:-\nShortness of breath\nShortness of breath:-:Pt:^Patient:-\nHave Shortness of Breath\nHave Been Short of Breath\nWere you short of breath\nHave Shortness of Breath question\nI have been short of breath\nShortness of Breath Visual Analogue Scale\nVisual Analogue Shortness of Breath Scale\nHow Much Distress Shortness of Breath\nBreathlessness\nshortness of breath; breath\n[D]Shortness of breath\nBreath shortness\nDyspnoea NOS\n[D]Shortness of breath (situation)\nDifficulty breathing (finding)\nDyspnea, NOS\nBreath Shortnesses\nBreathlessness NOS (finding)\nDifficulty breathing\nBreathlessness NOS\nbreath; shortness of breath\nshortness of breath (SOB)\nDyspnea - symptom\ndifficult breathing\n[D]Breathlessness (situation)\n[D]Shortness of breath (context-dependent category)\nShortness of breath dyspnea\n[D]Dyspnea (context-dependent category)\nDyspneas\ndifficulty breathing (symptom)\nSOB (SHORTNESS OF BREATH)\nBreathing difficult\nTrouble breathing\nDyspnea (finding)\nShortness of breath symptom\nDyspnoea (finding)\nSOB - Shortness of breath\nshortness of breath (symptom)\nBreathing Difficulties\nDyspnoea - symptom\nDIB - Difficulty in breathing\ntightness of breath\nRespiratory difficulties\nBreathlessnesses\nDYSPNOEA\nBreathless\nDifficulty;breathing\nDyspnoeas\n[D]Breathlessness (context-dependent category)\nShortness of breath/dyspnoea\nrespiratory difficulty\nDifficulty breathing [Ambiguous]\nBreathlessness symptom\nDyspnea (finding) [Ambiguous]\nDyspnea [Disease/Finding]\nShort of breath symptom\nDyspnoea, NOS\nRespiration difficult\ns.o.b.\n[D]Dyspnea\n[D]Dyspnoea (situation)\n[D]Dyspnoea\n(Symptom: [SOB] or [breathlessness] or [dyspnea]) or (breathlessness)\nsob\nShort of breath\nShortness (of);breath\n(Symptom: [SOB] or [breathlessness] or [dyspnoea]) or (breathlessness)\nDYSPNEA\nbreathing difficulty\n[D]Breathlessness\nDyspnea, unspecified\nDyspnea NOS\nbreathing shortness\n(Symptom: [SOB] or [breathlessness] or [dyspnoea]) or (breathlessness) (finding)\n[D]Dyspnea (situation)\nHow Often Shortness of Breath\nShortness of Breath Frequency\nFrequency of Shortness of Breath\nUsual Severity Shortness of Breath"
+    },
+    {
+      "name": "DIFFICULTYWALKING",
+      "text": "Difficulty walking (finding) [Ambiguous]\nproblem with walking\nWalking disability\nImpaired walking\ndifficulty walking (symptom)\nWALKING DIFFICULTY\nDifficulties, Ambulation\nWalking disability (finding)\nDifficulty in walking\nWalking difficulties\nDifficulty Ambulation\nWalking Problems\nDifficulty walking\nDifficulty, Ambulation\ndifficulties walk\nDifficulty in walking (finding)\nDifficulty in walking NOS\nGait difficulty\nAmbulatory Difficulties\nAmbulatory Difficulty\nAmbulation Difficulty\nDifficulty;walking\nDifficulties, Ambulatory\ndifficulties gait\nProblem;walking\nDifficulty in walking NOS (finding)\nDifficulty walking (finding)\ndifficulty in walking (diagnosis)\nWalking, Difficulty\nproblems walking\ndifficult; walking\nwalking; difficulty\nAmbulation Difficulties\ndifficulties walking"
+    },
+    {
+      "name": "ANGER",
+      "text": "Angry\nAngry mood\nFeeling;angry\nangry mood (physical finding)\nmood angry\nANGER\nAngers\nfeeling angry\nFeeling angry (finding)\nMad\nfeeling angry (symptom)"
+    },
+    {
+      "name": "RESTLESSLEGS",
+      "text": "Wittmaack-Ekbom Syndrome\nRestless legs syndrome (RLS)\nRestless Leg Syndrome\nrestless leg syndrome (diagnosis)\nsyndrome; restless legs\nrestless leg syndrome (RLS)\nSyndrome restless legs\nDisease, Willis-Ekbom\nRestless Legs Syndrome [Disease/Finding]\nWillis-Ekbom Syndrome\nRestless legs syndrome\nLegs restless\nekbom syndrome\nRestless legs\nWillis Ekbom Syndrome\nSyndrome, Wittmaack Ekbom\nSyndrome, Wittmaack-Ekbom\nEkbom\nrestless legs; syndrome\nRestless legs (disorder)\nSyndrome, Willis-Ekbom\nSyndrome, Restless Leg\nrestless leg disorder\nSyndrome, Willis Ekbom\nWillis Ekbom Disease\nDisease, Willis Ekbom\nekbom's syndrome\nWittmaack Ekbom Syndrome\nWillis-Ekbom disease\nrestless leg\nRLS"
+    },
+    {
+      "name": "HEMOPTYSIS",
+      "text": "Coughing up Blood\nBlood in sputum - hemoptysis (finding)\nHemoptysis NOS\nHemoptyses\n[D]Hemoptysis\nCOUGHING BLOOD\nHemoptysis (disorder)\nBlood in sputum - hemoptysis\n[D]Hemoptysis NOS\n[D]Hemoptysis (context-dependent category)\n[D]Hemoptysis NOS (context-dependent category)\nSputum + blood-symptom\nHemoptysis, unspecified\nHemoptysis\ncoughing up blood-streaked sputum (symptom)\nHaemoptysis NOS\nBlood in sputum - hemoptysis [& symptom]\ncough up blood\nBlood in sputum - haemoptysis [& symptom]\nHaemoptysis\nblood streaked sputum\nExpectoration of hemorrhagic sputum\nBlood in sputum - symptom\nspit up blood\nHaemoptysis - symptom\nCoughing;blood\nExpectoration of bloody sputum\n[D]Haemoptysis\nblood spit up\nHemoptysis - symptom\nSPUTUM BLOODY\nSpitting (up);blood\nBlood streaked sputum (finding)\n[D]Haemoptysis NOS (situation)\ncoughing up blood (hemoptysis)\nHemoptysis [Disease/Finding]\nExpectoration of blood streaked sputum\nExpectoration of haemorrhagic sputum\n[D]Haemoptysis NOS\nspitting up blood\n[D]Hemoptysis NOS (situation)\nBlood in sputum - haemoptysis [& symptom] (finding)\nspitting (up) blood\nblood spitting up\nHemoptysis (finding)\nbloody sputum\nblood coughed\nCoughing and spitting blood\nBlood in sputum-symptom\nBlood in sputum - haemoptysis\ncoughing up blood (symptom)\nBlood in sputum - haemoptysis (finding)\ncoughing up blood-streaked sputum\n[D]Hemoptysis (situation)\n[D]Haemoptysis (situation)"
+    },
+    {
+      "name": "ABDOMINALPAIN",
+      "text": "Abdominal pain\nAbdominal Pain, CTCAE 5\nAbdominal Pain, CTCAE\n[D]Abdominal pain (context-dependent category)\nabdomen pain\n[D]Abdominal pain NOS (situation)\nabdominal; pain\nAbdominal pain (finding)\nPain abdo\nUnspecified abdominal pain\nAP - Abdominal pain\nPain, Abdominal\n[D]Abdominal pain (situation)\nPains, Abdominal\nABDOMINAL PAIN NOS\nabdominal pains\nAbdominal Pain [Disease/Finding]\nPAIN ABDOMINAL\nStomach pain\nabdominal pain (symptom)\npain; abdominal\ngut pain\n[D]Abdominal pain NOS (context-dependent category)\nAbd. pain\nAbdmnal pain unspcf site\nAbdo pain\nabdominalgia\n[D]Abdominal pain NOS\nPain in stomach\nAbdominal pain, unspecified site\nBellyache\nPain;abdominal\n[D]Abdominal pain"
+    },
+    {
+      "name": "NAUSEA",
+      "text": "Bothered by Nausea\nNausea\nnauseated\nC/O - nausea\nqueasy\nFeeling queasy\nnausea (symptom)\nFinding of nausea\n[D]Nausea (context-dependent category)\nrndx nausea (diagnosis)\nNausea symptoms\nFeeling sick\nNauseous\nsymptom nausea\nNausea (finding)\nnauseas\nNausea NOS (finding)\nNausea (disorder)\nsick feeling\n[D]Nausea\n[D]Nausea (situation)\nnauseating\nNausea [Disease/Finding]\nnausea symptom\nNausea NOS\nObservation of nausea\nFeeling bilious\nsymptoms nausea\nrndx nausea\nFinding of nausea (finding)\nfeel sick\nI have nausea\nHad Nausea\nHave you felt nauseated\nHave Nausea\nHow Often Nausea\nNausea Frequency\nFrequency of Nausea\nNausea:Presence or Threshold:Point in time:^Patient:Ordinal\nNausea [Presence]\nNausea:PrThr:Pt:^Patient:Ord\nHow Much Distress Nausea\nNausea, CTCAE 3.0\nNausea, CTCAE_3\nFeel Nausea\nNausea Visual Analogue Scale\nVisual Analogue Nausea Scale\nUsual Severity Nausea\nHow much nausea did you have during this period\nHow Much Nausea During This Period\nNausea, CTCAE 5.0\nNausea, CTCAE_5"
+    },
+    {
+      "name": "INCREASEDTROPONINTLEVELINBLOOD",
+      "text": "Increased troponin T level in blood"
+    },
+    {
+      "name": "CHRONICKIDNEYDISEASE",
+      "text": "Chronic Kidney Disease, CTCAE\nChronic kidney disease\nDiseases, Chronic Kidney\nChronic renal disease\nChronic kidney disease (CKD)\nChronic Renal Diseases\nKidney Diseases, Chronic\nChronic Kidney Diseases\nRENAL DISEASE CHRONIC\nRenal Disease, Chronic\nDisease, Chronic Renal\nChronic renal insufficiency\nChronic kidney disease (disorder)\nChronic kidney disease, unspecified\nkidney; disease, chronic\nCKD\nLoss of renal function\nChronic kidney dis NOS\nDiseases, Chronic Renal\nKidney Disease, Chronic\nRenal Diseases, Chronic\nCKD - chronic kidney disease\nChronic Renal Failure\nchronic diseases renal\ndisease (or disorder); kidney, chronic\nchronic disease renal\nDisease, Chronic Kidney"
+    },
+    {
+      "name": "ELEVATEDCREACTIVEPROTEINLEVEL",
+      "text": "Elevated C-reactive protein level"
+    },
+    {
+      "name": "DIPLOPIA",
+      "text": "vision; double vision\nDIPLOPIA\ndouble vision; vision\nDiplopia [Disease/Finding]\nDOUBLE VISION\nVision double\ndiplopia (symptom)\nVision, Double\nDiplopia (finding)\nSeeing double\nDiplopias\nseeing double images (diplopia)\nDiplopia (disorder)"
+    },
+    {
+      "name": "VOMITING",
+      "text": "Vomiting\nHow Much Distress Vomiting\nUsual Severity Vomiting\nBothered by Vomiting\nVomiting, CTCAE\nHave Been Vomiting\nI have been vomiting\nVomiting disorder (disorder)\nemesis\n[D]Emesis (situation)\nthrow up\n[D]Emesis (context-dependent category)\nVomiting, unspecified\nFinding of vomiting (finding)\nVomiting (disorder)\nBeing sick\nVomiting NOS (finding)\nvomiting symptoms\nvomit\ngastric contents; regurgitation\nVomiting (finding)\nVomiting NOS\nVomiting [Disease/Finding]\nvomiting was observed\nFinding of vomiting\nVomiting, NOS\nvomited\nthrowing up\n[D]Vomiting (situation)\nvomits\nvomiting (physical finding)\nsymptoms vomiting\nObservation of vomiting\n[D]Vomiting (context-dependent category)\nVomiting symptom\nregurgitation; gastric contents\n[D]Vomiting\nvomiting (symptom)\nVomiting NOS (disorder)\n[D]Emesis\nVomiting symptoms (disorder)\nVomiting disorder\nVomiting symptom (finding)\nVomiting Frequency\nFrequency of Vomiting\nHow Often Vomiting"
+    },
+    {
+      "name": "EARPAIN",
+      "text": "outcomes otolaryngology ear pain (treatment)\noutcomes otolaryngology ear pain\near pain\nUnspecified otalgia (finding)\nOtalgia (finding)\nEarache symptoms (finding)\nOtalgias\n(Otalgia) or (ear pain) (disorder)\nPain in ear, NOS\nearache (diagnosis)\nEaraches\nEarache symptoms\nOtalgia (disorder)\nOtalgia\nEarache, NOS\nOtalgia, unspecified ear\nEarache symptom NOS (disorder)\npain in ear\nPain;ear\nOtalgia NOS\nPAIN EAR\nOtalgia, unspecified\npain in the ear\near ache\nOtalgia, NOS\near; pain\nEarache symptom (finding)\near aches\nEarache\nUnspecified otalgia\nUnspecified otalgia (disorder)\nEarache symptom NOS (finding)\npain; ear\nears pain\nOtalgia NOS (disorder)\nEarache symptom\n(Otalgia) or (ear pain)\nOtalgia NOS (finding)\nearache (symptom)\nEarache NOS\nEarache symptom NOS\near pains\nEarache [Disease/Finding]\nEar pain (finding)\nEarache symptoms (disorder)\nEar Pain, CTCAE\nEar painful\nPain of ear structure\nPain of ear structure (finding)"
+    },
+    {
+      "name": "SENSORYIMPAIRMENT",
+      "text": "Hypoesthesias\nImpaired Sensations\nhypoaesthesia\ndecreased sensation\nHypesthesia\nSensations, Reduced\nImpaired Sensation\nNumbness\nhypesthesias\nReduced sensation of skin (finding)\nSensation, Reduced\n[D]Hypoesthesia\nHypesthesias, Tactile\nCutaneous hypoesthesia\nTactile Hypesthesias\nsensation impaired\nReduced Sensations\nSensation, Impaired\nhypoesthesia\nHypesthesia [Disease/Finding]\nDecreased Sensitivity\nTactile hypaesthesia\nTactile Hypesthesia\n[D]Hypoaesthesia (situation)\n[D]Hypoesthesia (situation)\n[D]Hypesthesia\nReduced Sensation\nReduced sensation of skin\n[D]Hypoesthesia (context-dependent category)\nHypoesthesia (reduced sensation)\nLimited sensation\nSensations, Impaired\nHypoaesthesia (reduced sensation)\n[D]Hypoaesthesia\nDecreased;sensation\nHypaesthesia\nTactile hypesthesia (finding)\nSensory impairment\nHypesthesia, Tactile\nHypesthesia (finding)"
+    },
+    {
+      "name": "ARTHRALGIA",
+      "text": "Arthralgia, CTCAE\nArthralgia, CTCAE 5\nArthralgia\nAche in joint\nJoint: [pain - arthralgia] or [ache]\ndiffuse joint pains\nArthrodynia\nARTHRITIC-LIKE PAIN\njoint pain\ndiffuse joint pains (symptom)\nPainful joints\nPain in a joint, site unspecified\nJoint pains\narthralgia (diagnosis)\njoint ache\nPain, Joint\nPain in joint\naching joints\npainful joint\njoints pain\nPAIN JOINT\naching joint\nJoint pain-unspec\nPain;joint(s)\nArthralgia NOS\nPain in joint, site unspecified\nARTHRALGIAS\ndiffuse arthralgia\nDiscomfort in joints\nPain in joint - arthralgia\narticular pain\nPain in joints\nArthralgia NOS (finding)\nJoint: [pain - arthralgia] or [ache] (disorder)\nArthralgia [Disease/Finding]\nJoint pain (finding)\nPains, Joint"
+    },
+    {
+      "name": "CONSTIPATION",
+      "text": "Constipation [Disease/Finding]\nfecal; retention\nretention; fecal\nConstipation NOS (finding)\nconstipation\nDifficulty passing stool\nCN - Constipation\nUnspecified Constipation\nDifficult passing motion\nCostiveness\nDifficulty opening bowels\nCostive symptom\nconstipating\nDifficulty defecating\nConstipation (disorder)\nrndx unspecified constipation (diagnosis)\nConstipation NOS (disorder)\nConstipated\nConstipation (& symptom) (finding)\nrndx constipation (diagnosis)\nconstipation (symptom)\nConstipation NOS\nDifficulty defaecating\nconstipate\nConstipation (finding)\nconstipation (diagnosis)\nrndx constipation\nConstipation symptom\nConstipation (& symptom)\nrndx unspecified constipation\nConstipation, unspecified\nHow Much Distress Constipation\nHave you been constipated\nHave Constipation\nHave Been Constipated\nUsual Severity Constipation\nConstipation, CTCAE\nHow Often Constipation\nFrequency of Constipation\nConstipation Frequency"
+    },
+    {
+      "name": "RHINORRHEA",
+      "text": "Rhinorrhea (finding)\nDischarge;nasal\nNose running\nNasal catarrh\ndripping nose\nnasal discharge (physical finding)\nnasal; catarrh\ndrip nasal\nNOSE DISCHARGE\nRHINORRHEA\nNASAL DRIP\nSnuffles\nrunny nose\nnasal discharge\nNasal discharge present (context-dependent category)\nnasal discharge as symptom\nnasal discharge rhinorrhea\nNasal discharge (& present)\nRHINORRHOEA\nNasal discharge (& present) (finding)\nNasal discharge present\nnasal discharge (symptom)\nnose runny\nnose runs\ndripping nasal\nSnuffling\nNasal discharge (disorder)\ndischarge from nose\nSnuffling (finding)\nNasal discharge present (finding)\nNasal discharge present (situation)\nSnuffles (finding)\nnose drip\nIncreased nasal secretion\ndrips nasal\nnasopharyngeal; catarrh\ncatarrh; nasal\ndischarge nasal\nNose run\nRunny;nose\ndrips nose\nNose dripping\nrhinorrhea (physical finding)\nrunning nose\ndischarge nose\nExcessive noise from nasal passage\ncatarrh; nasopharyngeal\nRhinorrhea, CTCAE"
+    },
+    {
+      "name": "SLEEPONSETINSOMNIA",
+      "text": "Sleep onset Insomnia"
+    },
+    {
+      "name": "HYPERHIDROSIS",
+      "text": "Hyperhidrosis, CTCAE\nHyperhidrosis\nhyperhidrosis (physical finding)\nhyperhydrosis\nHyperhidrosis [Disease/Finding]\nexcess; secretion, sweat\n[D]Hyperhidrosis (context-dependent category)\nhyperhidrosis of skin\nHyperhidrosis NOS\nExcessive sweating\nHyperhidrosis disorder\n[D]Hyperhidrosis\nhyperhidrosis (diagnosis)\nHyperhidrosis (excessive sweating)\nHyperhydrosis disorder (disorder)\n[D]Hyperhidrosis NOS (situation)\nsecretion; excess, sweat\nHyperhidrosis (disorder)\nHyperhidrosis, unspecified\nHYPERHIDROSIS (SWEATS)\nHyperhydrosis disorder\n[D]Hyperhidrosis (situation)\nHyperhidrosis symptom\n[D]Hyperhidrosis NOS (context-dependent category)\n[D]Hyperhidrosis NOS"
+    },
+    {
+      "name": "SENSITIVITYTONOISE",
+      "text": "Noise sensitivity\nSound sensitivity\nSensitivity to noise"
+    },
+    {
+      "name": "LOSSOFAPPETITE",
+      "text": "Anorexic\n[D]Appetite loss (situation)\nLoss of appetite - symptom\nLoss (of);appetite\nappetite; lack or loss\nappetite; lack of\nappetite; loss\nAPPETITE ABSENT\nlack of; appetite\nLoss of appetite\nOff food\nLoss of appetite (finding)\nAnorexia\nAppetite impaired\nLoss of appetite - symptom (finding)\nLack of appetite\nloss; appetite\n[D]Appetite loss\nNo appetite\nAppetite loss\nAppetite lost\nLack of appetite (finding)\n[D]Appetite loss (context-dependent category)\nanorexia symptoms\nAnorexia symptom (finding)\nAnorexia symptom\nappetite lost (anorexia)\nanorexia (symptom)\n[D]Anorexia NOS\nAnorexias\n[D]Anorexia (situation)\nanorectic\n[D]Anorexia NOS (context-dependent category)\nAnorexia NOS\nAnorexia [Disease/Finding]\n[D]Anorexia NOS (situation)\n[D]Anorexia\n[D]Anorexia (context-dependent category)\nanorexia (loss of appetite)\nlost appetite\nI have a loss of appetite\nLoss of Appetite question"
+    },
+    {
+      "name": "EUPHORIA",
+      "text": "Euphoria\nEuphoria <insect>\nEuphoria, CTCAE_5\nEuphoria, CTCAE 5.0\nEuphoric\nemotionally high\neuphoria (symptom)\nEuphoria (finding)\nFEELING HIGH\nfeel high\nmood euphoric (physical finding)\nFelt high\nEuphoric mood\nFeeling high (finding)\nmood euphoric\nHigh\nHIGH FEELING\nEuphorias\nEuphoria, CTCAE_3\nEuphoria, CTCAE 3.0"
+    },
+    {
+      "name": "SEIZURE",
+      "text": "Seizure\nSeizure, CTCAE 5.0\nSeizure, CTCAE_5\nSeizure, CTCAE_3\nSeizure, CTCAE 3.0\n[D]Convulsion NOS (context-dependent category)\nFit - convulsion (finding)\nConvulsion\nseizures\nSeizure, NOS\nCONVULSION (NOS)\nConvulsions\nSeizure (finding)\nfitted\n[D]Convulsions (situation)\nConvulsions NOS\n[D]Fit\n[D]Convulsions (context-dependent category)\nconvulsions (symptom)\nfit\nseizure (physical finding)\nFit - convulsion\nConvulsion (disorder)\n[D]Convulsion NOS\nFit, NOS\nfits\nA70-A72 CONVULSIONS\nFits NOS\nSeizures [Disease/Finding]\nseizure d\nFits - convulsions\nsz\n[D]Fit (situation)\n[D]Seizure NOS\nSeizure NOS\nfit's\n[D]Fit (context-dependent category)\nFit(s)\nConvulsion, NOS\n[D]Convulsion NOS (situation)\n[D]Convulsions\nFits - convulsions (disorder)\nFitting\nConvulsion NOS"
+    },
+    {
+      "name": "DRYEYES",
+      "text": "syndrome; dry eye\ndry eye syndrome (diagnosis)\ndry eye; syndrome\ndry eyes syndrome\ndry eye syndromes\nDry eye syndrome (disorder)\nDry Eye\nSyndromes, Dry Eye\nKeratoconjunctivitis Sicca\nDry eye syndrome\nSyndrome, Dry Eye\nsyndrome dry eye\nTear film deficiency\nDRY EYES\nDry Eye Syndromes [Disease/Finding]\nDry;eye\nEye(s), Dry\neye; dry\nEyes dry\neye dryness\ndry eyes (symptom)\nDry eye (finding)\nDryness of eyes\ndry; eye\nDry eyes (finding)\nxeroma\nDry Eye(s)\nXerophthalmia\nDry eye NOS\nDryness of eye\nDry Eyes brand of ocular lubricant\nkerato conjunctivitis sicca\nkc\nKCS\nKeratoconjunctivitis sicca (disorder)\nKCS - Keratoconjunctivitis sicca\nKeratoconjunctivitis Sicca [Disease/Finding]\nKCS - Keratoconjunctivit sicca\nKeraconjunctivitis sicca\nSicca, Keratoconjunctivitis"
+    },
+    {
+      "name": "URINARYINCONTINENCE",
+      "text": "Urinary Incontinence, CTCAE_5\nUrinary Incontinence, CTCAE 5.0\nUrinary incontinence\nURINATION INVOLUNTARY\nBladder: incontinent (finding)\nBladder incontinence\nUrinary incontinence (finding)\nurinary loss of control\nweak; bladder\nUrine Incontinence\nUnable prevent bladder emptyng\nurine; incontinence\nurine incontinent\nLoss of bladder control\nIncontinence of urine\nbladder incontinent\nunable to restrain urination\nIncontinence of urine NOS\nIncontinence, Urinary\nIncontinence;urine\nUrinary incontinence NOS\nBladder continence, absence\n[D]Incontinence of urine NOS (situation)\nUnable to control bladder\nUnspecified urinary incontinence\nUnable (to);hold urine\nloss of control of urination (symptom)\n[D]Incontinence of urine NOS (context-dependent category)\nincontinent of urine\nUrinary incontinence, unspecified\nIncontinence (Urinary)\nloss of control of urination\nMICTURITION INVOLUNTARY\nUnable to hold urine\nINCONTINENCE URINARY\nURINARY BLADDER INCONTINENCE\n[D]Incontinence of urine\nurine leak\nUI - Urinary incontinence\nInvoluntary urination\nAbsence of bladder continence\nweak bladder\nbladder; weak\nurinary incontinences\n[D]Incontinence of urine (situation)\nUnable to hold fluids\nleaking urine\nunable to restrain urination (symptom)\nincontinent bladder\nurinary incontinence (diagnosis)\nUnable to prevent bladder emptying\nUrinary Incontinence [Disease/Finding]\nLeaking of urine\nUrination;involuntary\nurine leaking\n[D]Incontinence of urine (context-dependent category)\n[D]Incontinence of urine NOS\nincontinence; urinary\nEnuresis\nbladder control loss\nBladder: incontinent\nLack of bladder control\nIncontinence urine"
+    },
+    {
+      "name": "DYSPNEA",
+      "text": "Dyspnea\nDyspnea (shortness of breath)\nDyspnea, CTCAE\nBreathlessness\nshortness of breath; breath\n[D]Shortness of breath\nBreath shortness\nDyspnoea NOS\n[D]Shortness of breath (situation)\nDifficulty breathing (finding)\nDyspnea, NOS\nBreath Shortnesses\nBreathlessness NOS (finding)\nDifficulty breathing\nBreathlessness NOS\nbreath; shortness of breath\nshortness of breath (SOB)\nDyspnea - symptom\ndifficult breathing\n[D]Breathlessness (situation)\n[D]Shortness of breath (context-dependent category)\nShortness of breath dyspnea\n[D]Dyspnea (context-dependent category)\nDyspneas\ndifficulty breathing (symptom)\nSOB (SHORTNESS OF BREATH)\nBreathing difficult\nTrouble breathing\nDyspnea (finding)\nShortness of breath symptom\nDyspnoea (finding)\nShortness of breath\nSOB - Shortness of breath\nshortness of breath (symptom)\nBreathing Difficulties\nDyspnoea - symptom\nDIB - Difficulty in breathing\ntightness of breath\nRespiratory difficulties\nBreathlessnesses\nDYSPNOEA\nBreathless\nDifficulty;breathing\nDyspnoeas\n[D]Breathlessness (context-dependent category)\nShortness of breath/dyspnoea\nrespiratory difficulty\nDifficulty breathing [Ambiguous]\nBreathlessness symptom\nDyspnea (finding) [Ambiguous]\nDyspnea [Disease/Finding]\nShort of breath symptom\nDyspnoea, NOS\nRespiration difficult\ns.o.b.\n[D]Dyspnea\n[D]Dyspnoea (situation)\n[D]Dyspnoea\n(Symptom: [SOB] or [breathlessness] or [dyspnea]) or (breathlessness)\nsob\nShort of breath\nShortness (of);breath\n(Symptom: [SOB] or [breathlessness] or [dyspnoea]) or (breathlessness)\nbreathing difficulty\n[D]Breathlessness\nDyspnea, unspecified\nDyspnea NOS\nbreathing shortness\n(Symptom: [SOB] or [breathlessness] or [dyspnoea]) or (breathlessness) (finding)\n[D]Dyspnea (situation)\nCV surgery result dyspnea\ncardiovascular surgery result: dyspnea (treatment)\ncardiovascular surgery result: dyspnea"
+    },
+    {
+      "name": "TINNITUS",
+      "text": "TINNITUS\nRinging (in);ear\nHearing noises\nNoise in ears\ntinnitus (diagnosis)\nmurmur; ear\nringing in ear\nEAR NOISES\nringing in the ears (tinnitus)\nsymptoms tinnitus\near ringing\nTinnitus (disorder)\nears ringing\nears noises\nringing in the ear\near; murmur\nRinging-Buzzing-Tinnitus\ntinnitus (symptom)\nTinnitus Aurium\nringing in ears\nRinging in the ears\nNoises in head\nNoises in ear\nTinnitus [Disease/Finding]\nEAR RINGING SOUND\nUnspecified tinnitus (finding)\nTinnitus symptom NOS\nRinging Buzzing Tinnitus\nNoises in;ear\nEars, Ringing In\n(Tinnitus) or (hearing noises) (disorder)\nNoises in ear (finding)\nears ring\near noise\nFinding of tinnitus (finding)\nRinging in ear (finding)\nFinding of tinnitus\nTinnitus symptom NOS (finding)\nTinnitus, ringing/buzzing ear\n(Tinnitus) or (hearing noises)\nTinnitus, unspecified\nTinnitus, NOS\nTinnitus, unspecified ear\nObservation of tinnitus\nRinging/buzzing/tinnitus\nTinnitus NOS\nTinnitus NOS (finding)\nUnspecified tinnitus\nringing of ears\ntinnitus symptom (non-specific)\nTinnitus (finding)\nTinnitus, CTCAE_5\nTinnitus, CTCAE 5.0\nTinnitus, CTCAE 3.0\nTinnitus, CTCAE_3"
+    },
+    {
+      "name": "SUICIDALITY",
+      "text": "Suicidality"
+    },
+    {
+      "name": "FLUSHING",
+      "text": "Skin flushing\nfacial flush\nFlushing [Disease/Finding]\nFacial flushing\nface flush\nSKIN FLUSHED\ncutaneous vascular engorgement\nFlushed face\nFlushed\nFlushings\nFace goes red (finding)\nFlushing\nface flushing\nsudden redness of skin primarily involving face (symptom)\nFlushing of face\nFLUSHES\nflush face\nflush\n[D]Flushing (context-dependent category)\nskin flush\nFlushed skin\n[D]Flushing\nflushing reaction\nsudden redness of skin (symptom)\nFlushing (disorder)\nFace goes red\nflushing face\n[D]Flushing (situation)\nface flushed\nreddened skin\nsudden redness of skin primarily involving face\nsudden redness of skin\nskin reddening\nskin flushing as symptom\nflushing facial\nFlushing, CTCAE 3.0\nFlushing, CTCAE_3\nFlushing, CTCAE_5\nFlushing, CTCAE 5.0"
+    },
+    {
+      "name": "LOSSOFSMELL",
+      "text": "Sense of smell lost\nSmell, absent\nAbsent sense of smell\nanosphrasia\nanosmia\nloss of sense of smell\nsmell sense\nLoss (of);smell\nsmell; loss\nloss; smell, complete (anosmia)\nloss smell\nsense of smell lost (anosmia)\nSense of smell absent\nloss; smell\nLoss of the sense of smell\nanosmia as symptom\nSense of smell, absent\nLost smell\nsense smell\nloss of smell\nsmell; loss, complete (anosmia)\nSMELL LOSS\nlost sense of smell\n[D]Anosmia (situation)\nNo sense of smell\nloss of sense of smell (symptom)\nloss sense smell\nanosmia (diagnosis)\nAnosmia (loss of sense of smell)\nAbsent smell\nanosmias\nLoss of sense of smell (finding)\n[D]Anosmia\nAnosmia - loss of smell sense\n[D]Anosmia (context-dependent category)"
+    },
+    {
+      "name": "FATIGUE",
+      "text": "Fatigue, CTCAE 5.0\nFatigue\nFatigue, CTCAE_5\nCV surgery result: fatigue\ncardiovascular surgery result: fatigue\ncardiovascular surgery result: fatigue (treatment)\nWEARINESS\nLack of energy (finding)\n[D]Fatigue\nTiredness (finding)\nlack of energy\nenergy loss\ntired time\nFatigue extreme\nFatigue NOS\nFeeling of total lack of energy\nfatigued\nTired\nFatigue (finding)\n[D]Tiredness (context-dependent category)\ntime tired\nrndx fatigue (diagnosis)\nTIREDNESS\nFatigue [Disease/Finding]\nDecrease in energy\nEnergy decreased\n[D]Tiredness (situation)\nfatiguing\nDecreased energy\n[D]Tiredness\nfatigue (diagnosis)\nloss of energy\nLacking in energy\nLacking in energy (finding)\nTired out\ntired all the time\n[D]Fatigue (context-dependent category)\nrndx fatigue\n[D]Fatigue (situation)\nfatigues\ntatt\nLack (of);energy\nextreme fatigue\nlacking energy\nFatigue Item Bank\nFatigue Subordinate Domain\nI feel fatigued\nFeel Fatigue\nFrequency of Fatigue\nFeel Fatigued\nFatigue Intensity\nFatigue Distress"
+    },
+    {
+      "name": "DOUBLEVISION",
+      "text": "vision; double vision\nDIPLOPIA\ndouble vision; vision\nDiplopia [Disease/Finding]\nDOUBLE VISION\nVision double\ndiplopia (symptom)\nVision, Double\nDiplopia (finding)\nSeeing double\nDiplopias\nseeing double images (diplopia)\nDiplopia (disorder)"
+    },
+    {
+      "name": "CHESTPAIN",
+      "text": "Chest pain:Finding:Point in time:^Patient:Ordinal\nChest pain:Find:Pt:^Patient:Ord\nChest pain\nThorax painful\npain; chest\nthoracodynia\nChest pain, unspecified\nchest pain or discomfort reported as pain\nChest pain (finding)\n[D]Chest pain (situation)\n[D]Chest pain NOS (context-dependent category)\n[D]Chest pain, unspecified (context-dependent category)\nChest pain, NOS\nthorax pain\nthorax; pain\nchest pain or discomfort (symptom)\nThoracic pain\nChest Pains\nchest pain or discomfort reported as pain (symptom)\nPain;chest\nChest pain NOS\npain; thorax\nchest pain (diagnosis)\n[D]Chest pain, unspecified (situation)\nChest Pain [Disease/Finding]\n[D]Chest pain, unspecified\nChest pain NOS (finding)\nThoracalgia\nchest pain or discomfort\n[D]Chest pain NOS (situation)\nPain, Chest\nNonspecific chest pain\nPain chest\nPains, Chest\nUnspecified chest pain\nchest; pain\nreported chest pain\n[D]Chest pain (context-dependent category)\nPain in chest\n[D]Chest pain\npain thoracic\n[D]Chest pain NOS"
+    },
+    {
+      "name": "COLDNESS",
+      "text": "cold feels\ncoldness\nfeel cold\nFeels cold (finding)\nFeels cold\nCold to touch\ncold feel\nColdness general\nChilliness\ncold feelings\ncold touch"
+    },
+    {
+      "name": "DECREASEDGLOMERULARFILTRATIONRATE",
+      "text": "Decreased glomerular filtration rate\nGFR decreased\nReduced creatinine clearance\nGlomerular filtration rate, decreased\nGlomerular Filtration Rate Decreased\nDecreased GFR\nImpaired renal creatinine clearance\nGlomerular filtration rate low"
+    },
+    {
+      "name": "ANOSMIA",
+      "text": "Anosmia\nAnosmia, CTCAE\nSense of smell lost\nSmell, absent\nAbsent sense of smell\nanosphrasia\nloss of sense of smell\nsmell sense\nLoss (of);smell\nsmell; loss\nloss; smell, complete (anosmia)\nloss smell\nsense of smell lost (anosmia)\nSense of smell absent\nloss; smell\nLoss of the sense of smell\nanosmia as symptom\nSense of smell, absent\nLost smell\nsense smell\nloss of smell\nsmell; loss, complete (anosmia)\nSMELL LOSS\nlost sense of smell\n[D]Anosmia (situation)\nNo sense of smell\nloss of sense of smell (symptom)\nloss sense smell\nanosmia (diagnosis)\nAnosmia (loss of sense of smell)\nAbsent smell\nanosmias\nLoss of sense of smell (finding)\n[D]Anosmia\nAnosmia - loss of smell sense\n[D]Anosmia (context-dependent category)"
+    },
+    {
+      "name": "NIGHTSWEATS",
+      "text": "Bothered by Night Sweats\nNight sweats\nNIGHT SWEAT\nsweating heavily at night (symptom)\nsweating heavily at night\nsweat; night sweats\nNight Sweating\nNight sweats (finding)\nnocturnal; sweating\nNocturnal hyperhidrosis\nsweating; night\nnights sweats\nProblem;sweating;night\nNocturnal perspiration"
+    },
+    {
+      "name": "HYPERTENSION",
+      "text": "High Blood Pressures\nBlood Pressure, Increased\nHTN\nSystemic hypertension\nHT\nHypertensive disorder, systemic arterial\nhyperpiesis\nSurg comp - hypertension\nHypertension NOS\nHBP - High blood pressure\nvascular hypertension\nBlood pressure high\nsystemic hypertension (diagnosis)\narterial hypertension\nHypertensive disease NOS (disorder)\nBlood Pressure, High\nHyperpiesia\nVascular Hypertensive Disorder\nHypertensive diseases\nhigh blood pressure\nHypertensive cardiovascular disease or syndrome\nHypertensive disease\nhigh; blood pressure\n3-02 HYPERTENSIVE DISEASES\nHT - Hypertension\nHYPERTENSION ARTERIAL\nRaised blood pressure (disorder)\nhypertensive disorder\nhypertension\n[X]Hypertensive diseases (disorder)\nComplications affecting other specified body systems, not elsewhere classified, hypertension\nsystemic arterial hypertension\nIncreased Blood Pressure\nHypertensive vascular degeneration\nBP - High blood pressure\nblood pressure; high\nHTN - Hypertension\nsystemic HTN\nPressure, High Blood\nhigh blood pressure disorder\n(Hypertensive disease) or (hypertension)\narterial hypertension systemic\nHypertension [Disease/Finding]\nhigh; arterial tension\nblood high pressure\n[X]Hypertensive diseases\nHypertensive disorder, systemic arterial (disorder)\n(Hypertensive disease) or (hypertension) (disorder)\nElevated blood pressure\nVascular hypertensive disorders\nHypertension, NOS\nBlood Pressures, High\nHBP\nhigh bp\nHypertensive vascular disease\nHypertensive disease, NOS\nHypertensive disease (disorder)\nBP+ - Hypertension\nHypertensive disease NOS\nHypertension, arterial\nHypertension, CTCAE"
+    },
+    {
+      "name": "THROMBOEMBOLISM",
+      "text": "Venous thrombosis NOS\nthrombus; embolism\nThromboembolic events\nThromboembolic disorder (disorder)\nThromboembolism [Disease/Finding]\nthromboembolic disease\nThromboembolic Event\nThromboembolism NOS\nthromboembolic disease (diagnosis)\ndiseases thromboembolic\nthromboembolic disorder\nThromboembolism - lesion (disorder)\nThromboembolism\ndisease thromboembolic\nthromboembolic; disorder\nthromboembolus\nThromboembolus (morphologic abnormality)\nembolism; thrombus\nEmbolism and thrombosis of unspecified site\nThromboembolisms\nOther venous embolism and thrombosis of unspecified site\nThromboembolism - lesion\nevents thromboembolic"
+    },
+    {
+      "name": "COUGHINGUPBLOOD",
+      "text": "Coughing up Blood\nBlood in sputum - hemoptysis (finding)\nHemoptysis NOS\nHemoptyses\n[D]Hemoptysis\nCOUGHING BLOOD\nHemoptysis (disorder)\nBlood in sputum - hemoptysis\n[D]Hemoptysis NOS\n[D]Hemoptysis (context-dependent category)\n[D]Hemoptysis NOS (context-dependent category)\nSputum + blood-symptom\nHemoptysis, unspecified\nHemoptysis\ncoughing up blood-streaked sputum (symptom)\nHaemoptysis NOS\nBlood in sputum - hemoptysis [& symptom]\ncough up blood\nBlood in sputum - haemoptysis [& symptom]\nHaemoptysis\nblood streaked sputum\nExpectoration of hemorrhagic sputum\nBlood in sputum - symptom\nspit up blood\nHaemoptysis - symptom\nCoughing;blood\nExpectoration of bloody sputum\n[D]Haemoptysis\nblood spit up\nHemoptysis - symptom\nSPUTUM BLOODY\nSpitting (up);blood\nBlood streaked sputum (finding)\n[D]Haemoptysis NOS (situation)\ncoughing up blood (hemoptysis)\nHemoptysis [Disease/Finding]\nExpectoration of blood streaked sputum\nExpectoration of haemorrhagic sputum\n[D]Haemoptysis NOS\nspitting up blood\n[D]Hemoptysis NOS (situation)\nBlood in sputum - haemoptysis [& symptom] (finding)\nspitting (up) blood\nblood spitting up\nHemoptysis (finding)\nbloody sputum\nblood coughed\nCoughing and spitting blood\nBlood in sputum-symptom\nBlood in sputum - haemoptysis\ncoughing up blood (symptom)\nBlood in sputum - haemoptysis (finding)\ncoughing up blood-streaked sputum\n[D]Hemoptysis (situation)\n[D]Haemoptysis (situation)"
+    },
+    {
+      "name": "POLYDIPSIA",
+      "text": "polydypsia\nAlways thirsty\nexcessive thirst\nCannot stop drinking\nHydrodipsomania\nExcessive fluid intake\n[D]Polydipsia NOS (situation)\n[D]Polydipsia (context-dependent category)\nExcessive fluid intake (finding)\nTHIRST EXCESSIVE\n[D]Excessive thirst (context-dependent category)\n[D]Polydipsia NOS (context-dependent category)\nPOLYDIPSIA\nexcessive thirst (symptom)\nexcessive thirst / fluid intake (polydypsia)\nthirst; excess\nExcessive;thirst\nKeen for fluids\nthirst; excessive\nDrinks continuously\nexcessive fluid intake (history)\n[D]Excessive thirst (situation)\nexcessive fluid consumption (symptom)\nDrinks a lot - fluids\nexcessive fluid consumption\nDesperate to drink\nExcessive fluid intake - finding\npolydipsia (symptom)\n[D]Polydipsia (situation)\nexcessive thirst and fluid intake\nFinding of excessive fluid intake\n[D]Polydipsia\nexcessive; thirst\nExcessive thirst (finding)\nPolydipsia NOS\nFinding of excessive fluid intake (finding)\n[D]Polydipsia NOS\nDrinking more water\n[D]Excessive thirst\nPolydipsia [Disease/Finding]\nPolydipsias"
+    },
+    {
+      "name": "FEVER",
+      "text": "symptoms fever\nfever as symptom\nFever symptoms (finding)\nfever symptom\nFever\nPyrexia symptoms (finding)\nfever symptom (symptom)\nPyrexia symptoms\nFever symptoms\nFever, CTCAE\nIncreased body temperature (finding) [Ambiguous]\npyrexial\nFebrile\nTemperature elevated\nHyperthermias\nfevered\n[D]Fever NOS (situation)\npyrexia (diagnosis)\nPyrexias\nrndx hyperthermia\nincrease temperature\nBody temperature above reference range\nFever [Disease/Finding]\nfevers\nhyperthermia\nIncreased body temperature (finding)\nHigh temperature\nTEMPERATURE INCREASE\nhigh; temperature\nPyrexia (finding)\nHyperthermic\nrndx hyperthermia (diagnosis)\ntemperature; high\nBODY TEMPERATURE INCREASED\nFever (finding)\nTemperature elevation\nPyrexia [D] (finding)\nFeels feverish\nincreased; body temperature\nhigh body temperature\nHas a temperature\nelevated temperature\n[D]Fever NOS (context-dependent category)\npyrexia\nincreases temperature\n[D]Fever NOS\nPyrexia [D] (situation)\nIncrease in body temperature\nHyperthermia (finding)\nraised temperature\nhyperthermia (physical finding)\nTemperature raised\nPyrexia [D]\nfever (physical finding)\nincreased body temperature\nfebris\nHyperthermia [Ambiguous]\nBody temperature above normal\nAlteration in body temperature: hyperthermia, fever\nBody temperature above normal (finding)\nFever, unspecified\nBody temperature, increased\n[D]Pyrexia (context-dependent category)\n[D]Pyrexia (situation)\nfeverish\nPyrexia NOS\nBody temperature above reference range (finding)\nFever NOS\nElevated Core Body Temperature\n[D]Pyrexia\nHyperthermia - disorder\nTemperature;high\nbody temperature; increased"
+    },
+    {
+      "name": "PHOTOPHOBIA",
+      "text": "Photophobia, CTCAE_5\nPhotophobia, CTCAE 5.0\nPhotophobia\nEyes sensitive to light\nLight affects eyes\neye sensitivity to light (photophobia)\nLight hurts eyes\nOcular Photosensitivity\nintolerance to light\nPhotophobia [Disease/Finding]\nSensitivity, Light\nlight sensitivity\nLight hurts eyes (disorder)\nLight intolerance\nEyes sensitive to light (finding)\nsensitiveness to light\nSensitivities, Light\nLight intolerance (finding)\nSensitivity to light\nLight hypersensitivity\nLight Sensitivities\nPhotophobia (finding)\neyes photosensitivity\nPhotophobias\nExtreme sensitivity of the eyes to light\nlight sensitive eye\nphotophobia (symptom)\nDoes not like light\neye light sensitive\neyes light sensitive"
+    },
+    {
+      "name": "TEARFULNESS",
+      "text": "Weeps\nWEEPING\nCrying associated with mood\nCrying associated with emotion\ntearful (physical finding)\naffect tearful\nWeepiness\nWeepy\nCrying associated with mood (finding)\nTearful\nweep\nTearfulness"
+    },
+    {
+      "name": "PRURITUS",
+      "text": "Pruritus\nPruritus -- quality\nPruritus, CTCAE\nPruritus/itching\nPRURITIS\nPruritus [Ambiguous]\nPruritus, NOS\nPruritus [Disease/Finding]\nItchy\nItch\nitch skin\nPruritus [dup] (finding)\nPruritic disorder\nItch NOS\nPruritus NOS\nIrritating sensation\nScratching skin\n[X]Pruritus, unspecified\nPruritus, unspecified\nItch of skin\nItching (finding)\nSkin Pruritus\nPruritic disorders\npruritus (symptom)\nUnspecified pruritic disorder\nPruritis (excluding D05 X16)\nPruritus - disorder\nItching (pruritus)\nskin itch\nItch of skin (observable entity)\nitching skin\nitching\nPruritic dermatitis, NOS\nPruritus (disorder)\nPruritis (excl D05 X16)\npruritis of skin\nPruritic disorders (disorder)\nPruritus NOS (disorder)\nItching;skin\nPruritus cutaneous\nItch of skin, NOS\nPruritic disorder NOS\nPruritus of skin (finding) [Ambiguous]\nPruritus;skin\nPruritus of skin\n[X]Pruritus, unspecified (disorder)\nItching of skin (finding)\nskin itching\nPruritus of skin, NOS\nPruritic dermatitis\nPruritus (finding)\nItching of skin\npruritus (diagnosis)\nitchy skin\nPruritus of skin (finding)\nExcessive scratching\nIrritation - sensation"
+    },
+    {
+      "name": "NONPRODUCTIVECOUGH",
+      "text": "cough nonproductive\nDry coughing\ncoughs non productive\nUnproductive cough\ncoughs dry\nCOUGH, DRY\nNonproductive cough\ncough unproductive\ndry cough\nDry cough (finding)\nCOUGH DRY\ndry cough (symptom)\nCough, nonproductive\ncough non productive\nnon productive cough\nnon-productive cough\nNon-productive cough (finding)\nCough;non-productive\ncoughing dry"
+    },
+    {
+      "name": "TREMOR",
+      "text": "motor exam involuntary movements tremor trembles\nd tremors\nThe shakes\nHas a tremor\ntremors as symptom\n[D]Tremor NOS\nShakes\nTremor symptom\ninvoluntary shaking or trembling movements\nTremor [D] (situation)\nTremors/Shaking\ninvoluntary shaking or trembling movements (tremor)\nTremor [D]\n[D]Tremor NOS (situation)\nTremor\nTremor (finding)\ntremors\nTremor, NOS\n(Has a tremor) or (tremor symptom) or (shaking) (finding)\ninvoluntary shaking or trembling movements (symptom)\ntrembles (physical finding)\nquivers\nshaking\nShaking/Tremors\nTremor [D] (finding)\nshake\nquiver\ntremor (physical finding)\ntrembles\nShaking all over\ntremor (diagnosis)\n[D]Tremor (context-dependent category)\n(Has a tremor) or (tremor symptom) or (shaking)\nTremor NOS\nTrembling\nA46-A47 TREMORS\nInvoluntary shaking\nTremor [Disease/Finding]\nTrembled\n[D]Tremor\n[D]Tremor NOS (context-dependent category)\nTremor, unspecified\n[D]Tremor (situation)\nquivering\nTremor, CTCAE 5.0\nTremor, CTCAE_5\nTremor, CTCAE_3\nTremor, CTCAE 3.0"
+    }
+  ],
+  "contexts": [],
+  "fns": {
+    "used_resources": "used_resources.txt",
+    "resources_rules_matchrules": "resources_rules_matchrules.txt"
+  }
+}
