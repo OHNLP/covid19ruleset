@@ -15,6 +15,8 @@ TPL_USED_RES_FILENAME = "used_resources.txt"
 TPL_MATCHRULES_FILENAME = "resources_rules_matchrules.txt"
 TPL_CONTEXTRULE_FILENAME = "contextRule_%s.txt"
 
+SKIP_TERMS = set(['-', '_', ''])
+
 # current path
 FULLPATH = pathlib.Path(__file__).parent.absolute()
 
@@ -43,7 +45,7 @@ def __term(s):
     '''
     Normalize the term
     '''
-    return s.lower()
+    return s.strip().lower()
 
 
 def mk_matchrule(norm):
@@ -101,7 +103,7 @@ def create_file_regexp(ruleset_name, norm, text):
     )
 
 
-def convert_to_ruleset(full_fn, output=None):
+def convert_to_ruleset(full_fn, output=None, tmode='one', add_norm='yes'):
     '''
     Convert the file to ruleset format
     '''
@@ -135,20 +137,48 @@ def convert_to_ruleset(full_fn, output=None):
 
         # get the normalized norm and text
         norm_normed = __norm(norm)
-        term_normed = __term(term)
 
         # use the normalized norm to make sure no duplicated
         if norm_normed not in r_dict:
-            r_dict[norm_normed] = {
-                "dict": set([]),
-                "items": []
-            }
+            if add_norm == 'yes':
+                r_dict[norm_normed] = {
+                    "dict": set([norm_normed]),
+                    "items": [norm_normed]
+                }
+            else:
+                r_dict[norm_normed] = {
+                    "dict": set([]),
+                    "items": []
+                }
 
-        if term_normed not in r_dict[norm_normed]["dict"]:
-            # ok, a new term
-            r_dict[norm_normed]["dict"].add(term_normed)
-            # add the original term to list
-            r_dict[norm_normed]["items"].append(term)
+        if tmode == 'more':
+            term_list = term.split(';')
+            for _term in term_list:
+                term_normed = __term(term)
+
+                # skip those useless terms
+                if term_normed in SKIP_TERMS: continue
+
+                # add the normed terms
+                if term_normed not in r_dict[norm_normed]["dict"]:
+                    # ok, a new term
+                    r_dict[norm_normed]["dict"].add(term_normed)
+                    # add the original term to list
+                    r_dict[norm_normed]["items"].append(_term)
+
+        else:
+            # usually just one term
+            term_normed = __term(term)
+
+            # skip those useless terms
+            if term_normed in SKIP_TERMS: continue
+
+            # add the normed terms
+            if term_normed not in r_dict[norm_normed]["dict"]:
+                # ok, a new term
+                r_dict[norm_normed]["dict"].add(term_normed)
+                # add the original term to list
+                r_dict[norm_normed]["items"].append(term)
         
     print('* found %s norms' % (
         len(r_dict)
@@ -207,9 +237,14 @@ if __name__ == '__main__':
     # add paramters
     parser.add_argument("fn", type=str,
         help="The path to the data file (csv, tsv, xls, or xlsx)")
+    parser.add_argument("--tmode", type=str, default='one',
+        choices=['one', 'more'],
+        help="The term mode in the second column, one term or more?")
+    parser.add_argument("--add_norm", type=str, default='yes',
+        choices=['yes', 'no'], help="add norm itself to list?")
     parser.add_argument("--out", type=str,
         help="The output folder")
 
     # parse
     args = parser.parse_args()
-    convert_to_ruleset(args.fn, args.out)
+    convert_to_ruleset(args.fn, args.out, args.tmode)
