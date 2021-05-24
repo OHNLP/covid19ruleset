@@ -1,0 +1,195 @@
+{
+  "rsregexps": [
+    {
+      "name": "LYMPHOPENIA",
+      "text": "lymphopenia\nlymphocytopenia\ndecreased lymphocyte\ndecreased lymphocytes\nlow lymphocyte count\nlow lymphocyte number"
+    },
+    {
+      "name": "SORETHROAT",
+      "text": "sore throat\nthroat soreness\nthroat pain\npharyngeal pain\npharyngeal discomfort\npharynx pain\npharynx discomfort\nthroat discomfort\ndifficulty swallowing"
+    },
+    {
+      "name": "GROUNDGLASSINFILTRATES",
+      "text": "hazy lung radiopacity\nfairly diffuse\nground glass opacity\nground-glass opacity\nground glass shadows\nground glass shadow"
+    },
+    {
+      "name": "ELEVATEDLDH",
+      "text": "elevated lactate dehydrogenase\nelevated LDH\nLDH increased\nlactate dehydrogenase increased\nlactate dehydrogenase activity increased"
+    },
+    {
+      "name": "DIARRHEA",
+      "text": "diarrhea\nloose bowel movement\nwatery stool\nloose stool\ndiarrhoea\ndiarhea\ndiarhoea\ndiarrhoea"
+    },
+    {
+      "name": "NASALCONGESTION",
+      "text": "blocked nose\ncongested nose\nnose block\nnasal congestion\nstuffy nose\nrunny nose\nrunning nose\nnasal blockage\nblockage of nose\nobstruction of nose\nnasal obstruction\ncongestion of nose"
+    },
+    {
+      "name": "DRYCOUGH",
+      "text": "dry cough\nunproductive cough\nnon productive cough\nnon-productive cough\nnonproductive cough\ncough unproductive\ncough non-productive\ncough non productive\ncough nonproductive"
+    },
+    {
+      "name": "FATIGUE",
+      "text": "fatigue\ntired\ntiredness\nfatigued\nenergy loss\nlack of energy\nno energy\nweariness\nexhausted\nmalaise"
+    },
+    {
+      "name": "DYSPNEA",
+      "text": "dyspnea\nshortness of breath\nsob\nrespiratory difficulty\nbreathing difficulties\ndifficult breathing\ndifficult to breathe\npanting\nhyperpnea\ngasping\ngasp\nrapid breathing\nbreathing fast\nfast breathing\ntrouble breathing\nbreathing difficulty\nabnormal breathing"
+    },
+    {
+      "name": "FEVER",
+      "text": "fever\nhigh temperature\nhigh body temperature\nhyperthermia\nelevated temperature\nelevated body temperature\nfebrile\nfebris\npyrexia\npyrexial"
+    },
+    {
+      "name": "HEADACHE",
+      "text": "headache\ncephalalgia\nhead pain\npain in head\nhead ache\naching head\nhead aching\nmigrane\nmigraine"
+    },
+    {
+      "name": "MYALGIA",
+      "text": "myalgia\nmuscle pain\nmuscle pains\nmuscle ache\nmuscle aches\nmuscular aching\nmuscular pain\nmyalgic\nmyodynia\nmuscle discomfort\nmuscular discomfort\npain in muscle"
+    },
+    {
+      "name": "ABDOMINALPAIN",
+      "text": "abdominal pain\nstomach pain\ngut pain\npain abdominal\nstomachache\nbelly ache\nbellyache\ngastrointestinal pain\ngastro pain\npain in stomach\nabdominal discomfort\nupset stomach"
+    },
+    {
+      "name": "PATCHYINFILTRATES",
+      "text": "patchy pulmonary infiltrate\npatchy pulmonary infiltrates\npatchy infiltrate\npatchy infiltrates\npulmonary infiltrate\npulmonary infiltrates"
+    },
+    {
+      "name": "PROLONGEDPROTOTHROMBIN",
+      "text": "elevated PT\nprothrombin increased\nprolonged pt\nprolonged prothrombin time\nabnormal prothrombin time\nabnormal pt"
+    },
+    {
+      "name": "FLUEXPLICIT",
+      "text": "flu\ninfluenza\ngrippe"
+    },
+    {
+      "name": "APPETITELOSS",
+      "text": "loss of appetite\nappetite loss\nno appetite\nanorexia\nfood aversion"
+    },
+    {
+      "name": "FLUSHOT",
+      "text": "influenza vaccine\nflu vaccine\ninfluenza vaccination\nflu vaccination\nflu shot\ninfluenza shot\ninfluenza laiv\nflu swab\ninfluenza results\nflu vaccinations\ninfluenza vaccinations\nflu shots\ninfluenza immunization\ninfluenza immunizations\nregex:influenza\\\\s(?:\\\\S+\\\\s+){0,2}vaccin(?:e\nation)s?\ninfluenza high dose\ninfluenza tiv\nflu tiv\nflu test\ninfluenza (?:IM)\ninfluenza quadrivalent\nInfluenza A\/B and Respiratory Syncytial Virus, PCR\nInfluenza A\/B and RSV, PCR\nInfluenza A, B, RSV, PCR\ninfluenza test\nINFLUENZA A AND B AND RSV"
+    }
+  ],
+  "name": "covid19",
+  "fns": {
+    "used_resources": "used_resources.txt",
+    "resources_rules_matchrules": "resources_rules_matchrules.txt"
+  },
+  "matchrules": [
+    {
+      "regexp": "\\b(?:%reDYSPNEA)\\b",
+      "rule_name": "cm_dyspnea",
+      "location": "NA",
+      "norm": "DYSPNEA"
+    },
+    {
+      "regexp": "\\b(?:%reNASALCONGESTION)\\b",
+      "rule_name": "cm_nasalcongestion",
+      "location": "NA",
+      "norm": "NASAL_OBSTRUCTION"
+    },
+    {
+      "regexp": "\\b(?:%reAPPETITELOSS)\\b",
+      "rule_name": "cm_lossofappetite",
+      "location": "NA",
+      "norm": "LOSS_OF_APPETITE"
+    },
+    {
+      "regexp": "\\b(?:%reELEVATEDLDH)\\b",
+      "rule_name": "cm_elevatedldh",
+      "location": "NA",
+      "norm": "ELEVATED_LDH"
+    },
+    {
+      "regexp": "\\b(?:%rePROLONGEDPROTOTHROMBIN)\\b",
+      "rule_name": "cm_elevatedpt",
+      "location": "NA",
+      "norm": "ELEVATED_PT_TIME"
+    },
+    {
+      "regexp": "\\b(?:%reLYMPHOPENIA)\\b",
+      "rule_name": "cm_lymphopenia",
+      "location": "NA",
+      "norm": "LYMPHOPENIA"
+    },
+    {
+      "regexp": "\\b(?:%reDIARRHEA)\\b",
+      "rule_name": "cm_diarrhea",
+      "location": "NA",
+      "norm": "DIARRHEA"
+    },
+    {
+      "regexp": "\\b(?:%reABDOMINALPAIN)\\b",
+      "rule_name": "cm_abdominalpain",
+      "location": "NA",
+      "norm": "ABDOMINAL_PAIN"
+    },
+    {
+      "regexp": "\\b(?:%reSORETHROAT)\\b",
+      "rule_name": "cm_sorethroat",
+      "location": "NA",
+      "norm": "SORE_THROAT"
+    },
+    {
+      "regexp": "\\b(?:%reHEADACHE)\\b",
+      "rule_name": "cm_headache",
+      "location": "NA",
+      "norm": "HEADACHE"
+    },
+    {
+      "regexp": "\\b(?:%reMYALGIA)\\b",
+      "rule_name": "cm_myalgia",
+      "location": "NA",
+      "norm": "MYALGIA"
+    },
+    {
+      "regexp": "\\b(?:%reFATIGUE)\\b",
+      "rule_name": "cm_fatigue",
+      "location": "NA",
+      "norm": "FATIGUE"
+    },
+    {
+      "regexp": "\\b(?:%reDRYCOUGH)\\b",
+      "rule_name": "cm_drycough",
+      "location": "NA",
+      "norm": "DRY_COUGH"
+    },
+    {
+      "regexp": "\\b(?:%reFEVER)\\b",
+      "rule_name": "cm_fever",
+      "location": "NA",
+      "norm": "FEVER"
+    },
+    {
+      "regexp": "\\b(?:%reFLUEXPLICIT)\\b",
+      "rule_name": "cm_influenzaexpl",
+      "location": "NA",
+      "norm": "INFLUENZA_EXPL"
+    },
+    {
+      "regexp": "\\b(?:%rePATCHYINFILTRATES)\\b",
+      "rule_name": "cm_patchyinfiltrate",
+      "location": "NA",
+      "norm": "PATCHY_INFILTRATES"
+    },
+    {
+      "regexp": "\\b(?:%reGROUNDGLASSINFILTRATES)\\b",
+      "rule_name": "cm_groundglassinfiltrate",
+      "location": "NA",
+      "norm": "GROUND_GLASS_INFILTRATES"
+    },
+    {
+      "regexp": "\\b%reFLUSHOT\\b",
+      "rule_name": "rem_vaccine_filter",
+      "location": "NA",
+      "norm": "REMOVE"
+    }
+  ],
+  "contexts": [{
+    "name": "contextRule",
+    "text": "regex:(^|\\s)\\?(?=\\s?\\w+)~|~pre~|~poss~|~1\ndoes not demonstrate~|~pre~|~neg~|~1\ndid not demonstrate~|~pre~|~neg~|~1\ndo not demonstrate~|~pre~|~neg~|~1\nregex:\\bdo not see (\\S+\\s+){1,3}that suggests?\\b~|~pre~|~neg~|~2\ncomplications include~|~pre~|~hypo~|~1\ncomplications include,~|~pre~|~hypo~|~1\ngiven some brief thought to~|~pre~|~poss~|~1\nnever been high enough to cause~|~pre~|~poss~|~1\nregex:\\bno (\\S+\\s+){1,3}(to|that) suggests?\\b~|~pre~|~neg~|~2\noptions for~|~pre~|~hypo~|~1\nregex:;~|~termin~|~neg~|~1\nregex:;~|~termin~|~poss~|~1\nregex:;~|~termin~|~exp~|~1\nwhich demonstrates~|~termin~|~hypo~|~1\ninterested in~|~pre~|~poss~|~1\netiology indeterminate~|~pseudo~|~poss~|~1\npatient and family~|~pseudo~|~exp~|~1\npatient and his husband~|~pseudo~|~exp~|~1\npatient and her husband~|~pseudo~|~exp~|~1\npatient and his wife~|~pseudo~|~exp~|~1\npatient and her wife~|~pseudo~|~exp~|~1\npatient and his family~|~pseudo~|~exp~|~1\npatient and her family~|~pseudo~|~exp~|~1\npatient and husband~|~pseudo~|~exp~|~1\npatient and wife~|~pseudo~|~exp~|~1\nfamily in the room~|~pseudo~|~exp~|~1\nregex:(query|alternative)(?=\\s(\\S+\\s+){1,3}(versus|vs|given))~|~pre~|~poss~|~1\ndoes not suggest~|~pre~|~neg~|~2\ndo not suggest~|~pre~|~neg~|~2\ndid not suggest~|~pre~|~neg~|~2\nnot suggest~|~pseudo~|~poss~|~1\ninvestigated for~|~pre~|~poss~|~1\ninvestigating for~|~pre~|~poss~|~1\ninvestigate for~|~pre~|~poss~|~1\nregex:\\bnot? (\\S+\\s+){1,5}due\\b~|~pseudo~|~neg~|~1\nno overt~|~pre~|~poss~|~2\nlikely due to~|~post~|~poss~|~1\nresolution of~|~pre~|~neg~|~1\nno progression of the~|~pseudo~|~neg~|~1\nbecause~|~termin~|~neg~|~1\nconsideration given history~|~post~|~hypo~|~1\nconsidered given history~|~post~|~hypo~|~1\nconsideration given history~|~pre~|~hist~|~1\nconsidered given history~|~pre~|~hist~|~1\npatient had~|~termin~|~neg~|~1\npatient had~|~pre~|~hist~|~1\nwas diagnosed~|~termin~|~neg~|~1\nwas diagnosed~|~pre~|~hist~|~1\nregex:;\\b~|~termin~|~neg~|~1\nfrom~|~termin~|~poss~|~1\nfrom~|~termin~|~neg~|~1\nmaybe~|~pre~|~poss~|~1\nno date~|~pseudo~|~neg~|~1\nno date:~|~pseudo~|~neg~|~1\nnot limited~|~pseudo~|~neg~|~1\nregex:\\bfamily history\\s*$~|~post~|~exp~|~2\nregex:\\bfamily history\\s*$~|~post~|~hist~|~2\ndidn't have~|~pre~|~neg~|~1\ndon't have~|~pre~|~neg~|~1\nnever used~|~pre~|~neg~|~1\nno question~|~pseudo~|~neg~|~1\nher2 negative~|~pseudo~|~neg~|~1\nwho also had~|~pseudo~|~hypoexp~|~1\nsymptomatology~|~post~|~poss~|~1\npmhx~|~pre~|~hist~|~1\nfmhx~|~pre~|~hist~|~1\nfmhx~|~pre~|~exp~|~1\nfamily history~|~pre~|~exp~|~1\nfamily history~|~pre~|~hist~|~1\nfamily member~|~pre~|~exp~|~1\nlikely to pursue~|~pseudo~|~poss~|~1\nlikely success~|~pseudo~|~poss~|~1\nlikely failure~|~pseudo~|~poss~|~1\ncousin~|~pre~|~exp~|~1\ncousins~|~pre~|~exp~|~1\ntrace~|~pre~|~poss~|~1\nprn~|~pre~|~hypo~|~1\npotential~|~pre~|~poss~|~1\nwill be considered~|~post~|~hypo~|~1\nwould be considered~|~post~|~hypo~|~1\nshould be considered~|~post~|~hypo~|~1\nconsidered~|~pre~|~hypo~|~1\nconsider~|~pre~|~hypo~|~1\nconsideration~|~pre~|~hypo~|~1\nshould consider~|~pre~|~hypo~|~1\nshould have~|~pre~|~hypo~|~1\nshould be offered~|~pre~|~hypo~|~1\nscheduled~|~pre~|~hypo~|~1\nplanned~|~pre~|~hypo~|~1\nplans for~|~pre~|~hypo~|~1\nplan for~|~pre~|~hypo~|~1\nplans are~|~pre~|~hypo~|~1\ncandidate for~|~pre~|~hypo~|~1\nnot a candidate for~|~pre~|~neg~|~2\nnot be a candidate for~|~pre~|~neg~|~2\nput off~|~pre~|~hypo~|~1\nvs~|~pre~|~hypo~|~1\ndiscuss~|~pre~|~hypo~|~1\ndiscussed~|~pre~|~hypo~|~1\ndiscussion~|~pre~|~hypo~|~1\nversus~|~pre~|~hypo~|~1\nreferred~|~pre~|~hypo~|~1\nadvised~|~pre~|~hypo~|~1\nchance~|~pre~|~hypo~|~1\nrisky~|~post~|~poss~|~1\nrecommended~|~post~|~poss~|~1\nif experiences worsening~|~pre~|~hypo~|~1\ndoes not have~|~pre~|~neg~|~1\ndoesn't have~|~pre~|~neg~|~1\ndoesn't appear to have~|~pre~|~neg~|~1\ndoes not appear to have~|~pre~|~neg~|~1\nexcluding~|~pre~|~neg~|~1\nruled out~|~pre~|~neg~|~1\ndifferential diagnosis~|~pre~|~poss~|~1\nwould not want to have~|~pre~|~neg~|~1\ndecline~|~pre~|~neg~|~1\ndeclined~|~pre~|~neg~|~1\nappear~|~pre~|~poss~|~1\nappears~|~pre~|~poss~|~1\nsuspect~|~pre~|~poss~|~1\nsuspects~|~pre~|~poss~|~1\nto evaluate~|~pre~|~poss~|~1\nindeterminate~|~post~|~poss~|~1\nindeterminable~|~pre~|~poss~|~1\nto prevent~|~pre~|~hypo~|~1\nhas been instructed~|~pre~|~hypo~|~1\nhas been instructed in the sign~|~pre~|~hypo~|~1\nhas been instructed in the signs~|~pre~|~hypo~|~1\nshould the patient develop~|~pre~|~hypo~|~1\nregex:\\bno$~|~post~|~neg~|~1\nnone current~|~post~|~neg~|~1\nno current~|~post~|~neg~|~1\nhx~|~pre~|~hist~|~1\nprevious~|~pre~|~hist~|~1\npreviously~|~pre~|~hist~|~1\npreviously undergone~|~pre~|~hist~|~1\nafter undergoing~|~pre~|~hist~|~1\ndeny~|~pre~|~neg~|~1\nno:~|~pre~|~neg~|~1\nno :~|~pre~|~neg~|~1\n(no~|~pre~|~neg~|~1\n--no~|~pre~|~neg~|~1\ndon't sound like~|~pre~|~neg~|~1\ndoesn't sound like~|~pre~|~neg~|~1\nregex:-? all of which(\\s+\\S+){0,3} (denies|denied)\\b~|~post~|~neg~|~1\ndenies any of the following symptoms:~|~pre~|~neg~|~1\ndenies, however,~|~pre~|~neg~|~1\ndenies any associated~|~pre~|~neg~|~1\ndenies any significant~|~pre~|~neg~|~1\nprecaution for~|~pre~|~poss~|~1\nresection of~|~pre~|~hist~|~1\ndebridement of~|~pre~|~hist~|~1\nindication for~|~pre~|~hist~|~1\nadmitted for~|~pre~|~hist~|~1\nlikely~|~pre~|~poss~|~1\ndid deny~|~pre~|~neg~|~1\nno source of~|~pre~|~poss~|~1\nno source for~|~pre~|~poss~|~1\ndid not show much of~|~pre~|~poss~|~1\ndid not show much for~|~pre~|~poss~|~1\nno definite finding for~|~pre~|~poss~|~1\nno definite finding of~|~pre~|~poss~|~1\nno definite findings for~|~pre~|~poss~|~1\nno definite findings of~|~pre~|~poss~|~1\nconcern about~|~pre~|~poss~|~1\nconcerned about~|~pre~|~poss~|~1\nwould~|~pre~|~poss~|~1\ncould have~|~pre~|~poss~|~1\nmay have~|~pre~|~poss~|~1\nraise the question of~|~pre~|~poss~|~1\nraise the question for~|~pre~|~poss~|~1\nraises the question of~|~pre~|~poss~|~1\nraises the question for~|~pre~|~poss~|~1\nhighly unlikely~|~pre~|~poss~|~1\ndid not show any~|~pre~|~neg~|~1\ndo not show any~|~pre~|~neg~|~1\ndoes not show any~|~pre~|~neg~|~1\nsuspicious for~|~pre~|~poss~|~1\nsuspicion for~|~pre~|~poss~|~1\nsuspicious of~|~pre~|~poss~|~1\nsuspicion of~|~pre~|~poss~|~1\na question of~|~pre~|~poss~|~1\na question for~|~pre~|~poss~|~1\nwithout evidence of~|~pre~|~neg~|~1\nwithout evidence for~|~pre~|~neg~|~1\nwithout sign of~|~pre~|~neg~|~1\nwithout sign for~|~pre~|~neg~|~1\nwithout signs of~|~pre~|~neg~|~1\nwithout signs for~|~pre~|~neg~|~1\ndid not demonstrate~|~pre~|~neg~|~1\nsuggests~|~pre~|~poss~|~1\nsuggest~|~pre~|~poss~|~1\nneg of~|~pre~|~neg~|~1\nneg for~|~pre~|~neg~|~1\nwhether~|~pre~|~hypo~|~1\nsound more like~|~pre~|~poss~|~1\nsound like~|~pre~|~poss~|~1\nsounds more like~|~pre~|~poss~|~1\nsounds like~|~pre~|~poss~|~1\nlook more like~|~pre~|~poss~|~1\nlook like~|~pre~|~poss~|~1\nlooks more like~|~pre~|~poss~|~1\nlooks like~|~pre~|~poss~|~1\nreview the use~|~pre~|~poss~|~1\nreviewed~|~pre~|~poss~|~1\nlikely~|~post~|~poss~|~1\nwill have~|~pre~|~hypo~|~1\nmay be~|~pre~|~poss~|~1\nfor excluding~|~pre~|~poss~|~1\npotentially represent~|~pre~|~poss~|~1\npossibility of~|~pre~|~poss~|~1\npossibility for~|~pre~|~poss~|~1\nshould symptoms suggesting~|~pre~|~poss~|~1\nlook for~|~pre~|~hypo~|~1\nno evidence of~|~pre~|~neg~|~1\nno evidences of~|~pre~|~neg~|~1\nno evidence for~|~pre~|~neg~|~1\nno evidences for~|~pre~|~neg~|~1\nno sign of~|~pre~|~neg~|~1\nno sign for~|~pre~|~neg~|~1\nno signs of~|~pre~|~neg~|~1\nno signs for~|~pre~|~neg~|~1\nhigh-risk that she is at for~|~pre~|~hypo~|~1\nhigh-risk that she is at for~|~pre~|~hypo~|~1\nhigh risk that she is at for~|~pre~|~hypo~|~1\nhigh risk that she is at for~|~pre~|~hypo~|~1\nhigh-risk that the patient is at for~|~pre~|~hypo~|~1\nhigh-risk that the patient is at for~|~pre~|~hypo~|~1\nhigh risk that the patient is at for~|~pre~|~hypo~|~1\nhigh risk that the patient is at for~|~pre~|~hypo~|~1\nhigh-risk that he is at for~|~pre~|~hypo~|~1\nhigh-risk that he is at for~|~pre~|~hypo~|~1\nhigh risk that he is at for~|~pre~|~hypo~|~1\nhigh risk that he is at for~|~pre~|~hypo~|~1\nrisk of~|~pre~|~hypo~|~1\nrisk for~|~pre~|~hypo~|~1\nrisks of~|~pre~|~hypo~|~1\nrisks for~|~pre~|~hypo~|~1\ncardiovascular risk~|~pseudo~|~hypo~|~1\ncardiovascular risks~|~pseudo~|~hypo~|~1\nrisk~|~pre~|~hypo~|~1\nrisks~|~pre~|~hypo~|~1\ns/p~|~pre~|~hist~|~1\nat high-risk of~|~pre~|~hypo~|~1\nat high-risk for~|~pre~|~hypo~|~1\nat high risk of~|~pre~|~hypo~|~1\nat high risk for~|~pre~|~hypo~|~1\nat risk of~|~pre~|~hypo~|~1\nat-risk for~|~pre~|~hypo~|~1\nat risk of~|~pre~|~hypo~|~1\nat-risk for~|~pre~|~hypo~|~1\nre-assess~|~pre~|~hypo~|~1\nreassess~|~pre~|~hypo~|~1\nassess~|~pre~|~hypo~|~1\nprior~|~pre~|~hist~|~1\npmh of~|~pre~|~hist~|~1\npmh for~|~pre~|~hist~|~1\nconcern~|~pre~|~poss~|~1\nconcerning~|~pre~|~poss~|~1\nis concerned~|~post~|~poss~|~1\nis concerned of~|~pre~|~poss~|~1\nis concerned for~|~pre~|~poss~|~1\na concern of~|~pre~|~poss~|~1\na concern for~|~pre~|~poss~|~1\nis possible~|~post~|~poss~|~1\nis probable~|~post~|~poss~|~1\nis potentional~|~post~|~poss~|~1\nno overt clinical sign of~|~pre~|~neg~|~1\nno overt clinical sign for~|~pre~|~neg~|~1\nno overt clinical signs of~|~pre~|~neg~|~1\nno overt clinical signs for~|~pre~|~neg~|~1\nmonitor of~|~pre~|~hypo~|~1\nmonitor for~|~pre~|~hypo~|~1\nno source of~|~pre~|~neg~|~1\nno source for~|~pre~|~neg~|~1\nwas ruled out of~|~pre~|~neg~|~1\nis ruled out of~|~pre~|~neg~|~1\nwas ruled out for~|~pre~|~neg~|~1\nis ruled out for~|~pre~|~neg~|~1\nno evidence of~|~pre~|~neg~|~1\nno evidence for~|~pre~|~neg~|~1\nwas negative of~|~pre~|~neg~|~1\nwas negative for~|~pre~|~neg~|~1\nis negative of~|~pre~|~neg~|~1\nis negative for~|~pre~|~neg~|~1\nprobable~|~pre~|~poss~|~1\npossible~|~pre~|~poss~|~1\npotential~|~pre~|~poss~|~1\nprobable for~|~pre~|~poss~|~1\nprobable of~|~pre~|~poss~|~1\npossible of~|~pre~|~poss~|~1\npossible for~|~pre~|~poss~|~1\npotential of~|~pre~|~poss~|~1\npotential for~|~pre~|~poss~|~1\nnegative~|~pre~|~neg~|~1\nis possible~|~post~|~poss~|~1\nis probable~|~post~|~poss~|~1\nis negative~|~post~|~neg~|~1\nwas possible~|~post~|~poss~|~1\nwas probable~|~post~|~poss~|~1\nwas negative~|~post~|~neg~|~1\nregex::\\s*no\\s*(?:$|[,.!?])~|~post~|~neg~|~2\nregex::\\s*none\\s*(?:$|[,.!?])~|~post~|~neg~|~2\nabsence of~|~pre~|~neg~|~1\nabsence for~|~pre~|~neg~|~1\nadequate to rule her out~|~pre~|~neg~|~1\nadequate to rule him out~|~pre~|~neg~|~1\nadequate to rule out~|~pre~|~neg~|~1\nadequate to rule the patient out~|~pre~|~neg~|~1\nalthough~|~termin~|~neg~|~1\nany other~|~pre~|~neg~|~1\napart from~|~termin~|~neg~|~1\nare ruled out~|~post~|~neg~|~1\nas a cause of~|~termin~|~neg~|~1\nas a cause for~|~termin~|~neg~|~1\nas a etiology for~|~termin~|~neg~|~1\nas a etiology of~|~termin~|~neg~|~1\nas a reason for~|~termin~|~neg~|~1\nas a reason of~|~termin~|~neg~|~1\nas a secondary cause for~|~termin~|~neg~|~1\nas a secondary cause of~|~termin~|~neg~|~1\nas a secondary etiology for~|~termin~|~neg~|~1\nas a secondary etiology of~|~termin~|~neg~|~1\nas a secondary origin for~|~termin~|~neg~|~1\nas a secondary origin of~|~termin~|~neg~|~1\nas a secondary reason for~|~termin~|~neg~|~1\nas a secondary reason of~|~termin~|~neg~|~1\nas a secondary source for~|~termin~|~neg~|~1\nas a secondary source of~|~termin~|~neg~|~1\nas a source for~|~termin~|~neg~|~1\nas a source of~|~termin~|~neg~|~1\nas a cause for~|~termin~|~neg~|~1\nas a cause of~|~termin~|~neg~|~1\nas an etiology for~|~termin~|~neg~|~1\nas an etiology of~|~termin~|~neg~|~1\nas an origin for~|~termin~|~neg~|~1\nas an origin of~|~termin~|~neg~|~1\nas a reason for~|~termin~|~neg~|~1\nas a reason of~|~termin~|~neg~|~1\nas a secondary cause for~|~termin~|~neg~|~1\nas a secondary cause of~|~termin~|~neg~|~1\nas a secondary etiology for~|~termin~|~neg~|~1\nas a secondary etiology of~|~termin~|~neg~|~1\nas a secondary origin for~|~termin~|~neg~|~1\nas a secondary origin of~|~termin~|~neg~|~1\nas a secondary reason for~|~termin~|~neg~|~1\nas a secondary reason of~|~termin~|~neg~|~1\nas a secondary source for~|~termin~|~neg~|~1\nas a secondary source of~|~termin~|~neg~|~1\nas a source for~|~termin~|~neg~|~1\nas a source of~|~termin~|~neg~|~1\nas has~|~termin~|~neg~|~1\nas needed~|~pre~|~hypo~|~1\nas the cause for~|~termin~|~neg~|~1\nas the cause of~|~termin~|~neg~|~1\nas the etiology for~|~termin~|~neg~|~1\nas the etiology of~|~termin~|~neg~|~1\nas the origin for~|~termin~|~neg~|~1\nas the origin of~|~termin~|~neg~|~1\nas the reason for~|~termin~|~neg~|~1\nas the reason of~|~termin~|~neg~|~1\nas the secondary cause for~|~termin~|~neg~|~1\nas the secondary cause of~|~termin~|~neg~|~1\nas the secondary etiology for~|~termin~|~neg~|~1\nas the secondary etiology of~|~termin~|~neg~|~1\nas the secondary origin for~|~termin~|~neg~|~1\nas the secondary origin of~|~termin~|~neg~|~1\nas the secondary reason for~|~termin~|~neg~|~1\nas the secondary reason of~|~termin~|~neg~|~1\nas the secondary source for~|~termin~|~neg~|~1\nas the secondary source of~|~termin~|~neg~|~1\nas the source for~|~termin~|~neg~|~1\nas the source of~|~termin~|~neg~|~1\nas well as any~|~pre~|~neg~|~1\naside from~|~termin~|~neg~|~1\naunt~|~pre~|~exp~|~1\naunt:~|~pre~|~exp~|~1\naunts~|~pre~|~exp~|~1\naunt's~|~pre~|~exp~|~1\nbe ruled out~|~post~|~poss~|~1\nbe ruled out for~|~pre~|~poss~|~1\nbecause~|~termin~|~hypo~|~1\nbeing ruled out~|~post~|~poss~|~1\nbrother~|~pre~|~exp~|~1\nbrother:~|~pre~|~exp~|~1\nbrother's~|~pre~|~exp~|~1\nbrothers~|~pre~|~exp~|~1\nbut~|~termin~|~neg~|~1\ncan be ruled out~|~post~|~neg~|~1\ncan be ruled out for~|~pre~|~neg~|~1\ncan rule her out~|~pre~|~neg~|~1\ncan rule her out against~|~pre~|~neg~|~1\ncan rule her out for~|~pre~|~neg~|~1\ncan rule him out~|~pre~|~neg~|~1\ncan rule him out against~|~pre~|~neg~|~1\ncan rule him out for~|~pre~|~neg~|~1\ncan rule out~|~pre~|~neg~|~1\ncan rule out against~|~pre~|~neg~|~1\ncan rule out for~|~pre~|~neg~|~1\ncan rule the patient out~|~pre~|~neg~|~1\ncan rule the patinet out against~|~pre~|~neg~|~1\ncan rule the patinet out for~|~pre~|~neg~|~1\ncannot~|~pre~|~neg~|~1\ncannot exclude~|~pre~|~poss~|~2\ncause for~|~termin~|~neg~|~1\ncause of~|~termin~|~neg~|~1\ncauses for~|~termin~|~neg~|~1\ncauses of~|~termin~|~neg~|~1\nchecked for~|~pre~|~neg~|~1\nclear of~|~pre~|~neg~|~1\ncome back for~|~pre~|~hypo~|~1\ncome back to~|~pre~|~hypo~|~1\ncomplains~|~termin~|~histexp~|~1\ncould be ruled out~|~post~|~poss~|~1\ncould be ruled out for~|~pre~|~poss~|~1\ncurrently~|~termin~|~histexp~|~1\ndad~|~pre~|~exp~|~1\ndad:~|~pre~|~exp~|~1\ndad's~|~pre~|~exp~|~1\ndeclined~|~pre~|~neg~|~1\ndeclines~|~pre~|~neg~|~1\ndenied~|~pre~|~neg~|~1\ndenies~|~pre~|~neg~|~1\ndenying~|~pre~|~neg~|~1\ndid not rule out~|~post~|~poss~|~1\ndid rule her out~|~pre~|~neg~|~1\ndid rule her out against~|~pre~|~neg~|~1\ndid rule her out for~|~pre~|~neg~|~1\ndid rule him out~|~pre~|~neg~|~1\ndid rule him out against~|~pre~|~neg~|~1\ndid rule him out for~|~pre~|~neg~|~1\ndid rule out~|~pre~|~neg~|~1\ndid rule out against~|~pre~|~neg~|~1\ndid rule out for~|~pre~|~neg~|~1\ndid rule the patient out~|~pre~|~neg~|~1\ndid rule the patient out against~|~pre~|~neg~|~1\ndid rule the patient out for~|~pre~|~neg~|~1\ndoesn't look like~|~pre~|~neg~|~1\ned~|~termin~|~hist~|~1\nemergency department~|~termin~|~hist~|~1\netiology for~|~termin~|~neg~|~1\netiology of~|~termin~|~neg~|~1\nevaluate for~|~pre~|~neg~|~1\nevaluation for~|~pre~|~neg~|~1\nexcept~|~termin~|~neg~|~1\nfails to reveal~|~pre~|~neg~|~1\nfamily~|~pre~|~exp~|~1\nfam hx~|~pre~|~exp~|~1\nfam hx:~|~pre~|~exp~|~1\nfather~|~pre~|~exp~|~1\nfather:~|~pre~|~exp~|~1\nfather's~|~pre~|~exp~|~1\nfree~|~post~|~neg~|~1\nfree of~|~pre~|~neg~|~1\ngram negative~|~pseudo~|~neg~|~1\ngrandfather~|~pre~|~exp~|~1\ngrandfather's~|~pre~|~exp~|~1\ngrandfather:~|~pre~|~exp~|~1\ngrandmother~|~pre~|~exp~|~1\ngrandmother's~|~pre~|~exp~|~1\ngrandmother:~|~pre~|~exp~|~1\nhas been negative~|~post~|~neg~|~1\nhas been ruled out~|~post~|~neg~|~1\nhave been ruled out~|~post~|~neg~|~1\nher~|~termin~|~hypoexp~|~1\nhis~|~termin~|~hypoexp~|~1\nhx of~|~pre~|~hist~|~1\nh/o~|~pre~|~hist~|~1\nstatuspost~|~pre~|~hist~|~1\nstatus/post~|~pre~|~hist~|~1\nstatus-post~|~pre~|~hist~|~1\nstatus post~|~pre~|~hist~|~1\nyear ago~|~pre~|~hist~|~1\nyear ago~|~post~|~hist~|~1\nyears ago~|~pre~|~hist~|~1\nyears ago~|~post~|~hist~|~1\nhave had~|~pre~|~hist~|~1\nhas had~|~pre~|~hist~|~1\nhad~|~pre~|~hist~|~1\nunderwent~|~pre~|~hist~|~1\nhusband~|~pre~|~exp~|~1\nho~|~pre~|~hist~|~1\nhistory~|~pre~|~hist~|~1\nhistory of~|~pre~|~hist~|~1\nhistory and~|~pseudo~|~hist~|~1\nhistory and examination~|~pseudo~|~hist~|~1\nhistory and physical~|~pseudo~|~hist~|~1\nhistory for~|~pseudo~|~hist~|~1\nhistory of chief complaint~|~pseudo~|~hist~|~1\nhistory of present illness~|~pseudo~|~hist~|~1\nhistory taking~|~pseudo~|~hist~|~1\nhistory, physical~|~pseudo~|~hist~|~1\nhowever~|~termin~|~neg~|~1\nif~|~pre~|~hypo~|~1\nif negative~|~pseudo~|~hypo~|~1\ninconsistent with~|~pre~|~neg~|~1\nis not~|~pre~|~neg~|~1\nis ruled out~|~post~|~neg~|~1\nis to be ruled out~|~post~|~poss~|~1\nis to be ruled out for~|~pre~|~poss~|~1\nisn't~|~pre~|~neg~|~1\nlack of~|~pre~|~neg~|~1\nlacked~|~pre~|~neg~|~1\nmay be ruled out~|~post~|~poss~|~1\nmay be ruled out for~|~pre~|~poss~|~1\ndiscussed~|~pre~|~poss~|~1\nmight be ruled out~|~post~|~poss~|~1\nmight be ruled out for~|~pre~|~poss~|~1\nmom~|~pre~|~exp~|~1\nmom:~|~pre~|~exp~|~1\nmom's~|~pre~|~exp~|~1\nmother~|~pre~|~exp~|~1\nmother:~|~pre~|~exp~|~1\nmother's~|~pre~|~exp~|~1\nmust be ruled out~|~post~|~poss~|~1\nmust be ruled out for~|~pre~|~poss~|~1\nnegative for~|~pre~|~neg~|~1\nnever developed~|~pre~|~neg~|~1\nnever had~|~pre~|~neg~|~1\nnevertheless~|~termin~|~neg~|~1\nno~|~pre~|~neg~|~1\nno abnormal~|~pre~|~neg~|~1\nno cause of~|~pre~|~neg~|~1\nno change~|~pseudo~|~neg~|~1\nno complaints of~|~pre~|~neg~|~1\nno definite change~|~pseudo~|~neg~|~1\nno evidence~|~pre~|~neg~|~1\nno evidence to suggest~|~pre~|~neg~|~1\nno findings of~|~pre~|~neg~|~1\nno findings to indicate~|~pre~|~neg~|~1\nno history of~|~pre~|~neg~|~1\nno increase~|~pseudo~|~neg~|~1\nno interval change~|~pseudo~|~neg~|~1\nno longer present~|~post~|~neg~|~1\nno mammographic evidence of~|~pre~|~neg~|~1\nno new~|~pre~|~neg~|~1\nno new evidence~|~pre~|~neg~|~1\nno other evidence~|~pre~|~neg~|~1\nno radiographic evidence of~|~pre~|~neg~|~1\nno sign of~|~pre~|~neg~|~1\nno significant~|~pre~|~neg~|~1\nno significant change~|~pseudo~|~neg~|~1\nno significant interval change~|~pseudo~|~neg~|~1\nno signs of~|~pre~|~neg~|~1\nno suggestion of~|~pre~|~neg~|~1\nno suspicious~|~pre~|~neg~|~1\nno suspicious change~|~pseudo~|~neg~|~1\nnon diagnostic~|~post~|~neg~|~1\nnot~|~pre~|~neg~|~1\nnot appear~|~pre~|~neg~|~1\nnot appreciate~|~pre~|~neg~|~1\nnot associated with~|~pre~|~neg~|~1\nnot been ruled out~|~post~|~poss~|~1\nnot cause~|~pseudo~|~neg~|~1\nnot certain if~|~pseudo~|~neg~|~1\nnot certain whether~|~pseudo~|~neg~|~1\nnot complain of~|~pre~|~neg~|~1\nnot demonstrate~|~pre~|~neg~|~1\nnot drain~|~pseudo~|~neg~|~1\nnot exhibit~|~pre~|~neg~|~1\nnot extend~|~pseudo~|~neg~|~1\nnot feel~|~pre~|~neg~|~1\nnot had~|~pre~|~neg~|~1\nnot have~|~pre~|~neg~|~1\nnot have evidence of~|~pre~|~neg~|~1\nnot know of~|~pre~|~neg~|~1\nnot known to have~|~pre~|~neg~|~1\nnot necessarily~|~pseudo~|~neg~|~1\nnot on~|~pseudo~|~neg~|~1\nnot only~|~pseudo~|~neg~|~1\nnot recommended~|~post~|~neg~|~1\nnot recommend~|~pre~|~neg~|~1\nnot recommending~|~pre~|~neg~|~1\nnot reveal~|~pre~|~neg~|~1\nnot ruled out~|~post~|~poss~|~1\nnot see~|~pre~|~neg~|~1\nnot to be~|~pre~|~neg~|~1\nnothing to suggest~|~pre~|~neg~|~2\nnoted~|~termin~|~histexp~|~1\nnow resolved~|~post~|~neg~|~1\norigin for~|~termin~|~neg~|~1\norigin of~|~termin~|~neg~|~1\norigins for~|~termin~|~neg~|~1\norigins of~|~termin~|~neg~|~1\nother possibilities of~|~termin~|~neg~|~1\nought to be ruled out~|~post~|~poss~|~1\nought to be ruled out for~|~pre~|~poss~|~1\npast history~|~pre~|~hist~|~1\npast~|~pre~|~hist~|~1\nfollowing up~|~pre~|~hist~|~1\nfollowing~|~pre~|~hist~|~1\nreceived~|~pre~|~hist~|~1\npast medical history~|~pre~|~hist~|~1\npatient~|~termin~|~hypoexp~|~1\npatient was not~|~pre~|~neg~|~1\npatient's~|~termin~|~hypoexp~|~1\npoor history~|~pseudo~|~hist~|~1\npresenting~|~termin~|~histexp~|~1\npresents~|~termin~|~histexp~|~1\nprophylaxis~|~post~|~neg~|~1\nr/o~|~pre~|~neg~|~1\nrather than~|~pre~|~neg~|~1\nreason for~|~termin~|~neg~|~1\nreason of~|~termin~|~neg~|~1\nreasons for~|~termin~|~neg~|~1\nreasons of~|~termin~|~neg~|~1\nreported~|~termin~|~histexp~|~1\nreports~|~termin~|~histexp~|~1\nresolved~|~pre~|~neg~|~1\nresolved after~|~post~|~neg~|~2\nreturn~|~pre~|~hypo~|~1\nro~|~pre~|~neg~|~1\nrule her out~|~pre~|~neg~|~1\nrule her out for~|~pre~|~neg~|~1\nrule him out~|~pre~|~neg~|~1\nrule him out for~|~pre~|~neg~|~1\nrule out~|~pre~|~neg~|~1\nrule out for~|~pre~|~neg~|~1\nrule the patient out~|~pre~|~neg~|~1\nrule the patinet out for~|~pre~|~neg~|~1\nruled her out~|~pre~|~neg~|~1\nruled her out against~|~pre~|~neg~|~1\nruled her out for~|~pre~|~neg~|~1\nruled him out~|~pre~|~neg~|~1\nruled him out against~|~pre~|~neg~|~1\nruled him out for~|~pre~|~neg~|~1\nruled out~|~pre~|~neg~|~1\nruled out against~|~pre~|~neg~|~1\nruled out for~|~pre~|~neg~|~1\nruled the patient out~|~pre~|~neg~|~1\nruled the patient out against~|~pre~|~neg~|~1\nruled the patient out for~|~pre~|~neg~|~1\nrules her out~|~pre~|~neg~|~1\nrules her out for~|~pre~|~neg~|~1\nrules him out~|~pre~|~neg~|~1\nrules him out for~|~pre~|~neg~|~1\nrules out~|~pre~|~neg~|~1\nrules out for~|~pre~|~neg~|~1\nrules the patient out~|~pre~|~neg~|~1\nrules the patient out for~|~pre~|~neg~|~1\nsecondary~|~termin~|~neg~|~1\nsecondary to~|~termin~|~neg~|~1\nshould be ruled out~|~post~|~neg~|~1\nshould be ruled out for~|~pre~|~neg~|~1\nshould he~|~pre~|~hypo~|~1\nshould she~|~pre~|~hypo~|~1\nshould the patient~|~pre~|~hypo~|~1\nshould there~|~pre~|~hypo~|~1\nsince~|~termin~|~hypo~|~1\nsister~|~pre~|~exp~|~1\nsister's~|~pre~|~exp~|~1\nsocial history~|~pseudo~|~hist~|~1\nson~|~pre~|~exp~|~1\nsource for~|~termin~|~neg~|~1\nsource of~|~termin~|~neg~|~1\nsources for~|~termin~|~neg~|~1\nsources of~|~termin~|~neg~|~1\nstates~|~termin~|~histexp~|~1\nstill~|~termin~|~neg~|~1\nsudden onset of~|~pseudo~|~hist~|~1\nsufficient to rule her out~|~pre~|~neg~|~1\nsufficient to rule her out against~|~pre~|~neg~|~1\nsufficient to rule her out for~|~pre~|~neg~|~1\nsufficient to rule him out~|~pre~|~neg~|~1\nsufficient to rule him out against~|~pre~|~neg~|~1\nsufficient to rule him out for~|~pre~|~neg~|~1\nsufficient to rule out~|~pre~|~neg~|~1\nsufficient to rule out against~|~pre~|~neg~|~1\nsufficient to rule out for~|~pre~|~neg~|~1\nsufficient to rule the patient out~|~pre~|~neg~|~1\nsufficient to rule the patient out against~|~pre~|~neg~|~1\nsufficient to rule the patient out for~|~pre~|~neg~|~1\ntest for~|~pre~|~neg~|~1\nthough~|~termin~|~neg~|~1\nto exclude~|~pre~|~neg~|~1\ntoday~|~termin~|~histexp~|~1\ntrigger event for~|~termin~|~neg~|~1\nuncle~|~pre~|~exp~|~1\nuncle:~|~pre~|~exp~|~1\nuncle's~|~pre~|~exp~|~1\nunlikely~|~post~|~neg~|~1\nunremarkable for~|~pre~|~neg~|~1\nwas found~|~termin~|~histexp~|~1\nwas negative~|~post~|~neg~|~1\nwas not~|~pre~|~neg~|~1\nwas ruled out~|~post~|~neg~|~1\nwasn't~|~pre~|~neg~|~1\nwhat must be ruled out is~|~pre~|~poss~|~1\nwhich~|~termin~|~exp~|~1\nwife~|~pre~|~exp~|~1\nwho~|~termin~|~hypoexp~|~1\nwill be ruled out~|~post~|~poss~|~1\nwill be ruled out for~|~pre~|~poss~|~1\nwith no~|~pre~|~neg~|~1\nwithout~|~pre~|~neg~|~1\nwithout any evidence of~|~pre~|~neg~|~1\nwithout difficulty~|~pseudo~|~neg~|~1\nwithout evidence~|~pre~|~neg~|~1\nwithout indication of~|~pre~|~neg~|~1\nwithout sign of~|~pre~|~neg~|~1\nyet~|~termin~|~neg~|~1\nreturned negative~|~post~|~neg~|~1\nregex:\\t+negative~|~post~|~neg~|~1"
+  }]
+}

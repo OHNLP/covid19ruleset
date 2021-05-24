@@ -1,0 +1,33 @@
+{
+    "last_update": "2021-04-20",
+    "rulesets": {
+        "covid19": {
+            "stable": {
+                "url": "https://raw.githubusercontent.com/OHNLP/covid19ruleset/main/dist/covid19/covid19-2021-04-20.json",
+                "title": "COVID-19 Ruleset (April, 2021)",
+                "desc": "Added remove rules based on the previous version.",
+                "date": "2021-04-20"
+            },
+            "history": [{
+                "url": "https://raw.githubusercontent.com/OHNLP/covid19ruleset/main/dist/covid19/covid19-2020-12-20.json",
+                "title": "COVID-19 Ruleset (December, 2020)",
+                "desc": "Added contexts.",
+                "date": "2020-12-20"
+            }, {
+                "url": "https://raw.githubusercontent.com/OHNLP/covid19ruleset/main/dist/covid19/covid19-2020-05-15.json",
+                "title": "COVID-19 Ruleset (May, 2020)",
+                "desc": "Initialized the ruleset based on latest literature.",
+                "date": "2020-05-15"
+            }]
+        },
+        "long_covid": {
+            "stable": {
+                "url": "https://raw.githubusercontent.com/OHNLP/covid19ruleset/main/dist/long_covid/long_covid-2021-04-20.json",
+                "title": "Long COVID Ruleset Test",
+                "desc": "A test ruleset for long COVID",
+                "date": "2021-04-20"
+            },
+            "history": []
+        }
+    }
+}
