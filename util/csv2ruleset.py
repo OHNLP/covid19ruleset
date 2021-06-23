@@ -25,7 +25,7 @@ def __norm(s):
     Normalize the norm
     '''
     # remove the terms
-    s2 = re.sub(r'[-\s]', '_', s)
+    s2 = re.sub(r'[\\\/\-\s]', '_', s)
     # remove the multiple _
     s3 = re.sub(r'[_]{2,}', '_', s2)
     # make a upper
@@ -45,7 +45,8 @@ def __term(s):
     '''
     Normalize the term
     '''
-    return s.strip().lower()
+    s = str(s).strip().lower()
+    return s
 
 
 def mk_matchrule(norm):
@@ -56,13 +57,13 @@ def mk_matchrule(norm):
 """.format(norm=norm, norm_dense=__norm_dense(norm))
 
 
-def create_file_used_resources(ruleset_name, text):
+def create_file_used_resources(ruleset_name, text, output=FULLPATH):
     '''
     Create the file for all used files
     '''
     fn = TPL_USED_RES_FILENAME
     full_fn = os.path.join(
-        FULLPATH, ruleset_name, fn
+        output, ruleset_name, fn
     )
     with open(full_fn, 'w') as f:
         f.write(text)
@@ -72,13 +73,13 @@ def create_file_used_resources(ruleset_name, text):
     )
 
 
-def create_file_matchrules(ruleset_name, text):
+def create_file_matchrules(ruleset_name, text, output=FULLPATH):
     '''
     Create the file for the matchrules
     '''
     fn = TPL_MATCHRULES_FILENAME
     full_fn = os.path.join(
-        FULLPATH, ruleset_name, 'rules', fn
+        output, ruleset_name, 'rules', fn
     )
     with open(full_fn, 'w') as f:
         f.write(text)
@@ -88,13 +89,13 @@ def create_file_matchrules(ruleset_name, text):
     )
 
 
-def create_file_regexp(ruleset_name, norm, text):
+def create_file_regexp(ruleset_name, norm, text, output=FULLPATH):
     '''
     Creat the file for the resource regexp
     '''
     norm_dense = __norm_dense(norm)
     fn = TPL_REGEXP_FILENAME % norm_dense
-    full_fn = os.path.join( FULLPATH, ruleset_name, 'regexp', fn )
+    full_fn = os.path.join( output, ruleset_name, 'regexp', fn )
     with open(full_fn, 'w') as f:
         f.write(text)
     
@@ -103,7 +104,7 @@ def create_file_regexp(ruleset_name, norm, text):
     )
 
 
-def convert_to_ruleset(full_fn, output=None, tmode='one', add_norm='yes'):
+def convert_to_ruleset(full_fn, output=FULLPATH, tmode='one', add_norm='yes'):
     '''
     Convert the file to ruleset format
     '''
@@ -134,6 +135,9 @@ def convert_to_ruleset(full_fn, output=None, tmode='one', add_norm='yes'):
     for idx, row in tqdm(df.iterrows()):
         norm = row[col_norm]
         term = row[col_term]
+
+        # make sure the term is a text
+        term = str(term)
 
         # get the normalized norm and text
         norm_normed = __norm(norm)
@@ -187,15 +191,19 @@ def convert_to_ruleset(full_fn, output=None, tmode='one', add_norm='yes'):
     # now begin to save the files
     # first, mkdir
     # before saving, make sure the foler exsits
+
     folders = [
-        os.path.join( FULLPATH, ruleset_name ),
-        os.path.join( FULLPATH, ruleset_name, 'rules' ),
-        os.path.join( FULLPATH, ruleset_name, 'regexp' ),
-        os.path.join( FULLPATH, ruleset_name, 'context' ),
+        os.path.join( output, ruleset_name ),
+        os.path.join( output, ruleset_name, 'rules' ),
+        os.path.join( output, ruleset_name, 'regexp' ),
+        os.path.join( output, ruleset_name, 'context' ),
     ]
     for folder in folders:
         if not os.path.exists(folder):
             os.makedirs(folder, exist_ok=True)
+            print('* created %s' % folder)
+        else:
+            print('* found %s' % folder)
 
     # then create the files according to norm and text
     matchrules = []
@@ -209,14 +217,14 @@ def convert_to_ruleset(full_fn, output=None, tmode='one', add_norm='yes'):
         matchrules.append(matchrule)
 
         # save the regexp file
-        fn = create_file_regexp(ruleset_name, norm, text)
+        fn = create_file_regexp(ruleset_name, norm, text, output)
 
         # add this file to used resources
         used_resources.append(fn)
 
     # save the matchrules
     fn = create_file_matchrules(
-        ruleset_name, '\n'.join(matchrules)
+        ruleset_name, '\n'.join(matchrules), output
     )
     used_resources.append(fn)
 
@@ -225,7 +233,7 @@ def convert_to_ruleset(full_fn, output=None, tmode='one', add_norm='yes'):
         '.', TPL_USED_RES_FILENAME
     ))
     create_file_used_resources(
-        ruleset_name, '\n'.join(used_resources)
+        ruleset_name, '\n'.join(used_resources), output
     )
 
     print('* done')
@@ -247,4 +255,4 @@ if __name__ == '__main__':
 
     # parse
     args = parser.parse_args()
-    convert_to_ruleset(args.fn, args.out, args.tmode)
+    convert_to_ruleset(args.fn, args.out, args.tmode, args.add_norm)
