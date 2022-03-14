@@ -11,3 +11,6 @@ malaise
 weakness
 impaired strength
 worn out
+
+//UK
+weak\w{0,5}

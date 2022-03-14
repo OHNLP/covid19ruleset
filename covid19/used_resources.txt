@@ -3,7 +3,6 @@
 ./regexp/resources_regexp_reAPPETITELOSS.txt
 ./regexp/resources_regexp_reDIARRHEA.txt
 ./regexp/resources_regexp_reCOUGH.txt
-./regexp/resources_regexp_reCAREPLAN.txt
 ./regexp/resources_regexp_reDYSPNEA.txt
 ./regexp/resources_regexp_reFATIGUE.txt
 ./regexp/resources_regexp_reFEVER.txt
@@ -30,6 +29,9 @@
 ./regexp/resources_regexp_rePATCHYINFILTRATES.txt
 ./regexp/resources_regexp_rePROLONGEDPROTOTHROMBIN.txt
 ./regexp/resources_regexp_reLYMPHOPENIA.txt
+
+
+./regexp/resources_regexp_reEXCLUDE.txt
 
 ./rules/resources_rules_matchrules.txt
 ./used_resources.txt

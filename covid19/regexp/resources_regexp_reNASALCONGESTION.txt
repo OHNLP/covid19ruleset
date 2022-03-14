@@ -1,15 +1,17 @@
 blocked nose
 congested nose
 nose block
-nasal congestion
-stuffy nose
+
+
 runny nose
 running nose
-nasal blockage
-blockage of nose
-obstruction of nose
-nasal obstruction
-congestion of nose
+
+(block|obstruct|congest|stuff)\w{0,5}(\s+\S+){0,5}\s*(nose|nasal)
+
+(nasal|nose)(\s+\S+){0,5}\s*(block|obstruct|congest|stuff)\w{0,5}
+
 rhinorrhea
 nasal discharge
-stuff\w{0,5}(\s+\S+){0,2}\s*nose
+
+
+(left|right)(\s+\S+){0,3}\s*(obstruction|congestion)

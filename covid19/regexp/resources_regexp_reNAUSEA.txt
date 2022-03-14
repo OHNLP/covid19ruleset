@@ -1,4 +1,4 @@
-nausea\w{0,5}
+nause\w{0,5}
 gagging
 disgust\w{0,5}
 dry heav\w{0,5}

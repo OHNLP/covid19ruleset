@@ -1,4 +1,4 @@
-sore throat
+sore throat\w{0,2}
 throat soreness
 throat pain
 pharyngeal pain
@@ -7,4 +7,4 @@ pharynx pain
 pharynx discomfort
 throat discomfort
 difficulty swallowing
-scratchy throat
+scratchy throat\s{0,2}
