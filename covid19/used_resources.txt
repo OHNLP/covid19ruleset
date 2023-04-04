@@ -20,18 +20,7 @@
 ./regexp/resources_regexp_reNAUSEA.txt
 ./regexp/resources_regexp_reDELIRIUM.txt
 
-./regexp/resources_regexp_reELEVATEDLDH.txt
-./regexp/resources_regexp_reABTEST.txt
-./regexp/resources_regexp_reFLUEXPLICIT.txt
-./regexp/resources_regexp_reFLUSHOT.txt
-./regexp/resources_regexp_reGROUNDGLASSINFILTRATES.txt
-./regexp/resources_regexp_reMOLETEST.txt
-./regexp/resources_regexp_rePATCHYINFILTRATES.txt
-./regexp/resources_regexp_rePROLONGEDPROTOTHROMBIN.txt
-./regexp/resources_regexp_reLYMPHOPENIA.txt
 
-
-./regexp/resources_regexp_reEXCLUDE.txt
 
 ./rules/resources_rules_matchrules.txt
 ./used_resources.txt
